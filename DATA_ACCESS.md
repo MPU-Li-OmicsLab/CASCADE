@@ -2,14 +2,14 @@
 
 The full texts of the 960 simulated conversations, the judge outputs that quote model replies, the follow-up experiments (system-prompt intervention, counterfactual branches, no-risk controls) and the anonymized annotation database are distributed as a **gated dataset** on Hugging Face:
 
-**https://huggingface.co/datasets/<ORG>/CASCADE-conversations** *(link to be added)*
+**https://huggingface.co/datasets/ZhifanLi/CASCADE-conversations**
 
 Access requires agreeing to research-use terms: the data may be used only for research on the safety evaluation of conversational AI, may not be used to train models to produce harmful content, and may not be redistributed outside these terms. The dataset is licensed under CC BY-NC 4.0.
 
 After approval, download it into the root of this repository:
 
 ```bash
-huggingface-cli download <ORG>/CASCADE-conversations --repo-type dataset --local-dir .
+hf download ZhifanLi/CASCADE-conversations --repo-type dataset --local-dir .
 ```
 
 This places the files at the paths the analysis scripts expect:

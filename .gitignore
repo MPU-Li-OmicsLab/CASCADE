@@ -1,0 +1,16 @@
+# gated dataset (download separately, see DATA_ACCESS.md)
+runs/
+cmp_eval_v2/
+webapp/
+docs/collaboration/*.xlsx
+# third-party corpora (not redistributable)
+PsyQA/
+corpus/
+esconv/
+# generated figures and tables
+paper_final/
+# local
+__pycache__/
+*.pyc
+.pytest_cache/
+.env

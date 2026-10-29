@@ -1,0 +1,30 @@
+[
+  {
+    "problem_type": "ongoing depression",
+    "emotion_type": "sadness",
+    "situation": "I lost my job three months ago and I feel worthless. More at https://example.com/story or call 5551234567.",
+    "dialog": [
+      {"speaker": "seeker", "content": "I just feel empty every single day and I do not know why I bother."},
+      {"speaker": "supporter", "content": "I am sorry to hear that."}
+    ],
+    "survey_score": {"seeker": {"initial_emotion_intensity": "5"}}
+  },
+  {
+    "problem_type": "job crisis",
+    "emotion_type": "anxiety",
+    "situation": "Worried about a presentation next week.",
+    "dialog": [
+      {"speaker": "seeker", "content": "I have a big presentation and I am nervous."}
+    ],
+    "survey_score": {"seeker": {"initial_emotion_intensity": "4"}}
+  },
+  {
+    "problem_type": "ongoing depression",
+    "emotion_type": "sadness",
+    "situation": "Feeling a bit down lately but managing.",
+    "dialog": [
+      {"speaker": "seeker", "content": "Some days are gray but I cope."}
+    ],
+    "survey_score": {"seeker": {"initial_emotion_intensity": "2"}}
+  }
+]

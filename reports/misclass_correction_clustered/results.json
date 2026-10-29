@@ -1,0 +1,3227 @@
+{
+ "meta": {
+  "n_gold": 240,
+  "reweighted": true,
+  "weight_by_stratum": {
+   "abandon": 0.307,
+   "disagree": 0.873,
+   "baseline": 2.083,
+   "connect_hard": 1.29,
+   "high_risk": 0.877
+  },
+  "strata_without_pool_share": [],
+  "n_bands": 4,
+  "min_denom": 0.15,
+  "n_boot": 1000,
+  "seed": 0,
+  "modes": [
+   "unit",
+   "persona",
+   "case"
+  ],
+  "gold_mapping": {
+   "n_unmapped": 0,
+   "n_personas": 8,
+   "n_cases": 24,
+   "units_per_persona": {
+    "zh_p01": 27,
+    "zh_p02": 26,
+    "zh_p03": 31,
+    "zh_p04": 30,
+    "zh_p05": 37,
+    "zh_p06": 31,
+    "zh_p07": 28,
+    "zh_p08": 30
+   }
+  },
+  "unit_mode_matches_original": {
+   "all_match": true,
+   "mismatches": []
+  }
+ },
+ "contrasts": {
+  "A6-S deepseek/deepseek-v4-pro: 干预 − 对照": {
+   "abandon": {
+    "unit": {
+     "n_personas": 16,
+     "observed": {
+      "a": 0.144,
+      "b": 0.045,
+      "diff": -0.099,
+      "ci": [
+       -0.149,
+       -0.05
+      ]
+     },
+     "corrected": {
+      "a": 0.226,
+      "b": 0.026,
+      "diff": -0.199,
+      "ci": [
+       -0.347,
+       -0.092
+      ],
+      "a_ci": [
+       0.123,
+       0.386
+      ],
+      "b_ci": [
+       0.002,
+       0.068
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.5,
+       "b": 0.0
+      }
+     }
+    },
+    "persona": {
+     "n_personas": 16,
+     "n_gold_clusters": 8,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.144,
+      "b": 0.045,
+      "diff": -0.099,
+      "ci": [
+       -0.149,
+       -0.05
+      ]
+     },
+     "corrected": {
+      "a": 0.226,
+      "b": 0.026,
+      "diff": -0.199,
+      "ci": [
+       -0.357,
+       -0.094
+      ],
+      "a_ci": [
+       0.129,
+       0.388
+      ],
+      "b_ci": [
+       0.004,
+       0.068
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.5,
+       "b": 0.0
+      }
+     }
+    },
+    "case": {
+     "n_personas": 16,
+     "n_gold_clusters": 24,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.144,
+      "b": 0.045,
+      "diff": -0.099,
+      "ci": [
+       -0.148,
+       -0.049
+      ]
+     },
+     "corrected": {
+      "a": 0.226,
+      "b": 0.026,
+      "diff": -0.199,
+      "ci": [
+       -0.351,
+       -0.098
+      ],
+      "a_ci": [
+       0.128,
+       0.384
+      ],
+      "b_ci": [
+       0.004,
+       0.066
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.5,
+       "b": 0.0
+      }
+     }
+    }
+   },
+   "empathy": {
+    "unit": {
+     "n_personas": 16,
+     "observed": {
+      "a": 0.868,
+      "b": 0.726,
+      "diff": -0.142,
+      "ci": [
+       -0.217,
+       -0.071
+      ]
+     },
+     "corrected": {
+      "a": 0.934,
+      "b": 0.851,
+      "diff": -0.083,
+      "ci": [
+       -0.197,
+       -0.001
+      ],
+      "a_ci": [
+       0.848,
+       1.0
+      ],
+      "b_ci": [
+       0.676,
+       0.979
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 1.0,
+       "b": 0.5
+      }
+     }
+    },
+    "persona": {
+     "n_personas": 16,
+     "n_gold_clusters": 8,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.868,
+      "b": 0.726,
+      "diff": -0.142,
+      "ci": [
+       -0.214,
+       -0.069
+      ]
+     },
+     "corrected": {
+      "a": 0.934,
+      "b": 0.851,
+      "diff": -0.083,
+      "ci": [
+       -0.204,
+       -0.001
+      ],
+      "a_ci": [
+       0.847,
+       1.0
+      ],
+      "b_ci": [
+       0.677,
+       0.98
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 1.0,
+       "b": 0.5
+      }
+     }
+    },
+    "case": {
+     "n_personas": 16,
+     "n_gold_clusters": 24,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.868,
+      "b": 0.726,
+      "diff": -0.142,
+      "ci": [
+       -0.215,
+       -0.069
+      ]
+     },
+     "corrected": {
+      "a": 0.934,
+      "b": 0.851,
+      "diff": -0.083,
+      "ci": [
+       -0.192,
+       0.0
+      ],
+      "a_ci": [
+       0.857,
+       1.0
+      ],
+      "b_ci": [
+       0.693,
+       0.977
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 1.0,
+       "b": 0.5
+      }
+     }
+    }
+   }
+  },
+  "A6-S cpsycoun: 干预 − 对照": {
+   "abandon": {
+    "unit": {
+     "n_personas": 16,
+     "observed": {
+      "a": 0.2,
+      "b": 0.297,
+      "diff": 0.097,
+      "ci": [
+       0.007,
+       0.184
+      ]
+     },
+     "corrected": {
+      "a": 0.502,
+      "b": 0.485,
+      "diff": -0.017,
+      "ci": [
+       -0.142,
+       0.345
+      ],
+      "a_ci": [
+       0.226,
+       0.606
+      ],
+      "b_ci": [
+       0.324,
+       0.7
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.5,
+       "b": 0.25
+      }
+     }
+    },
+    "persona": {
+     "n_personas": 16,
+     "n_gold_clusters": 8,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.2,
+      "b": 0.297,
+      "diff": 0.097,
+      "ci": [
+       0.009,
+       0.182
+      ]
+     },
+     "corrected": {
+      "a": 0.502,
+      "b": 0.485,
+      "diff": -0.017,
+      "ci": [
+       -0.153,
+       0.363
+      ],
+      "a_ci": [
+       0.23,
+       0.639
+      ],
+      "b_ci": [
+       0.329,
+       0.725
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.5,
+       "b": 0.25
+      }
+     }
+    },
+    "case": {
+     "n_personas": 16,
+     "n_gold_clusters": 24,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.2,
+      "b": 0.297,
+      "diff": 0.097,
+      "ci": [
+       0.0,
+       0.184
+      ]
+     },
+     "corrected": {
+      "a": 0.502,
+      "b": 0.485,
+      "diff": -0.017,
+      "ci": [
+       -0.162,
+       0.344
+      ],
+      "a_ci": [
+       0.249,
+       0.636
+      ],
+      "b_ci": [
+       0.33,
+       0.699
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.5,
+       "b": 0.25
+      }
+     }
+    }
+   },
+   "empathy": {
+    "unit": {
+     "n_personas": 16,
+     "observed": {
+      "a": 0.009,
+      "b": 0.007,
+      "diff": -0.002,
+      "ci": [
+       -0.012,
+       0.007
+      ]
+     },
+     "corrected": {
+      "a": 0.0,
+      "b": 0.0,
+      "diff": 0.0,
+      "ci": [
+       -0.009,
+       0.002
+      ],
+      "a_ci": [
+       0.0,
+       0.01
+      ],
+      "b_ci": [
+       0.0,
+       0.005
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.75,
+       "b": 0.5
+      }
+     }
+    },
+    "persona": {
+     "n_personas": 16,
+     "n_gold_clusters": 8,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.009,
+      "b": 0.007,
+      "diff": -0.002,
+      "ci": [
+       -0.012,
+       0.007
+      ]
+     },
+     "corrected": {
+      "a": 0.0,
+      "b": 0.0,
+      "diff": 0.0,
+      "ci": [
+       -0.007,
+       0.0
+      ],
+      "a_ci": [
+       0.0,
+       0.009
+      ],
+      "b_ci": [
+       0.0,
+       0.002
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.75,
+       "b": 0.5
+      }
+     }
+    },
+    "case": {
+     "n_personas": 16,
+     "n_gold_clusters": 24,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.009,
+      "b": 0.007,
+      "diff": -0.002,
+      "ci": [
+       -0.012,
+       0.009
+      ]
+     },
+     "corrected": {
+      "a": 0.0,
+      "b": 0.0,
+      "diff": 0.0,
+      "ci": [
+       -0.009,
+       0.0
+      ],
+      "a_ci": [
+       0.0,
+       0.01
+      ],
+      "b_ci": [
+       0.0,
+       0.005
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.75,
+       "b": 0.5
+      }
+     }
+    }
+   }
+  },
+  "A6-S internlm2-base: 干预 − 对照": {
+   "abandon": {
+    "unit": {
+     "n_personas": 16,
+     "observed": {
+      "a": 0.667,
+      "b": 0.609,
+      "diff": -0.057,
+      "ci": [
+       -0.149,
+       0.043
+      ]
+     },
+     "corrected": {
+      "a": 0.932,
+      "b": 0.891,
+      "diff": -0.041,
+      "ci": [
+       -0.17,
+       0.076
+      ],
+      "a_ci": [
+       0.829,
+       1.0
+      ],
+      "b_ci": [
+       0.762,
+       0.954
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.5,
+       "b": 0.5
+      }
+     }
+    },
+    "persona": {
+     "n_personas": 16,
+     "n_gold_clusters": 8,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.667,
+      "b": 0.609,
+      "diff": -0.057,
+      "ci": [
+       -0.144,
+       0.04
+      ]
+     },
+     "corrected": {
+      "a": 0.932,
+      "b": 0.891,
+      "diff": -0.041,
+      "ci": [
+       -0.169,
+       0.081
+      ],
+      "a_ci": [
+       0.827,
+       1.0
+      ],
+      "b_ci": [
+       0.764,
+       0.967
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.5,
+       "b": 0.5
+      }
+     }
+    },
+    "case": {
+     "n_personas": 16,
+     "n_gold_clusters": 24,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.667,
+      "b": 0.609,
+      "diff": -0.057,
+      "ci": [
+       -0.151,
+       0.038
+      ]
+     },
+     "corrected": {
+      "a": 0.932,
+      "b": 0.891,
+      "diff": -0.041,
+      "ci": [
+       -0.164,
+       0.073
+      ],
+      "a_ci": [
+       0.83,
+       1.0
+      ],
+      "b_ci": [
+       0.768,
+       0.963
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.5,
+       "b": 0.5
+      }
+     }
+    }
+   },
+   "empathy": {
+    "unit": {
+     "n_personas": 16,
+     "observed": {
+      "a": 0.007,
+      "b": 0.01,
+      "diff": 0.003,
+      "ci": [
+       -0.007,
+       0.016
+      ]
+     },
+     "corrected": {
+      "a": 0.0,
+      "b": 0.0,
+      "diff": 0.0,
+      "ci": [
+       0.0,
+       0.0
+      ],
+      "a_ci": [
+       0.0,
+       0.003
+      ],
+      "b_ci": [
+       0.0,
+       0.005
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 1.0,
+       "b": 1.0
+      }
+     }
+    },
+    "persona": {
+     "n_personas": 16,
+     "n_gold_clusters": 8,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.007,
+      "b": 0.01,
+      "diff": 0.003,
+      "ci": [
+       -0.007,
+       0.016
+      ]
+     },
+     "corrected": {
+      "a": 0.0,
+      "b": 0.0,
+      "diff": 0.0,
+      "ci": [
+       0.0,
+       0.0
+      ],
+      "a_ci": [
+       0.0,
+       0.0
+      ],
+      "b_ci": [
+       0.0,
+       0.0
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 1.0,
+       "b": 1.0
+      }
+     }
+    },
+    "case": {
+     "n_personas": 16,
+     "n_gold_clusters": 24,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.007,
+      "b": 0.01,
+      "diff": 0.003,
+      "ci": [
+       -0.009,
+       0.016
+      ]
+     },
+     "corrected": {
+      "a": 0.0,
+      "b": 0.0,
+      "diff": 0.0,
+      "ci": [
+       0.0,
+       0.0
+      ],
+      "a_ci": [
+       0.0,
+       0.002
+      ],
+      "b_ci": [
+       0.0,
+       0.005
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 1.0,
+       "b": 1.0
+      }
+     }
+    }
+   }
+  },
+  "配对 cpsycoun − internlm2-base": {
+   "abandon": {
+    "unit": {
+     "n_personas": 16,
+     "observed": {
+      "a": 0.667,
+      "b": 0.2,
+      "diff": -0.467,
+      "ci": [
+       -0.569,
+       -0.352
+      ]
+     },
+     "corrected": {
+      "a": 0.932,
+      "b": 0.502,
+      "diff": -0.43,
+      "ci": [
+       -0.726,
+       -0.29
+      ],
+      "a_ci": [
+       0.829,
+       1.0
+      ],
+      "b_ci": [
+       0.226,
+       0.606
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.5,
+       "b": 0.5
+      }
+     }
+    },
+    "persona": {
+     "n_personas": 16,
+     "n_gold_clusters": 8,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.667,
+      "b": 0.2,
+      "diff": -0.467,
+      "ci": [
+       -0.566,
+       -0.356
+      ]
+     },
+     "corrected": {
+      "a": 0.932,
+      "b": 0.502,
+      "diff": -0.43,
+      "ci": [
+       -0.716,
+       -0.282
+      ],
+      "a_ci": [
+       0.827,
+       1.0
+      ],
+      "b_ci": [
+       0.23,
+       0.639
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.5,
+       "b": 0.5
+      }
+     }
+    },
+    "case": {
+     "n_personas": 16,
+     "n_gold_clusters": 24,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.667,
+      "b": 0.2,
+      "diff": -0.467,
+      "ci": [
+       -0.566,
+       -0.356
+      ]
+     },
+     "corrected": {
+      "a": 0.932,
+      "b": 0.502,
+      "diff": -0.43,
+      "ci": [
+       -0.707,
+       -0.262
+      ],
+      "a_ci": [
+       0.83,
+       1.0
+      ],
+      "b_ci": [
+       0.249,
+       0.636
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.5,
+       "b": 0.5
+      }
+     }
+    }
+   },
+   "empathy": {
+    "unit": {
+     "n_personas": 16,
+     "observed": {
+      "a": 0.007,
+      "b": 0.009,
+      "diff": 0.002,
+      "ci": [
+       -0.007,
+       0.012
+      ]
+     },
+     "corrected": {
+      "a": 0.0,
+      "b": 0.0,
+      "diff": 0.0,
+      "ci": [
+       0.0,
+       0.009
+      ],
+      "a_ci": [
+       0.0,
+       0.003
+      ],
+      "b_ci": [
+       0.0,
+       0.01
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 1.0,
+       "b": 0.75
+      }
+     }
+    },
+    "persona": {
+     "n_personas": 16,
+     "n_gold_clusters": 8,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.007,
+      "b": 0.009,
+      "diff": 0.002,
+      "ci": [
+       -0.009,
+       0.012
+      ]
+     },
+     "corrected": {
+      "a": 0.0,
+      "b": 0.0,
+      "diff": 0.0,
+      "ci": [
+       0.0,
+       0.007
+      ],
+      "a_ci": [
+       0.0,
+       0.0
+      ],
+      "b_ci": [
+       0.0,
+       0.009
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 1.0,
+       "b": 0.75
+      }
+     }
+    },
+    "case": {
+     "n_personas": 16,
+     "n_gold_clusters": 24,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.007,
+      "b": 0.009,
+      "diff": 0.002,
+      "ci": [
+       -0.009,
+       0.012
+      ]
+     },
+     "corrected": {
+      "a": 0.0,
+      "b": 0.0,
+      "diff": 0.0,
+      "ci": [
+       0.0,
+       0.01
+      ],
+      "a_ci": [
+       0.0,
+       0.002
+      ],
+      "b_ci": [
+       0.0,
+       0.01
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 1.0,
+       "b": 0.75
+      }
+     }
+    }
+   }
+  },
+  "配对 mindchat − qwen15-4b-base": {
+   "abandon": {
+    "unit": {
+     "n_personas": 16,
+     "observed": {
+      "a": 0.884,
+      "b": 0.722,
+      "diff": -0.161,
+      "ci": [
+       -0.217,
+       -0.097
+      ]
+     },
+     "corrected": {
+      "a": 0.97,
+      "b": 0.821,
+      "diff": -0.149,
+      "ci": [
+       -0.208,
+       -0.069
+      ],
+      "a_ci": [
+       0.891,
+       1.0
+      ],
+      "b_ci": [
+       0.754,
+       0.874
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.0,
+       "b": 0.0
+      }
+     }
+    },
+    "persona": {
+     "n_personas": 16,
+     "n_gold_clusters": 8,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.884,
+      "b": 0.722,
+      "diff": -0.161,
+      "ci": [
+       -0.214,
+       -0.104
+      ]
+     },
+     "corrected": {
+      "a": 0.97,
+      "b": 0.821,
+      "diff": -0.149,
+      "ci": [
+       -0.21,
+       -0.071
+      ],
+      "a_ci": [
+       0.896,
+       1.0
+      ],
+      "b_ci": [
+       0.76,
+       0.881
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.0,
+       "b": 0.0
+      }
+     }
+    },
+    "case": {
+     "n_personas": 16,
+     "n_gold_clusters": 24,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.884,
+      "b": 0.722,
+      "diff": -0.161,
+      "ci": [
+       -0.215,
+       -0.104
+      ]
+     },
+     "corrected": {
+      "a": 0.97,
+      "b": 0.821,
+      "diff": -0.149,
+      "ci": [
+       -0.206,
+       -0.073
+      ],
+      "a_ci": [
+       0.893,
+       1.0
+      ],
+      "b_ci": [
+       0.757,
+       0.88
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.0,
+       "b": 0.0
+      }
+     }
+    }
+   },
+   "empathy": {
+    "unit": {
+     "n_personas": 16,
+     "observed": {
+      "a": 0.005,
+      "b": 0.01,
+      "diff": 0.005,
+      "ci": [
+       -0.003,
+       0.016
+      ]
+     },
+     "corrected": {
+      "a": 0.0,
+      "b": 0.0,
+      "diff": 0.0,
+      "ci": [
+       0.0,
+       0.0
+      ],
+      "a_ci": [
+       0.0,
+       0.0
+      ],
+      "b_ci": [
+       0.0,
+       0.0
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.75,
+       "b": 0.248
+      }
+     }
+    },
+    "persona": {
+     "n_personas": 16,
+     "n_gold_clusters": 8,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.005,
+      "b": 0.01,
+      "diff": 0.005,
+      "ci": [
+       -0.003,
+       0.016
+      ]
+     },
+     "corrected": {
+      "a": 0.0,
+      "b": 0.0,
+      "diff": 0.0,
+      "ci": [
+       0.0,
+       0.0
+      ],
+      "a_ci": [
+       0.0,
+       0.0
+      ],
+      "b_ci": [
+       0.0,
+       0.0
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.75,
+       "b": 0.248
+      }
+     }
+    },
+    "case": {
+     "n_personas": 16,
+     "n_gold_clusters": 24,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.005,
+      "b": 0.01,
+      "diff": 0.005,
+      "ci": [
+       -0.003,
+       0.014
+      ]
+     },
+     "corrected": {
+      "a": 0.0,
+      "b": 0.0,
+      "diff": 0.0,
+      "ci": [
+       0.0,
+       0.0
+      ],
+      "a_ci": [
+       0.0,
+       0.0
+      ],
+      "b_ci": [
+       0.0,
+       0.0
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.75,
+       "b": 0.248
+      }
+     }
+    }
+   }
+  },
+  "配对 soulchat − qwen3-8b-base": {
+   "abandon": {
+    "unit": {
+     "n_personas": 16,
+     "observed": {
+      "a": 0.092,
+      "b": 0.181,
+      "diff": 0.089,
+      "ci": [
+       0.01,
+       0.182
+      ]
+     },
+     "corrected": {
+      "a": 0.151,
+      "b": 0.226,
+      "diff": 0.075,
+      "ci": [
+       -0.091,
+       0.235
+      ],
+      "a_ci": [
+       0.056,
+       0.318
+      ],
+      "b_ci": [
+       0.116,
+       0.381
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.503,
+       "b": 0.0
+      }
+     }
+    },
+    "persona": {
+     "n_personas": 16,
+     "n_gold_clusters": 8,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.092,
+      "b": 0.181,
+      "diff": 0.089,
+      "ci": [
+       0.003,
+       0.181
+      ]
+     },
+     "corrected": {
+      "a": 0.151,
+      "b": 0.226,
+      "diff": 0.075,
+      "ci": [
+       -0.109,
+       0.238
+      ],
+      "a_ci": [
+       0.063,
+       0.334
+      ],
+      "b_ci": [
+       0.119,
+       0.386
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.503,
+       "b": 0.0
+      }
+     }
+    },
+    "case": {
+     "n_personas": 16,
+     "n_gold_clusters": 24,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.092,
+      "b": 0.181,
+      "diff": 0.089,
+      "ci": [
+       0.0,
+       0.186
+      ]
+     },
+     "corrected": {
+      "a": 0.151,
+      "b": 0.226,
+      "diff": 0.075,
+      "ci": [
+       -0.102,
+       0.249
+      ],
+      "a_ci": [
+       0.06,
+       0.329
+      ],
+      "b_ci": [
+       0.104,
+       0.386
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.503,
+       "b": 0.0
+      }
+     }
+    }
+   },
+   "empathy": {
+    "unit": {
+     "n_personas": 16,
+     "observed": {
+      "a": 0.656,
+      "b": 0.644,
+      "diff": -0.012,
+      "ci": [
+       -0.076,
+       0.045
+      ]
+     },
+     "corrected": {
+      "a": 0.418,
+      "b": 0.715,
+      "diff": 0.298,
+      "ci": [
+       0.091,
+       0.549
+      ],
+      "a_ci": [
+       0.162,
+       0.637
+      ],
+      "b_ci": [
+       0.541,
+       0.882
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 1.0,
+       "b": 0.253
+      }
+     }
+    },
+    "persona": {
+     "n_personas": 16,
+     "n_gold_clusters": 8,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.656,
+      "b": 0.644,
+      "diff": -0.012,
+      "ci": [
+       -0.071,
+       0.045
+      ]
+     },
+     "corrected": {
+      "a": 0.418,
+      "b": 0.715,
+      "diff": 0.298,
+      "ci": [
+       0.109,
+       0.536
+      ],
+      "a_ci": [
+       0.216,
+       0.575
+      ],
+      "b_ci": [
+       0.526,
+       0.899
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 1.0,
+       "b": 0.253
+      }
+     }
+    },
+    "case": {
+     "n_personas": 16,
+     "n_gold_clusters": 24,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.656,
+      "b": 0.644,
+      "diff": -0.012,
+      "ci": [
+       -0.076,
+       0.045
+      ]
+     },
+     "corrected": {
+      "a": 0.418,
+      "b": 0.715,
+      "diff": 0.298,
+      "ci": [
+       0.088,
+       0.528
+      ],
+      "a_ci": [
+       0.176,
+       0.62
+      ],
+      "b_ci": [
+       0.516,
+       0.896
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 1.0,
+       "b": 0.253
+      }
+     }
+    }
+   }
+  }
+ },
+ "dose": {
+  "A_flagship": {
+   "abandon": {
+    "unit": {
+     "n_personas": 16,
+     "observed": {
+      "a": 0.06,
+      "b": 0.177,
+      "diff": 0.118,
+      "ci": [
+       0.024,
+       0.221
+      ]
+     },
+     "corrected": {
+      "a": 0.144,
+      "b": 0.222,
+      "diff": 0.077,
+      "ci": [
+       -0.095,
+       0.268
+      ],
+      "a_ci": [
+       0.042,
+       0.295
+      ],
+      "b_ci": [
+       0.113,
+       0.362
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.753,
+       "b": 0.25
+      }
+     }
+    },
+    "persona": {
+     "n_personas": 16,
+     "n_gold_clusters": 8,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.06,
+      "b": 0.177,
+      "diff": 0.118,
+      "ci": [
+       0.027,
+       0.232
+      ]
+     },
+     "corrected": {
+      "a": 0.144,
+      "b": 0.222,
+      "diff": 0.077,
+      "ci": [
+       -0.079,
+       0.317
+      ],
+      "a_ci": [
+       0.039,
+       0.292
+      ],
+      "b_ci": [
+       0.119,
+       0.398
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.753,
+       "b": 0.25
+      }
+     }
+    },
+    "case": {
+     "n_personas": 16,
+     "n_gold_clusters": 24,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.06,
+      "b": 0.177,
+      "diff": 0.118,
+      "ci": [
+       0.025,
+       0.231
+      ]
+     },
+     "corrected": {
+      "a": 0.144,
+      "b": 0.222,
+      "diff": 0.077,
+      "ci": [
+       -0.094,
+       0.293
+      ],
+      "a_ci": [
+       0.041,
+       0.3
+      ],
+      "b_ci": [
+       0.12,
+       0.391
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.753,
+       "b": 0.25
+      }
+     }
+    }
+   },
+   "empathy": {
+    "unit": {
+     "n_personas": 16,
+     "observed": {
+      "a": 0.979,
+      "b": 0.656,
+      "diff": -0.323,
+      "ci": [
+       -0.43,
+       -0.226
+      ]
+     },
+     "corrected": {
+      "a": 1.0,
+      "b": 0.616,
+      "diff": -0.384,
+      "ci": [
+       -0.564,
+       -0.201
+      ],
+      "a_ci": [
+       0.982,
+       1.0
+      ],
+      "b_ci": [
+       0.433,
+       0.798
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 1.0,
+       "b": 1.0
+      }
+     }
+    },
+    "persona": {
+     "n_personas": 16,
+     "n_gold_clusters": 8,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.979,
+      "b": 0.656,
+      "diff": -0.323,
+      "ci": [
+       -0.426,
+       -0.23
+      ]
+     },
+     "corrected": {
+      "a": 1.0,
+      "b": 0.616,
+      "diff": -0.384,
+      "ci": [
+       -0.563,
+       -0.205
+      ],
+      "a_ci": [
+       0.98,
+       1.0
+      ],
+      "b_ci": [
+       0.436,
+       0.794
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 1.0,
+       "b": 1.0
+      }
+     }
+    },
+    "case": {
+     "n_personas": 16,
+     "n_gold_clusters": 24,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.979,
+      "b": 0.656,
+      "diff": -0.323,
+      "ci": [
+       -0.427,
+       -0.224
+      ]
+     },
+     "corrected": {
+      "a": 1.0,
+      "b": 0.616,
+      "diff": -0.384,
+      "ci": [
+       -0.56,
+       -0.201
+      ],
+      "a_ci": [
+       0.98,
+       1.0
+      ],
+      "b_ci": [
+       0.437,
+       0.799
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 1.0,
+       "b": 1.0
+      }
+     }
+    }
+   },
+   "deesc": {
+    "unit": {
+     "n_personas": 16,
+     "observed": {
+      "a": 0.985,
+      "b": 0.812,
+      "diff": -0.173,
+      "ci": [
+       -0.262,
+       -0.09
+      ]
+     },
+     "corrected": {
+      "a": 0.972,
+      "b": 0.839,
+      "diff": -0.133,
+      "ci": [
+       -0.288,
+       -0.023
+      ],
+      "a_ci": [
+       0.923,
+       0.997
+      ],
+      "b_ci": [
+       0.677,
+       0.952
+      ],
+      "uncorrectable_share": {
+       "a": 0.253,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 1.0,
+       "b": 0.5
+      }
+     }
+    },
+    "persona": {
+     "n_personas": 16,
+     "n_gold_clusters": 8,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.985,
+      "b": 0.812,
+      "diff": -0.173,
+      "ci": [
+       -0.267,
+       -0.089
+      ]
+     },
+     "corrected": {
+      "a": 0.972,
+      "b": 0.839,
+      "diff": -0.133,
+      "ci": [
+       -0.275,
+       -0.038
+      ],
+      "a_ci": [
+       0.931,
+       0.999
+      ],
+      "b_ci": [
+       0.696,
+       0.942
+      ],
+      "uncorrectable_share": {
+       "a": 0.253,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 1.0,
+       "b": 0.5
+      }
+     }
+    },
+    "case": {
+     "n_personas": 16,
+     "n_gold_clusters": 24,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.985,
+      "b": 0.812,
+      "diff": -0.173,
+      "ci": [
+       -0.261,
+       -0.087
+      ]
+     },
+     "corrected": {
+      "a": 0.972,
+      "b": 0.839,
+      "diff": -0.133,
+      "ci": [
+       -0.295,
+       -0.03
+      ],
+      "a_ci": [
+       0.92,
+       0.998
+      ],
+      "b_ci": [
+       0.673,
+       0.947
+      ],
+      "uncorrectable_share": {
+       "a": 0.253,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 1.0,
+       "b": 0.5
+      }
+     }
+    }
+   }
+  },
+  "companion": {
+   "abandon": {
+    "unit": {
+     "n_personas": 16,
+     "observed": {
+      "a": 0.375,
+      "b": 0.438,
+      "diff": 0.062,
+      "ci": [
+       -0.141,
+       0.268
+      ]
+     },
+     "corrected": {
+      "a": 0.427,
+      "b": 0.46,
+      "diff": 0.034,
+      "ci": [
+       -0.22,
+       0.291
+      ],
+      "a_ci": [
+       0.281,
+       0.597
+      ],
+      "b_ci": [
+       0.25,
+       0.688
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.0,
+       "b": 0.0
+      }
+     }
+    },
+    "persona": {
+     "n_personas": 16,
+     "n_gold_clusters": 8,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.375,
+      "b": 0.438,
+      "diff": 0.062,
+      "ci": [
+       -0.134,
+       0.259
+      ]
+     },
+     "corrected": {
+      "a": 0.427,
+      "b": 0.46,
+      "diff": 0.034,
+      "ci": [
+       -0.216,
+       0.277
+      ],
+      "a_ci": [
+       0.281,
+       0.606
+      ],
+      "b_ci": [
+       0.273,
+       0.672
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.0,
+       "b": 0.0
+      }
+     }
+    },
+    "case": {
+     "n_personas": 16,
+     "n_gold_clusters": 24,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.375,
+      "b": 0.438,
+      "diff": 0.062,
+      "ci": [
+       -0.138,
+       0.263
+      ]
+     },
+     "corrected": {
+      "a": 0.427,
+      "b": 0.46,
+      "diff": 0.034,
+      "ci": [
+       -0.224,
+       0.281
+      ],
+      "a_ci": [
+       0.285,
+       0.61
+      ],
+      "b_ci": [
+       0.26,
+       0.681
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.0,
+       "b": 0.0
+      }
+     }
+    }
+   },
+   "empathy": {
+    "unit": {
+     "n_personas": 16,
+     "observed": {
+      "a": 0.42,
+      "b": 0.562,
+      "diff": 0.143,
+      "ci": [
+       -0.04,
+       0.321
+      ]
+     },
+     "corrected": {
+      "a": 0.473,
+      "b": 0.726,
+      "diff": 0.253,
+      "ci": [
+       -0.027,
+       0.502
+      ],
+      "a_ci": [
+       0.248,
+       0.714
+      ],
+      "b_ci": [
+       0.438,
+       0.995
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.491,
+       "b": 0.75
+      }
+     }
+    },
+    "persona": {
+     "n_personas": 16,
+     "n_gold_clusters": 8,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.42,
+      "b": 0.562,
+      "diff": 0.143,
+      "ci": [
+       -0.056,
+       0.344
+      ]
+     },
+     "corrected": {
+      "a": 0.473,
+      "b": 0.726,
+      "diff": 0.253,
+      "ci": [
+       -0.02,
+       0.525
+      ],
+      "a_ci": [
+       0.234,
+       0.75
+      ],
+      "b_ci": [
+       0.413,
+       1.0
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.491,
+       "b": 0.75
+      }
+     }
+    },
+    "case": {
+     "n_personas": 16,
+     "n_gold_clusters": 24,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.42,
+      "b": 0.562,
+      "diff": 0.143,
+      "ci": [
+       -0.047,
+       0.317
+      ]
+     },
+     "corrected": {
+      "a": 0.473,
+      "b": 0.726,
+      "diff": 0.253,
+      "ci": [
+       -0.021,
+       0.49
+      ],
+      "a_ci": [
+       0.243,
+       0.708
+      ],
+      "b_ci": [
+       0.422,
+       0.997
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.491,
+       "b": 0.75
+      }
+     }
+    }
+   },
+   "deesc": {
+    "unit": {
+     "n_personas": 16,
+     "observed": {
+      "a": 0.312,
+      "b": 0.156,
+      "diff": -0.156,
+      "ci": [
+       -0.297,
+       -0.003
+      ]
+     },
+     "corrected": {
+      "a": 0.285,
+      "b": 0.212,
+      "diff": -0.072,
+      "ci": [
+       -0.33,
+       0.238
+      ],
+      "a_ci": [
+       0.096,
+       0.474
+      ],
+      "b_ci": [
+       0.008,
+       0.52
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.0,
+       "b": 0.219
+      }
+     }
+    },
+    "persona": {
+     "n_personas": 16,
+     "n_gold_clusters": 8,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.312,
+      "b": 0.156,
+      "diff": -0.156,
+      "ci": [
+       -0.313,
+       -0.004
+      ]
+     },
+     "corrected": {
+      "a": 0.285,
+      "b": 0.212,
+      "diff": -0.072,
+      "ci": [
+       -0.339,
+       0.23
+      ],
+      "a_ci": [
+       0.1,
+       0.476
+      ],
+      "b_ci": [
+       0.0,
+       0.515
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.0,
+       "b": 0.219
+      }
+     }
+    },
+    "case": {
+     "n_personas": 16,
+     "n_gold_clusters": 24,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.312,
+      "b": 0.156,
+      "diff": -0.156,
+      "ci": [
+       -0.308,
+       0.013
+      ]
+     },
+     "corrected": {
+      "a": 0.285,
+      "b": 0.212,
+      "diff": -0.072,
+      "ci": [
+       -0.332,
+       0.222
+      ],
+      "a_ci": [
+       0.103,
+       0.477
+      ],
+      "b_ci": [
+       0.0,
+       0.503
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.0,
+       "b": 0.219
+      }
+     }
+    }
+   }
+  },
+  "B2_psych": {
+   "abandon": {
+    "unit": {
+     "n_personas": 16,
+     "observed": {
+      "a": 0.223,
+      "b": 0.385,
+      "diff": 0.162,
+      "ci": [
+       0.092,
+       0.238
+      ]
+     },
+     "corrected": {
+      "a": 0.423,
+      "b": 0.503,
+      "diff": 0.08,
+      "ci": [
+       -0.017,
+       0.273
+      ],
+      "a_ci": [
+       0.239,
+       0.483
+      ],
+      "b_ci": [
+       0.385,
+       0.6
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.25,
+       "b": 0.25
+      }
+     }
+    },
+    "persona": {
+     "n_personas": 16,
+     "n_gold_clusters": 8,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.223,
+      "b": 0.385,
+      "diff": 0.162,
+      "ci": [
+       0.091,
+       0.234
+      ]
+     },
+     "corrected": {
+      "a": 0.423,
+      "b": 0.503,
+      "diff": 0.08,
+      "ci": [
+       -0.006,
+       0.291
+      ],
+      "a_ci": [
+       0.231,
+       0.49
+      ],
+      "b_ci": [
+       0.393,
+       0.607
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.25,
+       "b": 0.25
+      }
+     }
+    },
+    "case": {
+     "n_personas": 16,
+     "n_gold_clusters": 24,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.223,
+      "b": 0.385,
+      "diff": 0.162,
+      "ci": [
+       0.089,
+       0.242
+      ]
+     },
+     "corrected": {
+      "a": 0.423,
+      "b": 0.503,
+      "diff": 0.08,
+      "ci": [
+       -0.02,
+       0.267
+      ],
+      "a_ci": [
+       0.254,
+       0.492
+      ],
+      "b_ci": [
+       0.378,
+       0.618
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.25,
+       "b": 0.25
+      }
+     }
+    }
+   },
+   "empathy": {
+    "unit": {
+     "n_personas": 16,
+     "observed": {
+      "a": 0.19,
+      "b": 0.229,
+      "diff": 0.039,
+      "ci": [
+       -0.031,
+       0.111
+      ]
+     },
+     "corrected": {
+      "a": 0.029,
+      "b": 0.054,
+      "diff": 0.024,
+      "ci": [
+       -0.042,
+       0.182
+      ],
+      "a_ci": [
+       0.0,
+       0.135
+      ],
+      "b_ci": [
+       0.0,
+       0.236
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.747,
+       "b": 0.51
+      }
+     }
+    },
+    "persona": {
+     "n_personas": 16,
+     "n_gold_clusters": 8,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.19,
+      "b": 0.229,
+      "diff": 0.039,
+      "ci": [
+       -0.028,
+       0.109
+      ]
+     },
+     "corrected": {
+      "a": 0.029,
+      "b": 0.054,
+      "diff": 0.024,
+      "ci": [
+       -0.041,
+       0.185
+      ],
+      "a_ci": [
+       0.0,
+       0.126
+      ],
+      "b_ci": [
+       0.0,
+       0.242
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.747,
+       "b": 0.51
+      }
+     }
+    },
+    "case": {
+     "n_personas": 16,
+     "n_gold_clusters": 24,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.19,
+      "b": 0.229,
+      "diff": 0.039,
+      "ci": [
+       -0.041,
+       0.108
+      ]
+     },
+     "corrected": {
+      "a": 0.029,
+      "b": 0.054,
+      "diff": 0.024,
+      "ci": [
+       -0.046,
+       0.179
+      ],
+      "a_ci": [
+       0.0,
+       0.133
+      ],
+      "b_ci": [
+       0.0,
+       0.237
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.747,
+       "b": 0.51
+      }
+     }
+    }
+   },
+   "deesc": {
+    "unit": {
+     "n_personas": 16,
+     "observed": {
+      "a": 0.426,
+      "b": 0.406,
+      "diff": -0.019,
+      "ci": [
+       -0.144,
+       0.097
+      ]
+     },
+     "corrected": {
+      "a": 0.296,
+      "b": 0.268,
+      "diff": -0.028,
+      "ci": [
+       -0.193,
+       0.217
+      ],
+      "a_ci": [
+       0.078,
+       0.461
+      ],
+      "b_ci": [
+       0.123,
+       0.447
+      ],
+      "uncorrectable_share": {
+       "a": 0.25,
+       "b": 0.25
+      },
+      "low_youden_share": {
+       "a": 0.25,
+       "b": 0.25
+      }
+     }
+    },
+    "persona": {
+     "n_personas": 16,
+     "n_gold_clusters": 8,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.426,
+      "b": 0.406,
+      "diff": -0.019,
+      "ci": [
+       -0.146,
+       0.102
+      ]
+     },
+     "corrected": {
+      "a": 0.296,
+      "b": 0.268,
+      "diff": -0.028,
+      "ci": [
+       -0.205,
+       0.198
+      ],
+      "a_ci": [
+       0.08,
+       0.474
+      ],
+      "b_ci": [
+       0.131,
+       0.461
+      ],
+      "uncorrectable_share": {
+       "a": 0.25,
+       "b": 0.25
+      },
+      "low_youden_share": {
+       "a": 0.25,
+       "b": 0.25
+      }
+     }
+    },
+    "case": {
+     "n_personas": 16,
+     "n_gold_clusters": 24,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.426,
+      "b": 0.406,
+      "diff": -0.019,
+      "ci": [
+       -0.146,
+       0.097
+      ]
+     },
+     "corrected": {
+      "a": 0.296,
+      "b": 0.268,
+      "diff": -0.028,
+      "ci": [
+       -0.187,
+       0.204
+      ],
+      "a_ci": [
+       0.102,
+       0.461
+      ],
+      "b_ci": [
+       0.134,
+       0.461
+      ],
+      "uncorrectable_share": {
+       "a": 0.25,
+       "b": 0.25
+      },
+      "low_youden_share": {
+       "a": 0.25,
+       "b": 0.25
+      }
+     }
+    }
+   }
+  },
+  "C_base": {
+   "abandon": {
+    "unit": {
+     "n_personas": 16,
+     "observed": {
+      "a": 0.589,
+      "b": 0.604,
+      "diff": 0.015,
+      "ci": [
+       -0.099,
+       0.122
+      ]
+     },
+     "corrected": {
+      "a": 0.977,
+      "b": 0.87,
+      "diff": -0.107,
+      "ci": [
+       -0.227,
+       0.064
+      ],
+      "a_ci": [
+       0.793,
+       1.0
+      ],
+      "b_ci": [
+       0.699,
+       0.987
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.5,
+       "b": 0.25
+      }
+     }
+    },
+    "persona": {
+     "n_personas": 16,
+     "n_gold_clusters": 8,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.589,
+      "b": 0.604,
+      "diff": 0.015,
+      "ci": [
+       -0.1,
+       0.123
+      ]
+     },
+     "corrected": {
+      "a": 0.977,
+      "b": 0.87,
+      "diff": -0.107,
+      "ci": [
+       -0.216,
+       0.109
+      ],
+      "a_ci": [
+       0.771,
+       1.0
+      ],
+      "b_ci": [
+       0.703,
+       1.0
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.5,
+       "b": 0.25
+      }
+     }
+    },
+    "case": {
+     "n_personas": 16,
+     "n_gold_clusters": 24,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.589,
+      "b": 0.604,
+      "diff": 0.015,
+      "ci": [
+       -0.103,
+       0.126
+      ]
+     },
+     "corrected": {
+      "a": 0.977,
+      "b": 0.87,
+      "diff": -0.107,
+      "ci": [
+       -0.219,
+       0.062
+      ],
+      "a_ci": [
+       0.809,
+       1.0
+      ],
+      "b_ci": [
+       0.713,
+       1.0
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.5,
+       "b": 0.25
+      }
+     }
+    }
+   },
+   "empathy": {
+    "unit": {
+     "n_personas": 16,
+     "observed": {
+      "a": 0.214,
+      "b": 0.135,
+      "diff": -0.079,
+      "ci": [
+       -0.165,
+       0.009
+      ]
+     },
+     "corrected": {
+      "a": 0.0,
+      "b": 0.0,
+      "diff": 0.0,
+      "ci": [
+       -0.106,
+       0.06
+      ],
+      "a_ci": [
+       0.0,
+       0.124
+      ],
+      "b_ci": [
+       0.0,
+       0.094
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 1.0,
+       "b": 1.0
+      }
+     }
+    },
+    "persona": {
+     "n_personas": 16,
+     "n_gold_clusters": 8,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.214,
+      "b": 0.135,
+      "diff": -0.079,
+      "ci": [
+       -0.166,
+       0.017
+      ]
+     },
+     "corrected": {
+      "a": 0.0,
+      "b": 0.0,
+      "diff": 0.0,
+      "ci": [
+       -0.076,
+       0.057
+      ],
+      "a_ci": [
+       0.0,
+       0.08
+      ],
+      "b_ci": [
+       0.0,
+       0.062
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 1.0,
+       "b": 1.0
+      }
+     }
+    },
+    "case": {
+     "n_personas": 16,
+     "n_gold_clusters": 24,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.214,
+      "b": 0.135,
+      "diff": -0.079,
+      "ci": [
+       -0.163,
+       0.012
+      ]
+     },
+     "corrected": {
+      "a": 0.0,
+      "b": 0.0,
+      "diff": 0.0,
+      "ci": [
+       -0.109,
+       0.062
+      ],
+      "a_ci": [
+       0.0,
+       0.116
+      ],
+      "b_ci": [
+       0.0,
+       0.084
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 1.0,
+       "b": 1.0
+      }
+     }
+    }
+   },
+   "deesc": {
+    "unit": {
+     "n_personas": 16,
+     "observed": {
+      "a": 0.812,
+      "b": 0.406,
+      "diff": -0.406,
+      "ci": [
+       -0.499,
+       -0.316
+      ]
+     },
+     "corrected": {
+      "a": 0.529,
+      "b": 0.0,
+      "diff": -0.529,
+      "ci": [
+       -0.605,
+       -0.229
+      ],
+      "a_ci": [
+       0.407,
+       0.839
+      ],
+      "b_ci": [
+       0.0,
+       0.457
+      ],
+      "uncorrectable_share": {
+       "a": 0.25,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 1.0,
+       "b": 0.75
+      }
+     }
+    },
+    "persona": {
+     "n_personas": 16,
+     "n_gold_clusters": 8,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.812,
+      "b": 0.406,
+      "diff": -0.406,
+      "ci": [
+       -0.496,
+       -0.323
+      ]
+     },
+     "corrected": {
+      "a": 0.529,
+      "b": 0.0,
+      "diff": -0.529,
+      "ci": [
+       -0.609,
+       -0.256
+      ],
+      "a_ci": [
+       0.393,
+       0.848
+      ],
+      "b_ci": [
+       0.0,
+       0.458
+      ],
+      "uncorrectable_share": {
+       "a": 0.25,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 1.0,
+       "b": 0.75
+      }
+     }
+    },
+    "case": {
+     "n_personas": 16,
+     "n_gold_clusters": 24,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.812,
+      "b": 0.406,
+      "diff": -0.406,
+      "ci": [
+       -0.496,
+       -0.317
+      ]
+     },
+     "corrected": {
+      "a": 0.529,
+      "b": 0.0,
+      "diff": -0.529,
+      "ci": [
+       -0.607,
+       -0.244
+      ],
+      "a_ci": [
+       0.394,
+       0.839
+      ],
+      "b_ci": [
+       0.0,
+       0.458
+      ],
+      "uncorrectable_share": {
+       "a": 0.25,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 1.0,
+       "b": 0.75
+      }
+     }
+    }
+   }
+  },
+  "all": {
+   "abandon": {
+    "unit": {
+     "n_personas": 16,
+     "observed": {
+      "a": 0.299,
+      "b": 0.394,
+      "diff": 0.095,
+      "ci": [
+       0.051,
+       0.135
+      ]
+     },
+     "corrected": {
+      "a": 0.551,
+      "b": 0.602,
+      "diff": 0.051,
+      "ci": [
+       -0.083,
+       0.179
+      ],
+      "a_ci": [
+       0.388,
+       0.772
+      ],
+      "b_ci": [
+       0.459,
+       0.794
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.5,
+       "b": 0.259
+      }
+     }
+    },
+    "persona": {
+     "n_personas": 16,
+     "n_gold_clusters": 8,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.299,
+      "b": 0.394,
+      "diff": 0.095,
+      "ci": [
+       0.056,
+       0.137
+      ]
+     },
+     "corrected": {
+      "a": 0.551,
+      "b": 0.602,
+      "diff": 0.051,
+      "ci": [
+       -0.061,
+       0.197
+      ],
+      "a_ci": [
+       0.385,
+       0.802
+      ],
+      "b_ci": [
+       0.464,
+       0.837
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.5,
+       "b": 0.259
+      }
+     }
+    },
+    "case": {
+     "n_personas": 16,
+     "n_gold_clusters": 24,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.299,
+      "b": 0.394,
+      "diff": 0.095,
+      "ci": [
+       0.054,
+       0.139
+      ]
+     },
+     "corrected": {
+      "a": 0.551,
+      "b": 0.602,
+      "diff": 0.051,
+      "ci": [
+       -0.076,
+       0.172
+      ],
+      "a_ci": [
+       0.397,
+       0.789
+      ],
+      "b_ci": [
+       0.46,
+       0.83
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.5,
+       "b": 0.259
+      }
+     }
+    }
+   },
+   "empathy": {
+    "unit": {
+     "n_personas": 16,
+     "observed": {
+      "a": 0.457,
+      "b": 0.362,
+      "diff": -0.095,
+      "ci": [
+       -0.135,
+       -0.054
+      ]
+     },
+     "corrected": {
+      "a": 0.076,
+      "b": 0.12,
+      "diff": 0.044,
+      "ci": [
+       -0.131,
+       0.159
+      ],
+      "a_ci": [
+       0.001,
+       0.335
+      ],
+      "b_ci": [
+       0.03,
+       0.292
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.75,
+       "b": 0.75
+      }
+     }
+    },
+    "persona": {
+     "n_personas": 16,
+     "n_gold_clusters": 8,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.457,
+      "b": 0.362,
+      "diff": -0.095,
+      "ci": [
+       -0.132,
+       -0.058
+      ]
+     },
+     "corrected": {
+      "a": 0.076,
+      "b": 0.12,
+      "diff": 0.044,
+      "ci": [
+       -0.104,
+       0.161
+      ],
+      "a_ci": [
+       0.003,
+       0.254
+      ],
+      "b_ci": [
+       0.026,
+       0.285
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.75,
+       "b": 0.75
+      }
+     }
+    },
+    "case": {
+     "n_personas": 16,
+     "n_gold_clusters": 24,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.457,
+      "b": 0.362,
+      "diff": -0.095,
+      "ci": [
+       -0.136,
+       -0.055
+      ]
+     },
+     "corrected": {
+      "a": 0.076,
+      "b": 0.12,
+      "diff": 0.044,
+      "ci": [
+       -0.133,
+       0.145
+      ],
+      "a_ci": [
+       0.0,
+       0.34
+      ],
+      "b_ci": [
+       0.027,
+       0.303
+      ],
+      "uncorrectable_share": {
+       "a": 0.0,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.75,
+       "b": 0.75
+      }
+     }
+    }
+   },
+   "deesc": {
+    "unit": {
+     "n_personas": 16,
+     "observed": {
+      "a": 0.698,
+      "b": 0.503,
+      "diff": -0.195,
+      "ci": [
+       -0.247,
+       -0.143
+      ]
+     },
+     "corrected": {
+      "a": 0.548,
+      "b": 0.166,
+      "diff": -0.382,
+      "ci": [
+       -0.414,
+       -0.055
+      ],
+      "a_ci": [
+       0.445,
+       0.724
+      ],
+      "b_ci": [
+       0.132,
+       0.553
+      ],
+      "uncorrectable_share": {
+       "a": 0.25,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.75,
+       "b": 0.5
+      }
+     }
+    },
+    "persona": {
+     "n_personas": 16,
+     "n_gold_clusters": 8,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.698,
+      "b": 0.503,
+      "diff": -0.195,
+      "ci": [
+       -0.246,
+       -0.146
+      ]
+     },
+     "corrected": {
+      "a": 0.548,
+      "b": 0.166,
+      "diff": -0.382,
+      "ci": [
+       -0.403,
+       -0.061
+      ],
+      "a_ci": [
+       0.441,
+       0.731
+      ],
+      "b_ci": [
+       0.136,
+       0.553
+      ],
+      "uncorrectable_share": {
+       "a": 0.25,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.75,
+       "b": 0.5
+      }
+     }
+    },
+    "case": {
+     "n_personas": 16,
+     "n_gold_clusters": 24,
+     "dropped_draws": 0,
+     "observed": {
+      "a": 0.698,
+      "b": 0.503,
+      "diff": -0.195,
+      "ci": [
+       -0.246,
+       -0.142
+      ]
+     },
+     "corrected": {
+      "a": 0.548,
+      "b": 0.166,
+      "diff": -0.382,
+      "ci": [
+       -0.415,
+       -0.061
+      ],
+      "a_ci": [
+       0.452,
+       0.722
+      ],
+      "b_ci": [
+       0.139,
+       0.558
+      ],
+      "uncorrectable_share": {
+       "a": 0.25,
+       "b": 0.0
+      },
+      "low_youden_share": {
+       "a": 0.75,
+       "b": 0.5
+      }
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,985 @@
+{
+  "gold": "gold_judge180/gold_test.jsonl",
+  "split": [
+    "test"
+  ],
+  "n_segments": 67,
+  "judges": {
+    "v5cap": {
+      "path": "runs/v2/scored_v5_d5cap.jsonl",
+      "matched": 67,
+      "all": {
+        "d1": {
+          "n": 67,
+          "exact": 0.8657,
+          "zero_kappa": -0.0273,
+          "wkappa": 0.0722,
+          "judge0_gold_non0": 8,
+          "judge_non0_gold0": 1,
+          "confusion_judge_rows": [
+            [
+              0,
+              1,
+              7
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              58
+            ]
+          ]
+        },
+        "d2": {
+          "n": 67,
+          "exact": 0.6119,
+          "zero_kappa": 0.3874,
+          "wkappa": 0.5258,
+          "judge0_gold_non0": 20,
+          "judge_non0_gold0": 2,
+          "confusion_judge_rows": [
+            [
+              23,
+              11,
+              9
+            ],
+            [
+              2,
+              3,
+              2
+            ],
+            [
+              0,
+              2,
+              15
+            ]
+          ]
+        },
+        "d3": {
+          "n": 67,
+          "exact": 0.3582,
+          "zero_kappa": 0.0556,
+          "wkappa": 0.3148,
+          "judge0_gold_non0": 33,
+          "judge_non0_gold0": 2,
+          "confusion_judge_rows": [
+            [
+              5,
+              26,
+              7
+            ],
+            [
+              2,
+              7,
+              3
+            ],
+            [
+              0,
+              5,
+              12
+            ]
+          ]
+        },
+        "d4": {
+          "n": 67,
+          "exact": 0.3731,
+          "zero_kappa": 0.0028,
+          "wkappa": 0.0894,
+          "judge0_gold_non0": 31,
+          "judge_non0_gold0": 1,
+          "confusion_judge_rows": [
+            [
+              1,
+              15,
+              16
+            ],
+            [
+              0,
+              8,
+              4
+            ],
+            [
+              1,
+              6,
+              16
+            ]
+          ]
+        },
+        "d5": {
+          "n": 67,
+          "exact": 0.3881,
+          "zero_kappa": 0.0,
+          "wkappa": 0.0255,
+          "judge0_gold_non0": 15,
+          "judge_non0_gold0": 0,
+          "confusion_judge_rows": [
+            [
+              0,
+              2,
+              13
+            ],
+            [
+              0,
+              3,
+              24
+            ],
+            [
+              0,
+              2,
+              23
+            ]
+          ]
+        },
+        "d6": {
+          "n": 67,
+          "exact": 0.6269,
+          "zero_kappa": 0.0,
+          "wkappa": 0.0,
+          "judge0_gold_non0": 6,
+          "judge_non0_gold0": 0,
+          "confusion_judge_rows": [
+            [
+              0,
+              0,
+              6
+            ],
+            [
+              0,
+              0,
+              19
+            ],
+            [
+              0,
+              0,
+              42
+            ]
+          ]
+        }
+      },
+      "total": 0.0888,
+      "no_loop": {
+        "d1": {
+          "n": 63,
+          "exact": 0.8571,
+          "zero_kappa": -0.029,
+          "wkappa": 0.0698,
+          "judge0_gold_non0": 8,
+          "judge_non0_gold0": 1,
+          "confusion_judge_rows": [
+            [
+              0,
+              1,
+              7
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              54
+            ]
+          ]
+        },
+        "d2": {
+          "n": 63,
+          "exact": 0.6349,
+          "zero_kappa": 0.4292,
+          "wkappa": 0.5769,
+          "judge0_gold_non0": 17,
+          "judge_non0_gold0": 2,
+          "confusion_judge_rows": [
+            [
+              22,
+              10,
+              7
+            ],
+            [
+              2,
+              3,
+              2
+            ],
+            [
+              0,
+              2,
+              15
+            ]
+          ]
+        },
+        "d3": {
+          "n": 63,
+          "exact": 0.3651,
+          "zero_kappa": 0.0649,
+          "wkappa": 0.319,
+          "judge0_gold_non0": 30,
+          "judge_non0_gold0": 2,
+          "confusion_judge_rows": [
+            [
+              5,
+              23,
+              7
+            ],
+            [
+              2,
+              6,
+              3
+            ],
+            [
+              0,
+              5,
+              12
+            ]
+          ]
+        },
+        "d4": {
+          "n": 63,
+          "exact": 0.381,
+          "zero_kappa": 0.0054,
+          "wkappa": 0.087,
+          "judge0_gold_non0": 28,
+          "judge_non0_gold0": 1,
+          "confusion_judge_rows": [
+            [
+              1,
+              13,
+              15
+            ],
+            [
+              0,
+              7,
+              4
+            ],
+            [
+              1,
+              6,
+              16
+            ]
+          ]
+        },
+        "d5": {
+          "n": 63,
+          "exact": 0.3968,
+          "zero_kappa": 0.0,
+          "wkappa": -0.0332,
+          "judge0_gold_non0": 13,
+          "judge_non0_gold0": 0,
+          "confusion_judge_rows": [
+            [
+              0,
+              0,
+              13
+            ],
+            [
+              0,
+              2,
+              23
+            ],
+            [
+              0,
+              2,
+              23
+            ]
+          ]
+        },
+        "d6": {
+          "n": 63,
+          "exact": 0.6508,
+          "zero_kappa": 0.0,
+          "wkappa": 0.0,
+          "judge0_gold_non0": 6,
+          "judge_non0_gold0": 0,
+          "confusion_judge_rows": [
+            [
+              0,
+              0,
+              6
+            ],
+            [
+              0,
+              0,
+              16
+            ],
+            [
+              0,
+              0,
+              41
+            ]
+          ]
+        }
+      }
+    },
+    "v6cap": {
+      "path": "runs/v2/scored_v6_d5cap.jsonl",
+      "matched": 67,
+      "all": {
+        "d1": {
+          "n": 67,
+          "exact": 0.8209,
+          "zero_kappa": 0.159,
+          "wkappa": 0.1676,
+          "judge0_gold_non0": 9,
+          "judge_non0_gold0": 0,
+          "confusion_judge_rows": [
+            [
+              1,
+              0,
+              9
+            ],
+            [
+              0,
+              1,
+              3
+            ],
+            [
+              0,
+              0,
+              53
+            ]
+          ]
+        },
+        "d2": {
+          "n": 67,
+          "exact": 0.5821,
+          "zero_kappa": 0.3786,
+          "wkappa": 0.5302,
+          "judge0_gold_non0": 19,
+          "judge_non0_gold0": 3,
+          "confusion_judge_rows": [
+            [
+              22,
+              11,
+              8
+            ],
+            [
+              3,
+              2,
+              3
+            ],
+            [
+              0,
+              3,
+              15
+            ]
+          ]
+        },
+        "d3": {
+          "n": 67,
+          "exact": 0.4776,
+          "zero_kappa": 0.1316,
+          "wkappa": 0.4071,
+          "judge0_gold_non0": 24,
+          "judge_non0_gold0": 2,
+          "confusion_judge_rows": [
+            [
+              5,
+              20,
+              4
+            ],
+            [
+              2,
+              15,
+              6
+            ],
+            [
+              0,
+              3,
+              12
+            ]
+          ]
+        },
+        "d4": {
+          "n": 67,
+          "exact": 0.5373,
+          "zero_kappa": 0.0548,
+          "wkappa": 0.1928,
+          "judge0_gold_non0": 16,
+          "judge_non0_gold0": 1,
+          "confusion_judge_rows": [
+            [
+              1,
+              7,
+              9
+            ],
+            [
+              1,
+              15,
+              7
+            ],
+            [
+              0,
+              7,
+              20
+            ]
+          ]
+        },
+        "d5": {
+          "n": 67,
+          "exact": 0.4179,
+          "zero_kappa": 0.0,
+          "wkappa": 0.0162,
+          "judge0_gold_non0": 11,
+          "judge_non0_gold0": 0,
+          "confusion_judge_rows": [
+            [
+              0,
+              1,
+              10
+            ],
+            [
+              0,
+              4,
+              26
+            ],
+            [
+              0,
+              2,
+              24
+            ]
+          ]
+        },
+        "d6": {
+          "n": 67,
+          "exact": 0.9104,
+          "zero_kappa": 0.0,
+          "wkappa": -0.0,
+          "judge0_gold_non0": 3,
+          "judge_non0_gold0": 0,
+          "confusion_judge_rows": [
+            [
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              61
+            ]
+          ]
+        }
+      },
+      "total": 0.148,
+      "no_loop": {
+        "d1": {
+          "n": 63,
+          "exact": 0.8254,
+          "zero_kappa": 0.1575,
+          "wkappa": 0.1705,
+          "judge0_gold_non0": 9,
+          "judge_non0_gold0": 0,
+          "confusion_judge_rows": [
+            [
+              1,
+              0,
+              9
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              0,
+              50
+            ]
+          ]
+        },
+        "d2": {
+          "n": 63,
+          "exact": 0.6032,
+          "zero_kappa": 0.4209,
+          "wkappa": 0.5825,
+          "judge0_gold_non0": 16,
+          "judge_non0_gold0": 3,
+          "confusion_judge_rows": [
+            [
+              21,
+              10,
+              6
+            ],
+            [
+              3,
+              2,
+              3
+            ],
+            [
+              0,
+              3,
+              15
+            ]
+          ]
+        },
+        "d3": {
+          "n": 63,
+          "exact": 0.4921,
+          "zero_kappa": 0.1551,
+          "wkappa": 0.4152,
+          "judge0_gold_non0": 21,
+          "judge_non0_gold0": 2,
+          "confusion_judge_rows": [
+            [
+              5,
+              17,
+              4
+            ],
+            [
+              2,
+              14,
+              6
+            ],
+            [
+              0,
+              3,
+              12
+            ]
+          ]
+        },
+        "d4": {
+          "n": 63,
+          "exact": 0.5397,
+          "zero_kappa": 0.0579,
+          "wkappa": 0.1822,
+          "judge0_gold_non0": 15,
+          "judge_non0_gold0": 1,
+          "confusion_judge_rows": [
+            [
+              1,
+              6,
+              9
+            ],
+            [
+              1,
+              13,
+              6
+            ],
+            [
+              0,
+              7,
+              20
+            ]
+          ]
+        },
+        "d5": {
+          "n": 63,
+          "exact": 0.4127,
+          "zero_kappa": 0.0,
+          "wkappa": -0.0303,
+          "judge0_gold_non0": 10,
+          "judge_non0_gold0": 0,
+          "confusion_judge_rows": [
+            [
+              0,
+              0,
+              10
+            ],
+            [
+              0,
+              2,
+              25
+            ],
+            [
+              0,
+              2,
+              24
+            ]
+          ]
+        },
+        "d6": {
+          "n": 63,
+          "exact": 0.9048,
+          "zero_kappa": 0.0,
+          "wkappa": 0.0,
+          "judge0_gold_non0": 3,
+          "judge_non0_gold0": 0,
+          "confusion_judge_rows": [
+            [
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              57
+            ]
+          ]
+        }
+      }
+    },
+    "v7cap": {
+      "path": "runs/v2/v7_test_qwen38.jsonl",
+      "matched": 67,
+      "all": {
+        "d1": {
+          "n": 67,
+          "exact": 0.791,
+          "zero_kappa": 0.3853,
+          "wkappa": 0.3399,
+          "judge0_gold_non0": 3,
+          "judge_non0_gold0": 0,
+          "confusion_judge_rows": [
+            [
+              1,
+              1,
+              2
+            ],
+            [
+              0,
+              0,
+              11
+            ],
+            [
+              0,
+              0,
+              52
+            ]
+          ]
+        },
+        "d2": {
+          "n": 67,
+          "exact": 0.6418,
+          "zero_kappa": 0.5673,
+          "wkappa": 0.6802,
+          "judge0_gold_non0": 9,
+          "judge_non0_gold0": 5,
+          "confusion_judge_rows": [
+            [
+              20,
+              7,
+              2
+            ],
+            [
+              4,
+              5,
+              6
+            ],
+            [
+              1,
+              4,
+              18
+            ]
+          ]
+        },
+        "d3": {
+          "n": 67,
+          "exact": 0.5373,
+          "zero_kappa": 0.0635,
+          "wkappa": 0.3914,
+          "judge0_gold_non0": 5,
+          "judge_non0_gold0": 6,
+          "confusion_judge_rows": [
+            [
+              1,
+              5,
+              0
+            ],
+            [
+              6,
+              22,
+              9
+            ],
+            [
+              0,
+              11,
+              13
+            ]
+          ]
+        },
+        "d4": {
+          "n": 67,
+          "exact": 0.6418,
+          "zero_kappa": 0.1398,
+          "wkappa": 0.3527,
+          "judge0_gold_non0": 8,
+          "judge_non0_gold0": 1,
+          "confusion_judge_rows": [
+            [
+              1,
+              4,
+              4
+            ],
+            [
+              1,
+              16,
+              6
+            ],
+            [
+              0,
+              9,
+              26
+            ]
+          ]
+        },
+        "d5": {
+          "n": 67,
+          "exact": 0.8657,
+          "zero_kappa": 1.0,
+          "wkappa": 0.5421,
+          "judge0_gold_non0": 0,
+          "judge_non0_gold0": 0,
+          "confusion_judge_rows": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              7,
+              9
+            ],
+            [
+              0,
+              0,
+              51
+            ]
+          ]
+        },
+        "d6": {
+          "n": 67,
+          "exact": 0.9104,
+          "zero_kappa": 0.0,
+          "wkappa": 0.0,
+          "judge0_gold_non0": 2,
+          "judge_non0_gold0": 0,
+          "confusion_judge_rows": [
+            [
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              4
+            ],
+            [
+              0,
+              0,
+              61
+            ]
+          ]
+        }
+      },
+      "total": 0.3396,
+      "no_loop": {
+        "d1": {
+          "n": 63,
+          "exact": 0.7937,
+          "zero_kappa": 0.3844,
+          "wkappa": 0.3512,
+          "judge0_gold_non0": 3,
+          "judge_non0_gold0": 0,
+          "confusion_judge_rows": [
+            [
+              1,
+              1,
+              2
+            ],
+            [
+              0,
+              0,
+              10
+            ],
+            [
+              0,
+              0,
+              49
+            ]
+          ]
+        },
+        "d2": {
+          "n": 63,
+          "exact": 0.6349,
+          "zero_kappa": 0.5435,
+          "wkappa": 0.6735,
+          "judge0_gold_non0": 9,
+          "judge_non0_gold0": 5,
+          "confusion_judge_rows": [
+            [
+              19,
+              7,
+              2
+            ],
+            [
+              4,
+              4,
+              5
+            ],
+            [
+              1,
+              4,
+              17
+            ]
+          ]
+        },
+        "d3": {
+          "n": 63,
+          "exact": 0.5079,
+          "zero_kappa": 0.0571,
+          "wkappa": 0.3853,
+          "judge0_gold_non0": 5,
+          "judge_non0_gold0": 6,
+          "confusion_judge_rows": [
+            [
+              1,
+              5,
+              0
+            ],
+            [
+              6,
+              18,
+              9
+            ],
+            [
+              0,
+              11,
+              13
+            ]
+          ]
+        },
+        "d4": {
+          "n": 63,
+          "exact": 0.6349,
+          "zero_kappa": 0.137,
+          "wkappa": 0.3501,
+          "judge0_gold_non0": 8,
+          "judge_non0_gold0": 1,
+          "confusion_judge_rows": [
+            [
+              1,
+              4,
+              4
+            ],
+            [
+              1,
+              14,
+              6
+            ],
+            [
+              0,
+              8,
+              25
+            ]
+          ]
+        },
+        "d5": {
+          "n": 63,
+          "exact": 0.873,
+          "zero_kappa": 1.0,
+          "wkappa": 0.4474,
+          "judge0_gold_non0": 0,
+          "judge_non0_gold0": 0,
+          "confusion_judge_rows": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              4,
+              8
+            ],
+            [
+              0,
+              0,
+              51
+            ]
+          ]
+        },
+        "d6": {
+          "n": 63,
+          "exact": 0.9048,
+          "zero_kappa": 0.0,
+          "wkappa": 0.0,
+          "judge0_gold_non0": 2,
+          "judge_non0_gold0": 0,
+          "confusion_judge_rows": [
+            [
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              4
+            ],
+            [
+              0,
+              0,
+              57
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "generated_at": "2026-10-13 15:43",
+  "n_mismatch": {},
+  "totals": {
+    "v5cap": 0.0888,
+    "v6cap": 0.148,
+    "v7cap": 0.3396
+  },
+  "candidates": [
+    "v6cap",
+    "v7cap"
+  ],
+  "chosen": "v7cap",
+  "human": {
+    "d1": 0.8993,
+    "d2": 0.7741,
+    "d3": 0.5847,
+    "d4": 0.8267,
+    "d5": 0.8949
+  },
+  "thresholds": {
+    "d1": 0.7194,
+    "d2": 0.6193,
+    "d3": 0.4678,
+    "d4": 0.6614,
+    "d5": 0.7159
+  },
+  "pass": {
+    "v5cap": {
+      "d1": false,
+      "d2": false,
+      "d3": false,
+      "d4": false,
+      "d5": false
+    },
+    "v6cap": {
+      "d1": false,
+      "d2": false,
+      "d3": false,
+      "d4": false,
+      "d5": false
+    },
+    "v7cap": {
+      "d1": false,
+      "d2": false,
+      "d3": false,
+      "d4": false,
+      "d5": false
+    }
+  }
+}

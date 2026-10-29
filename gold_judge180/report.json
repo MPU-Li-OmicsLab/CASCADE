@@ -1,0 +1,980 @@
+{
+  "generated_at": "2026-10-12 12:33",
+  "inputs": {
+    "判官金标-180段_key.jsonl": "0d5a8046502a",
+    "判官金标-180段.md": "2e0eb056797e",
+    "判官金标-180段_分配.csv": "af28a73094f7",
+    "export/judge180_adjudication.csv": "0244e871d174",
+    "export/judge180_ann1.csv": "a017ba12337b",
+    "export/judge180_ann2.csv": "14bee6592a98",
+    "export/judge180_ann3.csv": "79bc19716bf5",
+    "export/judge180_consensus.csv": "f1c917d1f6e7"
+  },
+  "checks": {
+    "order": "通过（180 段）",
+    "text": "通过（180 段逐字一致）",
+    "exports": "通过"
+  },
+  "loop": {
+    "dev": [
+      2,
+      58,
+      129,
+      138,
+      159
+    ],
+    "test": [
+      64,
+      85,
+      143,
+      147
+    ]
+  },
+  "test_opened_before": null,
+  "coverage": {
+    "dev": {
+      "d1": {
+        "blank": 0,
+        "dist": {
+          "0": 10,
+          "1": 3,
+          "2": 100
+        }
+      },
+      "d2": {
+        "blank": 0,
+        "dist": {
+          "0": 37,
+          "1": 23,
+          "2": 53
+        }
+      },
+      "d3": {
+        "blank": 0,
+        "dist": {
+          "0": 14,
+          "1": 65,
+          "2": 34
+        }
+      },
+      "d4": {
+        "blank": 0,
+        "dist": {
+          "0": 12,
+          "1": 48,
+          "2": 53
+        }
+      },
+      "d5": {
+        "blank": 0,
+        "dist": {
+          "0": 2,
+          "1": 16,
+          "2": 95
+        }
+      },
+      "d6": {
+        "blank": 0,
+        "dist": {
+          "0": 1,
+          "1": 0,
+          "2": 112
+        }
+      }
+    },
+    "test": {
+      "d1": {
+        "blank": 0,
+        "dist": {
+          "0": 1,
+          "1": 1,
+          "2": 65
+        }
+      },
+      "d2": {
+        "blank": 0,
+        "dist": {
+          "0": 25,
+          "1": 16,
+          "2": 26
+        }
+      },
+      "d3": {
+        "blank": 0,
+        "dist": {
+          "0": 7,
+          "1": 38,
+          "2": 22
+        }
+      },
+      "d4": {
+        "blank": 0,
+        "dist": {
+          "0": 2,
+          "1": 29,
+          "2": 36
+        }
+      },
+      "d5": {
+        "blank": 0,
+        "dist": {
+          "0": 0,
+          "1": 7,
+          "2": 60
+        }
+      },
+      "d6": {
+        "blank": 0,
+        "dist": {
+          "0": 0,
+          "1": 0,
+          "2": 67
+        }
+      }
+    },
+    "all": {
+      "d1": {
+        "blank": 0,
+        "dist": {
+          "0": 11,
+          "1": 4,
+          "2": 165
+        }
+      },
+      "d2": {
+        "blank": 0,
+        "dist": {
+          "0": 62,
+          "1": 39,
+          "2": 79
+        }
+      },
+      "d3": {
+        "blank": 0,
+        "dist": {
+          "0": 21,
+          "1": 103,
+          "2": 56
+        }
+      },
+      "d4": {
+        "blank": 0,
+        "dist": {
+          "0": 14,
+          "1": 77,
+          "2": 89
+        }
+      },
+      "d5": {
+        "blank": 0,
+        "dist": {
+          "0": 2,
+          "1": 23,
+          "2": 155
+        }
+      },
+      "d6": {
+        "blank": 0,
+        "dist": {
+          "0": 1,
+          "1": 0,
+          "2": 179
+        }
+      }
+    }
+  },
+  "iaa": {
+    "dev": {
+      "segments": 113,
+      "dims": {
+        "d1": {
+          "n": 113,
+          "exact": 0.9735,
+          "kappa": 0.8718,
+          "wkappa": 0.9267,
+          "zero_agree": 0.9823,
+          "zero_kappa": 0.8993,
+          "diff1": 2,
+          "diff2": 1,
+          "cross0": 2
+        },
+        "d2": {
+          "n": 113,
+          "exact": 0.8407,
+          "kappa": 0.7421,
+          "wkappa": 0.8299,
+          "zero_agree": 0.9027,
+          "zero_kappa": 0.7741,
+          "diff1": 14,
+          "diff2": 4,
+          "cross0": 11
+        },
+        "d3": {
+          "n": 113,
+          "exact": 0.7434,
+          "kappa": 0.5876,
+          "wkappa": 0.653,
+          "zero_agree": 0.885,
+          "zero_kappa": 0.5847,
+          "diff1": 26,
+          "diff2": 3,
+          "cross0": 13
+        },
+        "d4": {
+          "n": 113,
+          "exact": 0.7257,
+          "kappa": 0.5352,
+          "wkappa": 0.6779,
+          "zero_agree": 0.9646,
+          "zero_kappa": 0.8267,
+          "diff1": 30,
+          "diff2": 1,
+          "cross0": 4
+        },
+        "d5": {
+          "n": 113,
+          "exact": 0.9558,
+          "kappa": 0.8319,
+          "wkappa": 0.8949,
+          "zero_agree": 0.9735,
+          "zero_kappa": 0.558,
+          "diff1": 5,
+          "diff2": 0,
+          "cross0": 3
+        },
+        "d6": {
+          "n": 113,
+          "exact": 0.9912,
+          "kappa": 0.6627,
+          "wkappa": 0.6627,
+          "zero_agree": 0.9912,
+          "zero_kappa": 0.6627,
+          "diff1": 0,
+          "diff2": 1,
+          "cross0": 1
+        }
+      },
+      "pooled": {
+        "n": 678,
+        "exact": 0.8717,
+        "kappa": 0.7352,
+        "wkappa": 0.8245,
+        "zero_agree": 0.9499,
+        "zero_kappa": 0.7668,
+        "diff1": 77,
+        "diff2": 10,
+        "cross0": 34
+      },
+      "all_six_agree": 54,
+      "all_six_scored": 113
+    },
+    "test": {
+      "segments": 67,
+      "dims": {
+        "d1": {
+          "n": 67,
+          "exact": 1.0,
+          "kappa": 1.0,
+          "wkappa": 1.0,
+          "zero_agree": 1.0,
+          "zero_kappa": 1.0,
+          "diff1": 0,
+          "diff2": 0,
+          "cross0": 0
+        },
+        "d2": {
+          "n": 67,
+          "exact": 0.8358,
+          "kappa": 0.7433,
+          "wkappa": 0.87,
+          "zero_agree": 0.9254,
+          "zero_kappa": 0.8421,
+          "diff1": 10,
+          "diff2": 1,
+          "cross0": 5
+        },
+        "d3": {
+          "n": 67,
+          "exact": 0.7015,
+          "kappa": 0.5141,
+          "wkappa": 0.6483,
+          "zero_agree": 0.9254,
+          "zero_kappa": 0.6946,
+          "diff1": 19,
+          "diff2": 1,
+          "cross0": 5
+        },
+        "d4": {
+          "n": 67,
+          "exact": 0.7015,
+          "kappa": 0.4118,
+          "wkappa": 0.5141,
+          "zero_agree": 1.0,
+          "zero_kappa": 1.0,
+          "diff1": 20,
+          "diff2": 0,
+          "cross0": 0
+        },
+        "d5": {
+          "n": 67,
+          "exact": 0.9851,
+          "kappa": 0.9149,
+          "wkappa": 0.9149,
+          "zero_agree": 1.0,
+          "zero_kappa": 1.0,
+          "diff1": 1,
+          "diff2": 0,
+          "cross0": 0
+        },
+        "d6": {
+          "n": 67,
+          "exact": 1.0,
+          "kappa": 1.0,
+          "wkappa": 1.0,
+          "zero_agree": 1.0,
+          "zero_kappa": 1.0,
+          "diff1": 0,
+          "diff2": 0,
+          "cross0": 0
+        }
+      },
+      "pooled": {
+        "n": 402,
+        "exact": 0.8706,
+        "kappa": 0.706,
+        "wkappa": 0.8298,
+        "zero_agree": 0.9751,
+        "zero_kappa": 0.8547,
+        "diff1": 50,
+        "diff2": 2,
+        "cross0": 10
+      },
+      "all_six_agree": 31,
+      "all_six_scored": 67
+    },
+    "all": {
+      "segments": 180,
+      "dims": {
+        "d1": {
+          "n": 180,
+          "exact": 0.9833,
+          "kappa": 0.8925,
+          "wkappa": 0.9361,
+          "zero_agree": 0.9889,
+          "zero_kappa": 0.9107,
+          "diff1": 2,
+          "diff2": 1,
+          "cross0": 2
+        },
+        "d2": {
+          "n": 180,
+          "exact": 0.8389,
+          "kappa": 0.7434,
+          "wkappa": 0.846,
+          "zero_agree": 0.9111,
+          "zero_kappa": 0.8017,
+          "diff1": 24,
+          "diff2": 5,
+          "cross0": 16
+        },
+        "d3": {
+          "n": 180,
+          "exact": 0.7278,
+          "kappa": 0.5594,
+          "wkappa": 0.6519,
+          "zero_agree": 0.9,
+          "zero_kappa": 0.6226,
+          "diff1": 45,
+          "diff2": 4,
+          "cross0": 18
+        },
+        "d4": {
+          "n": 180,
+          "exact": 0.7167,
+          "kappa": 0.4966,
+          "wkappa": 0.6391,
+          "zero_agree": 0.9778,
+          "zero_kappa": 0.8548,
+          "diff1": 50,
+          "diff2": 1,
+          "cross0": 4
+        },
+        "d5": {
+          "n": 180,
+          "exact": 0.9667,
+          "kappa": 0.856,
+          "wkappa": 0.8999,
+          "zero_agree": 0.9833,
+          "zero_kappa": 0.5631,
+          "diff1": 6,
+          "diff2": 0,
+          "cross0": 3
+        },
+        "d6": {
+          "n": 180,
+          "exact": 0.9944,
+          "kappa": 0.6642,
+          "wkappa": 0.6642,
+          "zero_agree": 0.9944,
+          "zero_kappa": 0.6642,
+          "diff1": 0,
+          "diff2": 1,
+          "cross0": 1
+        }
+      },
+      "pooled": {
+        "n": 1080,
+        "exact": 0.8713,
+        "kappa": 0.7252,
+        "wkappa": 0.8267,
+        "zero_agree": 0.9593,
+        "zero_kappa": 0.7953,
+        "diff1": 127,
+        "diff2": 12,
+        "cross0": 44
+      },
+      "all_six_agree": 85,
+      "all_six_scored": 180
+    }
+  },
+  "by_pair": {
+    "乙丙": {
+      "n": 360,
+      "exact": 0.85,
+      "kappa": 0.6882,
+      "wkappa": 0.8034,
+      "zero_agree": 0.9667,
+      "zero_kappa": 0.8148,
+      "diff1": 51,
+      "diff2": 3,
+      "cross0": 12,
+      "segments": 60
+    },
+    "甲丙": {
+      "n": 360,
+      "exact": 0.8611,
+      "kappa": 0.6831,
+      "wkappa": 0.8014,
+      "zero_agree": 0.9417,
+      "zero_kappa": 0.7542,
+      "diff1": 42,
+      "diff2": 8,
+      "cross0": 21,
+      "segments": 60
+    },
+    "甲乙": {
+      "n": 360,
+      "exact": 0.9028,
+      "kappa": 0.7991,
+      "wkappa": 0.8804,
+      "zero_agree": 0.9694,
+      "zero_kappa": 0.8284,
+      "diff1": 34,
+      "diff2": 1,
+      "cross0": 11,
+      "segments": 60
+    }
+  },
+  "unsure": {
+    "annotators": {
+      "ann1": {
+        "d1": 0,
+        "d2": 0,
+        "d3": 0,
+        "d4": 0,
+        "d5": 0,
+        "d6": 0
+      },
+      "ann2": {
+        "d1": 0,
+        "d2": 0,
+        "d3": 0,
+        "d4": 0,
+        "d5": 0,
+        "d6": 0
+      },
+      "ann3": {
+        "d1": 0,
+        "d2": 0,
+        "d3": 0,
+        "d4": 0,
+        "d5": 0,
+        "d6": 0
+      }
+    },
+    "adjudicator_blank": {
+      "d1": 0,
+      "d2": 0,
+      "d3": 0,
+      "d4": 0,
+      "d5": 0,
+      "d6": 0
+    }
+  },
+  "adjudication": {
+    "cells": 139,
+    "segments": 95,
+    "per_dim": {
+      "d1": 3,
+      "d2": 29,
+      "d3": 49,
+      "d4": 51,
+      "d5": 6,
+      "d6": 1
+    },
+    "outcomes": {
+      "站 B": 57,
+      "站 A": 54,
+      "取中间": 28
+    }
+  },
+  "judge": {
+    "dev": {
+      "v6（key）": {
+        "all": {
+          "d1": {
+            "n": 113,
+            "exact": 0.7876,
+            "wkappa": 0.3199,
+            "judge0_gold_non0": 14,
+            "judge_non0_gold0": 4,
+            "confusion_gold_by_judge": [
+              [
+                6,
+                1,
+                3
+              ],
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                14,
+                4,
+                82
+              ]
+            ]
+          },
+          "d2": {
+            "n": 113,
+            "exact": 0.5575,
+            "wkappa": 0.4794,
+            "judge0_gold_non0": 27,
+            "judge_non0_gold0": 7,
+            "confusion_gold_by_judge": [
+              [
+                30,
+                7,
+                0
+              ],
+              [
+                11,
+                5,
+                7
+              ],
+              [
+                16,
+                9,
+                28
+              ]
+            ]
+          },
+          "d3": {
+            "n": 113,
+            "exact": 0.5487,
+            "wkappa": 0.4718,
+            "judge0_gold_non0": 34,
+            "judge_non0_gold0": 5,
+            "confusion_gold_by_judge": [
+              [
+                9,
+                5,
+                0
+              ],
+              [
+                29,
+                30,
+                6
+              ],
+              [
+                5,
+                6,
+                23
+              ]
+            ]
+          },
+          "d4": {
+            "n": 113,
+            "exact": 0.5221,
+            "wkappa": 0.3568,
+            "judge0_gold_non0": 19,
+            "judge_non0_gold0": 3,
+            "confusion_gold_by_judge": [
+              [
+                9,
+                2,
+                1
+              ],
+              [
+                11,
+                21,
+                16
+              ],
+              [
+                8,
+                16,
+                29
+              ]
+            ]
+          },
+          "d5": {
+            "n": 113,
+            "exact": 0.469,
+            "wkappa": 0.1385,
+            "judge0_gold_non0": 17,
+            "judge_non0_gold0": 1,
+            "confusion_gold_by_judge": [
+              [
+                1,
+                0,
+                1
+              ],
+              [
+                5,
+                9,
+                2
+              ],
+              [
+                12,
+                40,
+                43
+              ]
+            ]
+          },
+          "d6": {
+            "n": 113,
+            "exact": 0.9027,
+            "wkappa": 0.2017,
+            "judge0_gold_non0": 6,
+            "judge_non0_gold0": 0,
+            "confusion_gold_by_judge": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                6,
+                5,
+                101
+              ]
+            ]
+          }
+        },
+        "disagree": {
+          "d1": {
+            "n": 58,
+            "exact": 0.6552,
+            "wkappa": 0.0878,
+            "judge0_gold_non0": 11,
+            "judge_non0_gold0": 4,
+            "confusion_gold_by_judge": [
+              [
+                2,
+                1,
+                3
+              ],
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                11,
+                3,
+                35
+              ]
+            ]
+          },
+          "d2": {
+            "n": 58,
+            "exact": 0.431,
+            "wkappa": 0.0578,
+            "judge0_gold_non0": 22,
+            "judge_non0_gold0": 5,
+            "confusion_gold_by_judge": [
+              [
+                21,
+                5,
+                0
+              ],
+              [
+                9,
+                4,
+                1
+              ],
+              [
+                13,
+                5,
+                0
+              ]
+            ]
+          },
+          "d3": {
+            "n": 58,
+            "exact": 0.3966,
+            "wkappa": 0.0408,
+            "judge0_gold_non0": 28,
+            "judge_non0_gold0": 4,
+            "confusion_gold_by_judge": [
+              [
+                4,
+                4,
+                0
+              ],
+              [
+                24,
+                18,
+                0
+              ],
+              [
+                4,
+                3,
+                1
+              ]
+            ]
+          },
+          "d4": {
+            "n": 58,
+            "exact": 0.4828,
+            "wkappa": 0.2739,
+            "judge0_gold_non0": 13,
+            "judge_non0_gold0": 3,
+            "confusion_gold_by_judge": [
+              [
+                5,
+                2,
+                1
+              ],
+              [
+                8,
+                15,
+                2
+              ],
+              [
+                5,
+                12,
+                8
+              ]
+            ]
+          },
+          "d5": {
+            "n": 58,
+            "exact": 0.2069,
+            "wkappa": 0.0743,
+            "judge0_gold_non0": 9,
+            "judge_non0_gold0": 1,
+            "confusion_gold_by_judge": [
+              [
+                1,
+                0,
+                1
+              ],
+              [
+                5,
+                8,
+                1
+              ],
+              [
+                4,
+                35,
+                3
+              ]
+            ]
+          },
+          "d6": {
+            "n": 58,
+            "exact": 0.931,
+            "wkappa": 0.5178,
+            "judge0_gold_non0": 1,
+            "judge_non0_gold0": 0,
+            "confusion_gold_by_judge": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                3,
+                53
+              ]
+            ]
+          }
+        },
+        "no_loop": {
+          "d1": {
+            "n": 108,
+            "exact": 0.7778,
+            "wkappa": 0.3145,
+            "judge0_gold_non0": 14,
+            "judge_non0_gold0": 4,
+            "confusion_gold_by_judge": [
+              [
+                6,
+                1,
+                3
+              ],
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                14,
+                4,
+                77
+              ]
+            ]
+          },
+          "d2": {
+            "n": 108,
+            "exact": 0.5556,
+            "wkappa": 0.4852,
+            "judge0_gold_non0": 25,
+            "judge_non0_gold0": 7,
+            "confusion_gold_by_judge": [
+              [
+                28,
+                7,
+                0
+              ],
+              [
+                10,
+                4,
+                7
+              ],
+              [
+                15,
+                9,
+                28
+              ]
+            ]
+          },
+          "d3": {
+            "n": 108,
+            "exact": 0.5741,
+            "wkappa": 0.4845,
+            "judge0_gold_non0": 29,
+            "judge_non0_gold0": 5,
+            "confusion_gold_by_judge": [
+              [
+                9,
+                5,
+                0
+              ],
+              [
+                24,
+                30,
+                6
+              ],
+              [
+                5,
+                6,
+                23
+              ]
+            ]
+          },
+          "d4": {
+            "n": 108,
+            "exact": 0.5093,
+            "wkappa": 0.3583,
+            "judge0_gold_non0": 19,
+            "judge_non0_gold0": 3,
+            "confusion_gold_by_judge": [
+              [
+                9,
+                2,
+                1
+              ],
+              [
+                11,
+                17,
+                16
+              ],
+              [
+                8,
+                15,
+                29
+              ]
+            ]
+          },
+          "d5": {
+            "n": 108,
+            "exact": 0.463,
+            "wkappa": 0.0963,
+            "judge0_gold_non0": 15,
+            "judge_non0_gold0": 1,
+            "confusion_gold_by_judge": [
+              [
+                1,
+                0,
+                1
+              ],
+              [
+                3,
+                6,
+                2
+              ],
+              [
+                12,
+                40,
+                43
+              ]
+            ]
+          },
+          "d6": {
+            "n": 108,
+            "exact": 0.9259,
+            "wkappa": 0.2217,
+            "judge0_gold_non0": 6,
+            "judge_non0_gold0": 0,
+            "confusion_gold_by_judge": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                6,
+                2,
+                99
+              ]
+            ]
+          }
+        },
+        "segments": 113,
+        "disagree_segments": 58,
+        "loop_segments": 5
+      }
+    },
+    "test": null
+  },
+  "final": false
+}

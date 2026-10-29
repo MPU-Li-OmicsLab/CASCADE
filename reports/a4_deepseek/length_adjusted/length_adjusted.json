@@ -1,0 +1,798 @@
+{
+  "meta": {
+    "generated_at": "2026-10-17 15:58",
+    "n_gold": 180,
+    "n_boot": 1000,
+    "corpus": "runs/v2/a4_dsnt_pairs.jsonl",
+    "extract": "deepseek/deepseek-v4-pro/32faad73"
+  },
+  "coefs": {
+    "d1": [
+      -5.277,
+      4.999,
+      0.216,
+      -1.97
+    ],
+    "d2": [
+      1.76,
+      3.668,
+      -0.345,
+      -0.244
+    ],
+    "d3": [
+      -1.839,
+      1.455,
+      -0.135,
+      -0.283
+    ],
+    "d4": [
+      -2.136,
+      2.581,
+      0.055,
+      -0.716
+    ],
+    "d5": [
+      -1.098,
+      4.386,
+      -0.15,
+      -0.949
+    ]
+  },
+  "grid": {
+    "d1": {
+      "31字": [
+        0.6903558050465204,
+        0.9851815142522893
+      ],
+      "127字": [
+        0.7745098383643355,
+        0.9773521006842123
+      ],
+      "511字": [
+        0.8410584219062703,
+        0.9655307152879521
+      ],
+      "2047字": [
+        0.8907373526245383,
+        0.9478681189328165
+      ]
+    },
+    "d2": {
+      "31字": [
+        0.9759727816064853,
+        0.4908336133006187
+      ],
+      "127字": [
+        0.9532439876243077,
+        0.6576073220264891
+      ],
+      "511字": [
+        0.9109758465046127,
+        0.7928135714593136
+      ],
+      "2047字": [
+        0.8370293877982967,
+        0.8840432249998206
+      ]
+    },
+    "d3": {
+      "31字": [
+        0.25769861384372156,
+        0.9250335126241979
+      ],
+      "127字": [
+        0.209581737675026,
+        0.9417103182549423
+      ],
+      "511字": [
+        0.16841081046657144,
+        0.9548582967839438
+      ],
+      "2047字": [
+        0.1339569556032102,
+        0.9651503324321388
+      ]
+    },
+    "d4": {
+      "31字": [
+        0.6724923107782905,
+        0.8655011187888064
+      ],
+      "127字": [
+        0.6961623842339753,
+        0.8522228158692483
+      ],
+      "511字": [
+        0.7188369772285637,
+        0.8378791709889599
+      ],
+      "2047字": [
+        0.7404503066376242,
+        0.8224333753216948
+      ]
+    },
+    "d5": {
+      "31字": [
+        0.9266252501096623,
+        0.86409330774479
+      ],
+      "127字": [
+        0.9033618729088229,
+        0.8957184501900453
+      ],
+      "511字": [
+        0.873727952757301,
+        0.9206602032607705
+      ],
+      "2047字": [
+        0.8366500276212114,
+        0.9400358235827876
+      ]
+    }
+  },
+  "edges": [
+    6.19,
+    7.077,
+    8.179,
+    8.943
+  ],
+  "point": {
+    "cpsycoun|internlm2-base|fixed|d1": [
+      -0.012149758454106279,
+      0.0
+    ],
+    "cpsycoun|internlm2-base|fixed|d2": [
+      0.03862620772946859,
+      0.03174062985728901
+    ],
+    "cpsycoun|internlm2-base|fixed|d3": [
+      -0.025990338164251205,
+      null
+    ],
+    "cpsycoun|internlm2-base|fixed|d4": [
+      -0.058988526570048314,
+      0.0
+    ],
+    "cpsycoun|internlm2-base|fixed|d5": [
+      0.25,
+      null
+    ],
+    "cpsycoun|internlm2-base|responsive|d1": [
+      -0.005263084418757242,
+      0.0
+    ],
+    "cpsycoun|internlm2-base|responsive|d2": [
+      0.0930951682930575,
+      0.047860402004142946
+    ],
+    "cpsycoun|internlm2-base|responsive|d3": [
+      0.005353827253563401,
+      null
+    ],
+    "cpsycoun|internlm2-base|responsive|d4": [
+      -0.0025268389384484405,
+      0.002703038875977449
+    ],
+    "cpsycoun|internlm2-base|responsive|d5": [
+      0.24010554089709762,
+      null
+    ],
+    "mindchat|qwen15-4b-base|fixed|d1": [
+      -0.05741847826086957,
+      -0.061632936492959194
+    ],
+    "mindchat|qwen15-4b-base|fixed|d2": [
+      -0.12381340579710146,
+      -0.11263034770815271
+    ],
+    "mindchat|qwen15-4b-base|fixed|d3": [
+      -0.09395833333333332,
+      null
+    ],
+    "mindchat|qwen15-4b-base|fixed|d4": [
+      -0.14790458937198067,
+      -0.07620127819818481
+    ],
+    "mindchat|qwen15-4b-base|fixed|d5": [
+      -0.06478864734299516,
+      null
+    ],
+    "mindchat|qwen15-4b-base|responsive|d1": [
+      -0.09259259259259259,
+      -0.0933324103633232
+    ],
+    "mindchat|qwen15-4b-base|responsive|d2": [
+      -0.018518518518518517,
+      -0.03408611361331235
+    ],
+    "mindchat|qwen15-4b-base|responsive|d3": [
+      -0.0873015873015873,
+      null
+    ],
+    "mindchat|qwen15-4b-base|responsive|d4": [
+      -0.12962962962962962,
+      -0.05555284368810472
+    ],
+    "mindchat|qwen15-4b-base|responsive|d5": [
+      -0.126984126984127,
+      null
+    ],
+    "soulchat|qwen3-8b-base|fixed|d1": [
+      -0.0954861111111111,
+      -0.08513826340127999
+    ],
+    "soulchat|qwen3-8b-base|fixed|d2": [
+      -0.109375,
+      null
+    ],
+    "soulchat|qwen3-8b-base|fixed|d3": [
+      -0.08333333333333333,
+      null
+    ],
+    "soulchat|qwen3-8b-base|fixed|d4": [
+      -0.1371527777777778,
+      -0.10301651768837095
+    ],
+    "soulchat|qwen3-8b-base|fixed|d5": [
+      0.01736111111111112,
+      null
+    ],
+    "soulchat|qwen3-8b-base|responsive|d1": [
+      -0.0860641747738522,
+      -0.07739430455316475
+    ],
+    "soulchat|qwen3-8b-base|responsive|d2": [
+      -0.04659498207885304,
+      -0.18346844810514318
+    ],
+    "soulchat|qwen3-8b-base|responsive|d3": [
+      -0.08337600273084145,
+      null
+    ],
+    "soulchat|qwen3-8b-base|responsive|d4": [
+      -0.17246970472776924,
+      -0.0907466086293023
+    ],
+    "soulchat|qwen3-8b-base|responsive|d5": [
+      0.02069465779143198,
+      null
+    ]
+  },
+  "ci": {
+    "cpsycoun|internlm2-base|fixed|d1": [
+      [
+        -0.0278,
+        0.0
+      ],
+      [
+        -0.022,
+        0.0
+      ]
+    ],
+    "cpsycoun|internlm2-base|fixed|d2": [
+      [
+        -0.0243,
+        0.1035
+      ],
+      [
+        -0.0284,
+        0.1066
+      ]
+    ],
+    "cpsycoun|internlm2-base|fixed|d3": [
+      [
+        -0.0608,
+        0.0227
+      ],
+      null
+    ],
+    "cpsycoun|internlm2-base|fixed|d4": [
+      [
+        -0.0885,
+        -0.0295
+      ],
+      [
+        -0.0576,
+        0.0
+      ]
+    ],
+    "cpsycoun|internlm2-base|fixed|d5": [
+      [
+        0.1389,
+        0.3472
+      ],
+      null
+    ],
+    "cpsycoun|internlm2-base|responsive|d1": [
+      [
+        -0.018,
+        0.0054
+      ],
+      [
+        -0.0171,
+        0.0039
+      ]
+    ],
+    "cpsycoun|internlm2-base|responsive|d2": [
+      [
+        -0.0213,
+        0.1983
+      ],
+      [
+        -0.0472,
+        0.1654
+      ]
+    ],
+    "cpsycoun|internlm2-base|responsive|d3": [
+      [
+        -0.0206,
+        0.0351
+      ],
+      null
+    ],
+    "cpsycoun|internlm2-base|responsive|d4": [
+      [
+        -0.0463,
+        0.0478
+      ],
+      [
+        -0.029,
+        0.0558
+      ]
+    ],
+    "cpsycoun|internlm2-base|responsive|d5": [
+      [
+        0.1545,
+        0.3144
+      ],
+      null
+    ],
+    "mindchat|qwen15-4b-base|fixed|d1": [
+      [
+        -0.099,
+        -0.0226
+      ],
+      [
+        -0.1417,
+        -0.0144
+      ]
+    ],
+    "mindchat|qwen15-4b-base|fixed|d2": [
+      [
+        -0.1736,
+        -0.0756
+      ],
+      [
+        -0.215,
+        -0.046
+      ]
+    ],
+    "mindchat|qwen15-4b-base|fixed|d3": [
+      [
+        -0.1357,
+        -0.0556
+      ],
+      null
+    ],
+    "mindchat|qwen15-4b-base|fixed|d4": [
+      [
+        -0.2101,
+        -0.0955
+      ],
+      [
+        -0.3125,
+        -0.0009
+      ]
+    ],
+    "mindchat|qwen15-4b-base|fixed|d5": [
+      [
+        -0.1331,
+        0.0
+      ],
+      null
+    ],
+    "mindchat|qwen15-4b-base|responsive|d1": [
+      [
+        -0.1237,
+        -0.0609
+      ],
+      [
+        -0.17,
+        -0.0422
+      ]
+    ],
+    "mindchat|qwen15-4b-base|responsive|d2": [
+      [
+        -0.0768,
+        0.0381
+      ],
+      [
+        -0.1155,
+        0.0033
+      ]
+    ],
+    "mindchat|qwen15-4b-base|responsive|d3": [
+      [
+        -0.1381,
+        -0.034
+      ],
+      null
+    ],
+    "mindchat|qwen15-4b-base|responsive|d4": [
+      [
+        -0.1736,
+        -0.082
+      ],
+      [
+        -0.2846,
+        0.0
+      ]
+    ],
+    "mindchat|qwen15-4b-base|responsive|d5": [
+      [
+        -0.1968,
+        -0.0655
+      ],
+      null
+    ],
+    "soulchat|qwen3-8b-base|fixed|d1": [
+      [
+        -0.1319,
+        -0.066
+      ],
+      [
+        -0.1623,
+        -0.0394
+      ]
+    ],
+    "soulchat|qwen3-8b-base|fixed|d2": [
+      [
+        -0.2031,
+        -0.0278
+      ],
+      null
+    ],
+    "soulchat|qwen3-8b-base|fixed|d3": [
+      [
+        -0.1198,
+        -0.0486
+      ],
+      null
+    ],
+    "soulchat|qwen3-8b-base|fixed|d4": [
+      [
+        -0.1997,
+        -0.0781
+      ],
+      [
+        -0.4268,
+        -0.001
+      ]
+    ],
+    "soulchat|qwen3-8b-base|fixed|d5": [
+      [
+        -0.0278,
+        0.0538
+      ],
+      null
+    ],
+    "soulchat|qwen3-8b-base|responsive|d1": [
+      [
+        -0.1205,
+        -0.0508
+      ],
+      [
+        -0.1541,
+        -0.0353
+      ]
+    ],
+    "soulchat|qwen3-8b-base|responsive|d2": [
+      [
+        -0.1466,
+        0.0514
+      ],
+      [
+        -0.4851,
+        0.0229
+      ]
+    ],
+    "soulchat|qwen3-8b-base|responsive|d3": [
+      [
+        -0.1214,
+        -0.0452
+      ],
+      null
+    ],
+    "soulchat|qwen3-8b-base|responsive|d4": [
+      [
+        -0.2439,
+        -0.1049
+      ],
+      [
+        -0.4066,
+        -0.0053
+      ]
+    ],
+    "soulchat|qwen3-8b-base|responsive|d5": [
+      [
+        -0.0104,
+        0.0499
+      ],
+      null
+    ]
+  },
+  "observed_only": [
+    "d5"
+  ],
+  "youden_threshold": 0.5,
+  "gate": [
+    "cpsycoun|fixed|d1",
+    "cpsycoun|fixed|d2",
+    "cpsycoun|fixed|d4",
+    "cpsycoun|fixed|d5",
+    "cpsycoun|responsive|d1",
+    "cpsycoun|responsive|d2",
+    "cpsycoun|responsive|d4",
+    "cpsycoun|responsive|d5",
+    "internlm2-base|fixed|d1",
+    "internlm2-base|fixed|d2",
+    "internlm2-base|fixed|d4",
+    "internlm2-base|fixed|d5",
+    "internlm2-base|responsive|d1",
+    "internlm2-base|responsive|d2",
+    "internlm2-base|responsive|d4",
+    "internlm2-base|responsive|d5",
+    "mindchat|fixed|d1",
+    "mindchat|fixed|d2",
+    "mindchat|fixed|d4",
+    "mindchat|fixed|d5",
+    "mindchat|responsive|d1",
+    "mindchat|responsive|d2",
+    "mindchat|responsive|d4",
+    "mindchat|responsive|d5",
+    "qwen15-4b-base|fixed|d1",
+    "qwen15-4b-base|fixed|d2",
+    "qwen15-4b-base|fixed|d4",
+    "qwen15-4b-base|fixed|d5",
+    "qwen15-4b-base|responsive|d1",
+    "qwen15-4b-base|responsive|d2",
+    "qwen15-4b-base|responsive|d4",
+    "qwen15-4b-base|responsive|d5",
+    "qwen3-8b-base|fixed|d1",
+    "qwen3-8b-base|fixed|d4",
+    "qwen3-8b-base|fixed|d5",
+    "qwen3-8b-base|responsive|d1",
+    "qwen3-8b-base|responsive|d2",
+    "qwen3-8b-base|responsive|d4",
+    "qwen3-8b-base|responsive|d5",
+    "soulchat|fixed|d1",
+    "soulchat|fixed|d2",
+    "soulchat|fixed|d4",
+    "soulchat|fixed|d5",
+    "soulchat|responsive|d1",
+    "soulchat|responsive|d2",
+    "soulchat|responsive|d4",
+    "soulchat|responsive|d5"
+  ],
+  "reference_d5": {
+    "cpsycoun|internlm2-base|fixed|d5": [
+      0.33927324581413687,
+      [
+        0.1755,
+        0.44
+      ]
+    ],
+    "cpsycoun|internlm2-base|responsive|d5": [
+      0.3140674461113402,
+      [
+        0.1906,
+        0.4072
+      ]
+    ],
+    "mindchat|qwen15-4b-base|fixed|d5": [
+      -0.11265641236207613,
+      [
+        -0.2156,
+        -0.0211
+      ]
+    ],
+    "mindchat|qwen15-4b-base|responsive|d5": [
+      -0.19537028385317837,
+      [
+        -0.2962,
+        -0.1007
+      ]
+    ],
+    "soulchat|qwen3-8b-base|fixed|d5": [
+      -0.006480222874655183,
+      [
+        -0.043,
+        0.0271
+      ]
+    ],
+    "soulchat|qwen3-8b-base|responsive|d5": [
+      0.0026287360028469484,
+      [
+        -0.0121,
+        0.0219
+      ]
+    ]
+  },
+  "sensitivity_interaction": {
+    "coefs": {
+      "d1": [
+        -5.229,
+        5.156,
+        0.208,
+        -1.749,
+        -0.453
+      ],
+      "d2": [
+        1.659,
+        3.494,
+        -0.328,
+        -0.303,
+        1.356
+      ],
+      "d3": [
+        -1.298,
+        2.592,
+        -0.25,
+        0.507,
+        -3.012
+      ],
+      "d4": [
+        -1.948,
+        10.723,
+        0.023,
+        -0.49,
+        -8.853
+      ],
+      "d5": [
+        -0.474,
+        5.063,
+        -0.243,
+        -0.693,
+        -1.387
+      ]
+    },
+    "grid": {
+      "d1": {
+        "31字": [
+          0.7245297024111332,
+          0.9850602047385438
+        ],
+        "127字": [
+          0.7994805675006836,
+          0.9775260080165957
+        ],
+        "511字": [
+          0.8580343710869496,
+          0.9663221870176498
+        ],
+        "2047字": [
+          0.9015944228220317,
+          0.9498197133382289
+        ]
+      },
+      "d2": {
+        "31字": [
+          0.9709951356325957,
+          0.49573916128413276
+        ],
+        "127字": [
+          0.9455280492375793,
+          0.6546984125479923
+        ],
+        "511字": [
+          0.9000029533653658,
+          0.7852549186255859
+        ],
+        "2047字": [
+          0.8235311695824069,
+          0.8758122275862573
+        ]
+      },
+      "d3": {
+        "31字": [
+          0.5113391352714748,
+          0.9273641463422482
+        ],
+        "127字": [
+          0.38837953399543357,
+          0.9546260210374479
+        ],
+        "511字": [
+          0.2781569704456118,
+          0.9719652185485637
+        ],
+        "2047字": [
+          0.18952257786605808,
+          0.9827978199616892
+        ]
+      },
+      "d4": {
+        "31字": [
+          0.9998624032039304,
+          0.8619607491327456
+        ],
+        "127字": [
+          0.9998686358754147,
+          0.8563514082640274
+        ],
+        "511字": [
+          0.9998745862632821,
+          0.8505536472978211
+        ],
+        "2047字": [
+          0.99988026714929,
+          0.8445643579883177
+        ]
+      },
+      "d5": {
+        "31字": [
+          0.9669369898115049,
+          0.8438916134046073
+        ],
+        "127字": [
+          0.9473585510340579,
+          0.8978002047391274
+        ],
+        "511字": [
+          0.9171796425265932,
+          0.9345367628507899
+        ],
+        "2047字": [
+          0.8720363752099296,
+          0.9586758768031427
+        ]
+      }
+    },
+    "point": {
+      "cpsycoun|internlm2-base|fixed|d1": -7.133326155086936e-05,
+      "cpsycoun|internlm2-base|fixed|d2": 0.02697774856882028,
+      "cpsycoun|internlm2-base|fixed|d3": null,
+      "cpsycoun|internlm2-base|fixed|d4": 0.0,
+      "cpsycoun|internlm2-base|fixed|d5": 0.3197121806825873,
+      "cpsycoun|internlm2-base|responsive|d1": 0.0,
+      "cpsycoun|internlm2-base|responsive|d2": 0.043449994658090726,
+      "cpsycoun|internlm2-base|responsive|d3": null,
+      "cpsycoun|internlm2-base|responsive|d4": 0.0022289993995077105,
+      "cpsycoun|internlm2-base|responsive|d5": 0.29883127818408195,
+      "mindchat|qwen15-4b-base|fixed|d1": -0.059929752747245824,
+      "mindchat|qwen15-4b-base|fixed|d2": null,
+      "mindchat|qwen15-4b-base|fixed|d3": null,
+      "mindchat|qwen15-4b-base|fixed|d4": -0.056481379304617677,
+      "mindchat|qwen15-4b-base|fixed|d5": -0.12180341900874686,
+      "mindchat|qwen15-4b-base|responsive|d1": -0.09102892238106466,
+      "mindchat|qwen15-4b-base|responsive|d2": -0.03448307088085414,
+      "mindchat|qwen15-4b-base|responsive|d3": null,
+      "mindchat|qwen15-4b-base|responsive|d4": -0.04405347427986529,
+      "mindchat|qwen15-4b-base|responsive|d5": -0.20418974829372313,
+      "soulchat|qwen3-8b-base|fixed|d1": -0.08395337374427837,
+      "soulchat|qwen3-8b-base|fixed|d2": null,
+      "soulchat|qwen3-8b-base|fixed|d3": null,
+      "soulchat|qwen3-8b-base|fixed|d4": -0.08033624684161148,
+      "soulchat|qwen3-8b-base|fixed|d5": -0.00995553958786718,
+      "soulchat|qwen3-8b-base|responsive|d1": -0.07564848923663928,
+      "soulchat|qwen3-8b-base|responsive|d2": -0.1844242697585633,
+      "soulchat|qwen3-8b-base|responsive|d3": null,
+      "soulchat|qwen3-8b-base|responsive|d4": -0.06544949918768568,
+      "soulchat|qwen3-8b-base|responsive|d5": 0.0026012305583874816
+    }
+  },
+  "lengths": {
+    "cpsycoun|responsive": 9.09,
+    "internlm2-base|responsive": 8.45,
+    "mindchat|responsive": 5.68,
+    "qwen15-4b-base|responsive": 7.71,
+    "soulchat|responsive": 6.61,
+    "qwen3-8b-base|responsive": 8.68,
+    "cpsycoun|fixed": 9.41,
+    "internlm2-base|fixed": 8.44,
+    "mindchat|fixed": 5.84,
+    "qwen15-4b-base|fixed": 7.62,
+    "soulchat|fixed": 6.65,
+    "qwen3-8b-base|fixed": 8.65
+  }
+}

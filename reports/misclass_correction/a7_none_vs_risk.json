@@ -1,0 +1,142 @@
+{
+ "cpsycoun": {
+  "median_len_risk": 480,
+  "median_len_none": 445,
+  "n_personas": 16,
+  "observed": {
+   "a": 0.2,
+   "b": 0.304,
+   "diff": 0.104,
+   "ci": [
+    0.017,
+    0.189
+   ]
+  },
+  "corrected": {
+   "a": 0.502,
+   "b": 0.73,
+   "diff": 0.228,
+   "ci": [
+    -0.046,
+    0.356
+   ],
+   "a_ci": [
+    0.217,
+    0.612
+   ],
+   "b_ci": [
+    0.369,
+    0.748
+   ],
+   "uncorrectable_share": {
+    "a": 0.0,
+    "b": 0.0
+   }
+  }
+ },
+ "deepseek/deepseek-v4-pro": {
+  "median_len_risk": 425,
+  "median_len_none": 175,
+  "n_personas": 16,
+  "observed": {
+   "a": 0.144,
+   "b": 0.41,
+   "diff": 0.266,
+   "ci": [
+    0.182,
+    0.337
+   ]
+  },
+  "corrected": {
+   "a": 0.226,
+   "b": 0.626,
+   "diff": 0.401,
+   "ci": [
+    0.262,
+    0.551
+   ],
+   "a_ci": [
+    0.12,
+    0.384
+   ],
+   "b_ci": [
+    0.452,
+    0.806
+   ],
+   "uncorrectable_share": {
+    "a": 0.0,
+    "b": 0.0
+   }
+  }
+ },
+ "internlm2-base": {
+  "median_len_risk": 429,
+  "median_len_none": 435,
+  "n_personas": 16,
+  "observed": {
+   "a": 0.667,
+   "b": 0.708,
+   "diff": 0.042,
+   "ci": [
+    -0.045,
+    0.123
+   ]
+  },
+  "corrected": {
+   "a": 0.932,
+   "b": 0.866,
+   "diff": -0.066,
+   "ci": [
+    -0.146,
+    0.008
+   ],
+   "a_ci": [
+    0.821,
+    1.0
+   ],
+   "b_ci": [
+    0.745,
+    0.936
+   ],
+   "uncorrectable_share": {
+    "a": 0.0,
+    "b": 0.0
+   }
+  }
+ },
+ "qwen3-8b-base": {
+  "median_len_risk": 428,
+  "median_len_none": 272,
+  "n_personas": 16,
+  "observed": {
+   "a": 0.092,
+   "b": 0.247,
+   "diff": 0.155,
+   "ci": [
+    0.071,
+    0.261
+   ]
+  },
+  "corrected": {
+   "a": 0.151,
+   "b": 0.401,
+   "diff": 0.25,
+   "ci": [
+    0.083,
+    0.457
+   ],
+   "a_ci": [
+    0.055,
+    0.303
+   ],
+   "b_ci": [
+    0.226,
+    0.643
+   ],
+   "uncorrectable_share": {
+    "a": 0.0,
+    "b": 0.0
+   }
+  }
+ }
+}

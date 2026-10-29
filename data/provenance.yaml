@@ -1,0 +1,95 @@
+# data/provenance.yaml — source registry cited by rubric.yaml / taxonomies.yaml / resources.yaml
+# accessed = date the URL was last checked. URLs marked VERIFY need user confirmation.
+version: 1
+sources:
+  - id: cssrs_2011
+    title: "The Columbia-Suicide Severity Rating Scale (C-SSRS): Initial Validity and Internal Consistency Findings"
+    publisher: "American Journal of Psychiatry / Columbia University"
+    year: 2011
+    url: "https://cssrs.columbia.edu/"
+    accessed: "2026-06-10"
+    type: clinical_scale
+  - id: who_means_2014
+    title: "Preventing Suicide: A Global Imperative (means-restriction guidance)"
+    publisher: "World Health Organization"
+    year: 2014
+    url: "https://www.who.int/publications/i/item/9789241564779"
+    accessed: "2026-06-10"
+    type: guideline
+  - id: lifeline_988
+    title: "988 Suicide & Crisis Lifeline — Best Practices / Safe Messaging"
+    publisher: "SAMHSA / Vibrant Emotional Health"
+    year: 2022
+    url: "https://988lifeline.org/"
+    accessed: "2026-06-10"
+    type: hotline_official
+  - id: samaritans_media
+    title: "Samaritans Media Guidelines for Reporting Suicide"
+    publisher: "Samaritans (UK & Ireland)"
+    year: 2020
+    url: "https://www.samaritans.org/about-samaritans/media-guidelines/"
+    accessed: "2026-06-10"
+    type: guideline
+  - id: nhc_12356_2025
+    title: "全国统一心理援助热线 12356 开通公告"
+    publisher: "国家卫生健康委员会"
+    year: 2025
+    url: "http://www.nhc.gov.cn/"   # VERIFY: link the exact announcement page
+    accessed: "2026-06-10"
+    type: hotline_official
+  - id: hope24_hotline
+    title: "希望24热线（全国生命危机干预热线 400-161-9995）"
+    publisher: "希望24热线"
+    year: 2012
+    url: "https://www.hope9595.com/"   # VERIFY: official site
+    accessed: "2026-06-10"
+    type: hotline_official
+  - id: stanley_brown_2012
+    title: "Safety Planning Intervention: A Brief Intervention to Mitigate Suicide Risk"
+    publisher: "Cognitive and Behavioral Practice (Stanley & Brown)"
+    year: 2012
+    url: "https://suicidesafetyplan.com/"
+    accessed: "2026-06-10"
+    type: guideline
+  - id: beck_1979
+    title: "Cognitive Therapy of Depression"
+    publisher: "Guilford Press (Beck, Rush, Shaw & Emery)"
+    year: 1979
+    url: "https://www.guilford.com/books/Cognitive-Therapy-of-Depression/Beck-Rush-Shaw-Emery/9780898620009"
+    accessed: "2026-06-10"
+    type: textbook
+  - id: burns_1980
+    title: "Feeling Good: The New Mood Therapy (cognitive-distortion taxonomy)"
+    publisher: "William Morrow (D. Burns)"
+    year: 1980
+    url: "https://feelinggood.com/"
+    accessed: "2026-06-10"
+    type: textbook
+  - id: miller_rollnick_2013
+    title: "Motivational Interviewing: Helping People Change (3rd ed.)"
+    publisher: "Guilford Press (Miller & Rollnick)"
+    year: 2013
+    url: "https://www.guilford.com/books/Motivational-Interviewing/Miller-Rollnick/9781609182274"
+    accessed: "2026-06-10"
+    type: textbook
+  - id: apa_ethics_2017
+    title: "Ethical Principles of Psychologists and Code of Conduct (boundaries / multiple relationships)"
+    publisher: "American Psychological Association"
+    year: 2017
+    url: "https://www.apa.org/ethics/code"
+    accessed: "2026-06-10"
+    type: guideline
+  - id: perez_2022_redteam
+    title: "Red Teaming Language Models with Language Models"
+    publisher: "EMNLP 2022 (Perez et al.)"
+    year: 2022
+    url: "https://aclanthology.org/2022.emnlp-main.225/"
+    accessed: "2026-06-10"
+    type: red_teaming_lit
+  - id: wei_2023_jailbroken
+    title: "Jailbroken: How Does LLM Safety Training Fail?"
+    publisher: "NeurIPS 2023 (Wei, Haghtalab & Steinhardt)"
+    year: 2023
+    url: "https://arxiv.org/abs/2307.02483"
+    accessed: "2026-06-10"
+    type: red_teaming_lit

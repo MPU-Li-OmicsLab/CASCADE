@@ -1,0 +1,2567 @@
+{
+ "meta": {
+  "generated_at": "2026-10-17 20:00",
+  "n_boot": 2000
+ },
+ "tests": [
+  {
+   "family": "P1 剂量反应（fixed 臂）",
+   "label": "六维判官（Qwen）本地模型 fixed 臂 高 − 低风险段，任一严重失职（长度校正）",
+   "est": 0.2240597280671514,
+   "ci": [
+    0.099,
+    0.3096
+   ],
+   "p_reported": null,
+   "source": "reports/judge_dose_v7/judge_dose.json",
+   "note": "观测 +17.1%",
+   "p_from_ci": 0.0004454536865265979,
+   "p": 0.0004454536865265979,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 0.0004454536865265979,
+   "method": "holm",
+   "q_global": 0.003702833769252345,
+   "p_strict": 0.003563629492212783
+  },
+  {
+   "family": "P2 心理微调配对消融",
+   "label": "C 评估器抛弃率（误判校正）：CPsyCounX − InternLM2",
+   "est": -0.43,
+   "ci": [
+    -0.726,
+    -0.29
+   ],
+   "p_reported": null,
+   "source": "reports/misclass_correction/results.json",
+   "note": "",
+   "p_from_ci": 1.7441705857379475e-09,
+   "p": 1.7441705857379475e-09,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 1.5697535271641527e-08,
+   "method": "holm",
+   "q_global": 5.7993671975786754e-08,
+   "p_strict": 1.9185876443117422e-08
+  },
+  {
+   "family": "P2 心理微调配对消融",
+   "label": "C 评估器抛弃率（误判校正）：MindChat − Qwen1.5",
+   "est": -0.149,
+   "ci": [
+    -0.208,
+    -0.069
+   ],
+   "p_reported": null,
+   "source": "reports/misclass_correction/results.json",
+   "note": "",
+   "p_from_ci": 0.00026173030940390696,
+   "p": 0.00026173030940390696,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 0.0018321121658273487,
+   "method": "holm",
+   "q_global": 0.002368720954185936,
+   "p_strict": 0.0023555727846351626
+  },
+  {
+   "family": "P2 心理微调配对消融",
+   "label": "C 评估器抛弃率（误判校正）：SoulChat − Qwen3-8B",
+   "est": 0.075,
+   "ci": [
+    -0.091,
+    0.235
+   ],
+   "p_reported": null,
+   "source": "reports/misclass_correction/results.json",
+   "note": "",
+   "p_from_ci": 0.3758642867274615,
+   "p": 0.3758642867274615,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.3758642867274615,
+   "method": "holm",
+   "q_global": 0.5616848329747459,
+   "p_strict": 0.3758642867274615
+  },
+  {
+   "family": "P2 心理微调配对消融",
+   "label": "六维 d1 有害内容（长度校正，qwen 判官，fixed）：CPsyCounX − InternLM2",
+   "est": -0.0019383381618279332,
+   "ci": [
+    -0.0272,
+    0.0
+   ],
+   "p_reported": null,
+   "source": "reports/length_adjusted_v7/length_adjusted.json",
+   "note": "观测 -1.7% [-3.5, -0.2]",
+   "p_from_ci": 0.04999579029644097,
+   "p": 0.04999579029644097,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.14998737088932224,
+   "method": "holm",
+   "q_global": 0.10900721490863358,
+   "p_strict": 0.14998737088932224
+  },
+  {
+   "family": "P2 心理微调配对消融",
+   "label": "六维 d4 扭曲附和（长度校正，qwen 判官，fixed）：CPsyCounX − InternLM2",
+   "est": -0.001202318837336624,
+   "ci": [
+    -0.0502,
+    0.0
+   ],
+   "p_reported": null,
+   "source": "reports/length_adjusted_v7/length_adjusted.json",
+   "note": "观测 -5.9% [-8.3, -3.8]",
+   "p_from_ci": 0.049995790296440745,
+   "p": 0.049995790296440745,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.14998737088932224,
+   "method": "holm",
+   "q_global": 0.10900721490863358,
+   "p_strict": 0.14998737088932224
+  },
+  {
+   "family": "P2 心理微调配对消融",
+   "label": "六维 d1 有害内容（长度校正，qwen 判官，fixed）：MindChat − Qwen1.5",
+   "est": -0.08058759544607866,
+   "ci": [
+    -0.1831,
+    -0.0201
+   ],
+   "p_reported": null,
+   "source": "reports/length_adjusted_v7/length_adjusted.json",
+   "note": "观测 -6.9% [-12.8, -2.3]",
+   "p_from_ci": 0.009019685841181957,
+   "p": 0.009019685841181957,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 0.03607874336472783,
+   "method": "holm",
+   "q_global": 0.03242211396965406,
+   "p_strict": 0.03607874336472783
+  },
+  {
+   "family": "P2 心理微调配对消融",
+   "label": "六维 d4 扭曲附和（长度校正，qwen 判官，fixed）：MindChat − Qwen1.5",
+   "est": -0.10561646914931623,
+   "ci": [
+    -0.1937,
+    -0.0287
+   ],
+   "p_reported": null,
+   "source": "reports/length_adjusted_v7/length_adjusted.json",
+   "note": "观测 -12.8% [-20.1, -6.6]",
+   "p_from_ci": 0.007116587674512509,
+   "p": 0.007116587674512509,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 0.035582938372562545,
+   "method": "holm",
+   "q_global": 0.027043033163147535,
+   "p_strict": 0.035582938372562545
+  },
+  {
+   "family": "P2 心理微调配对消融",
+   "label": "六维 d1 有害内容（长度校正，qwen 判官，fixed）：SoulChat − Qwen3-8B",
+   "est": -0.14696964196827159,
+   "ci": [
+    -0.269,
+    -0.0851
+   ],
+   "p_reported": null,
+   "source": "reports/length_adjusted_v7/length_adjusted.json",
+   "note": "观测 -12.9% [-17.1, -9.0]",
+   "p_from_ci": 3.2252717425684807e-06,
+   "p": 3.2252717425684807e-06,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 2.5802173940547846e-05,
+   "method": "holm",
+   "q_global": 4.7662349084623104e-05,
+   "p_strict": 3.225271742568481e-05
+  },
+  {
+   "family": "P2 心理微调配对消融",
+   "label": "六维 d4 扭曲附和（长度校正，qwen 判官，fixed）：SoulChat − Qwen3-8B",
+   "est": -0.0830277038764867,
+   "ci": [
+    -0.1604,
+    -0.0255
+   ],
+   "p_reported": null,
+   "source": "reports/length_adjusted_v7/length_adjusted.json",
+   "note": "观测 -13.4% [-18.6, -8.8]",
+   "p_from_ci": 0.004672306284180916,
+   "p": 0.004672306284180916,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 0.028033837705085496,
+   "method": "holm",
+   "q_global": 0.02055674105111588,
+   "p_strict": 0.028033837705085496
+  },
+  {
+   "family": "P3 旗舰（3 个）vs 本地",
+   "label": "医师金标：旗舰（3 个）− 本地（6 个），任一严重失职",
+   "est": -0.2639,
+   "ci": [
+    -0.4297,
+    -0.1146
+   ],
+   "p_reported": null,
+   "source": "reports/gold_prevalence/prevalence.json",
+   "note": "旗舰的失败全部来自 DeepSeek；GPT、Claude 金标 0 失败",
+   "p_from_ci": 0.0005312955322804847,
+   "p": 0.0005312955322804847,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 0.0005312955322804847,
+   "method": "holm",
+   "q_global": 0.004156606223135556,
+   "p_strict": 0.0037190687259633926
+  },
+  {
+   "family": "S1 医师金标：分维与子组",
+   "label": "医师金标：高 − 低风险段，任一严重失职（两臂合并）",
+   "est": 0.266,
+   "ci": [
+    0.0145,
+    0.493
+   ],
+   "p_reported": null,
+   "source": "reports/gold_prevalence/prevalence.json",
+   "note": "混了臂的构成，不作剂量反应证据",
+   "p_from_ci": 0.038172094545904756,
+   "p": 0.038172094545904756,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 0.11425797833700527,
+   "method": "bh",
+   "q_global": 0.10576851197094443
+  },
+  {
+   "family": "S1 医师金标：分维与子组",
+   "label": "医师金标：fixed 臂内 高 − 低风险段，任一严重失职",
+   "est": 0.1176,
+   "ci": [
+    -0.265,
+    0.5055
+   ],
+   "p_reported": null,
+   "source": "reports/gold_prevalence/prevalence.json",
+   "note": "fixed 臂低段仅 13 轮",
+   "p_from_ci": 0.5468770189850098,
+   "p": 0.5468770189850098,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.6674594808012803,
+   "method": "bh",
+   "q_global": 0.7273918274898212
+  },
+  {
+   "family": "S1 医师金标：分维与子组",
+   "label": "医师金标：responsive 臂内 高 − 低风险段，任一严重失职",
+   "est": 0.3148,
+   "ci": [
+    -0.0172,
+    0.7135
+   ],
+   "p_reported": null,
+   "source": "reports/gold_prevalence/prevalence.json",
+   "note": "responsive 臂档位是后果（对撞因子）",
+   "p_from_ci": 0.06310402633971979,
+   "p": 0.06310402633971979,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.140770520296298,
+   "method": "bh",
+   "q_global": 0.1353683145674634
+  },
+  {
+   "family": "S1 医师金标：分维与子组",
+   "label": "医师金标：API（含陪伴）− 本地，任一严重失职",
+   "est": -0.1758,
+   "ci": [
+    -0.3401,
+    -0.0507
+   ],
+   "p_reported": null,
+   "source": "reports/gold_prevalence/prevalence.json",
+   "note": "按访问方式分，只作描述",
+   "p_from_ci": 0.005881054271098307,
+   "p": 0.005881054271098307,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 0.04263764346546273,
+   "method": "bh",
+   "q_global": 0.023702430850184086
+  },
+  {
+   "family": "S1 医师金标：分维与子组",
+   "label": "医师金标：陪伴 − 旗舰，任一严重失职",
+   "est": 0.4537,
+   "ci": [
+    0.1373,
+    0.8977
+   ],
+   "p_reported": null,
+   "source": "reports/gold_prevalence/prevalence.json",
+   "note": "陪伴模型金标仅 12 段",
+   "p_from_ci": 0.0049459828092910385,
+   "p": 0.0049459828092910385,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 0.04263764346546273,
+   "method": "bh",
+   "q_global": 0.02055674105111588
+  },
+  {
+   "family": "S1 医师金标：分维与子组",
+   "label": "医师金标：陪伴 − 本地，任一严重失职",
+   "est": 0.1898,
+   "ci": [
+    -0.1494,
+    0.6217
+   ],
+   "p_reported": null,
+   "source": "reports/gold_prevalence/prevalence.json",
+   "note": "陪伴模型金标仅 12 段",
+   "p_from_ci": 0.27276306827810415,
+   "p": 0.27276306827810415,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.41632257789815896,
+   "method": "bh",
+   "q_global": 0.4424083912315592
+  },
+  {
+   "family": "S1 医师金标：分维与子组",
+   "label": "医师金标：心理微调组 − 对照基座组，任一严重失职",
+   "est": 0.0341,
+   "ci": [
+    -0.2353,
+    0.2953
+   ],
+   "p_reported": null,
+   "source": "reports/gold_prevalence/prevalence.json",
+   "note": "组间合并，配对差见 P2",
+   "p_from_ci": 0.8040631815874208,
+   "p": 0.8040631815874208,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.8636234172605631,
+   "method": "bh",
+   "q_global": 0.923032912753818
+  },
+  {
+   "family": "S1 医师金标：分维与子组",
+   "label": "高 − 低风险段，d1 有害内容",
+   "est": 0.0543,
+   "ci": [
+    0.0053,
+    0.1575
+   ],
+   "p_reported": null,
+   "source": "reports/gold_prevalence/prevalence.json",
+   "note": "",
+   "p_from_ci": 0.029855662916893788,
+   "p": 0.029855662916893788,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 0.11425797833700527,
+   "method": "bh",
+   "q_global": 0.08824007039881941
+  },
+  {
+   "family": "S1 医师金标：分维与子组",
+   "label": "旗舰 − 本地，d1 有害内容",
+   "est": -0.0089,
+   "ci": [
+    -0.0381,
+    0.0433
+   ],
+   "p_reported": null,
+   "source": "reports/gold_prevalence/prevalence.json",
+   "note": "",
+   "p_from_ci": 0.7382465681975565,
+   "p": 0.7382465681975565,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.8234288645280438,
+   "method": "bh",
+   "q_global": 0.8845657078403154
+  },
+  {
+   "family": "S1 医师金标：分维与子组",
+   "label": "高 − 低风险段，d2 未给可用帮助",
+   "est": 0.2637,
+   "ci": [
+    0.0128,
+    0.4772
+   ],
+   "p_reported": null,
+   "source": "reports/gold_prevalence/prevalence.json",
+   "note": "",
+   "p_from_ci": 0.0393993028748294,
+   "p": 0.0393993028748294,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 0.11425797833700527,
+   "method": "bh",
+   "q_global": 0.10694096494596551
+  },
+  {
+   "family": "S1 医师金标：分维与子组",
+   "label": "旗舰 − 本地，d2 未给可用帮助",
+   "est": -0.2251,
+   "ci": [
+    -0.3977,
+    -0.0684
+   ],
+   "p_reported": null,
+   "source": "reports/gold_prevalence/prevalence.json",
+   "note": "",
+   "p_from_ci": 0.0048694481591478045,
+   "p": 0.0048694481591478045,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 0.04263764346546273,
+   "method": "bh",
+   "q_global": 0.02055674105111588
+  },
+  {
+   "family": "S1 医师金标：分维与子组",
+   "label": "高 − 低风险段，d3 未识别风险",
+   "est": 0.0184,
+   "ci": [
+    -0.0792,
+    0.128
+   ],
+   "p_reported": null,
+   "source": "reports/gold_prevalence/prevalence.json",
+   "note": "",
+   "p_from_ci": 0.7117489646961266,
+   "p": 0.7117489646961266,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.8234288645280438,
+   "method": "bh",
+   "q_global": 0.8605692027689531
+  },
+  {
+   "family": "S1 医师金标：分维与子组",
+   "label": "旗舰 − 本地，d3 未识别风险",
+   "est": 0.0776,
+   "ci": [
+    -0.07,
+    0.2337
+   ],
+   "p_reported": null,
+   "source": "reports/gold_prevalence/prevalence.json",
+   "note": "",
+   "p_from_ci": 0.3027937894637214,
+   "p": 0.3027937894637214,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.43905099472239595,
+   "method": "bh",
+   "q_global": 0.46827411626366217
+  },
+  {
+   "family": "S1 医师金标：分维与子组",
+   "label": "高 − 低风险段，d4 扭曲附和",
+   "est": 0.0576,
+   "ci": [
+    0.0094,
+    0.166
+   ],
+   "p_reported": null,
+   "source": "reports/gold_prevalence/prevalence.json",
+   "note": "",
+   "p_from_ci": 0.019168350217245278,
+   "p": 0.019168350217245278,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 0.09264702605001884,
+   "method": "bh",
+   "q_global": 0.059288152997526086
+  },
+  {
+   "family": "S1 医师金标：分维与子组",
+   "label": "旗舰 − 本地，d4 扭曲附和",
+   "est": 0.0538,
+   "ci": [
+    -0.0318,
+    0.2002
+   ],
+   "p_reported": null,
+   "source": "reports/gold_prevalence/prevalence.json",
+   "note": "",
+   "p_from_ci": 0.21799796376373748,
+   "p": 0.21799796376373748,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.35121894161935485,
+   "method": "bh",
+   "q_global": 0.36580963148999934
+  },
+  {
+   "family": "S1 医师金标：分维与子组",
+   "label": "高 − 低风险段，d5 敷衍回应",
+   "est": 0.1342,
+   "ci": [
+    0.0306,
+    0.2623
+   ],
+   "p_reported": null,
+   "source": "reports/gold_prevalence/prevalence.json",
+   "note": "",
+   "p_from_ci": 0.011119559003266,
+   "p": 0.011119559003266,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 0.06449344221894279,
+   "method": "bh",
+   "q_global": 0.036625717371383856
+  },
+  {
+   "family": "S1 医师金标：分维与子组",
+   "label": "旗舰 − 本地，d5 敷衍回应",
+   "est": 0.0142,
+   "ci": [
+    -0.1649,
+    0.1687
+   ],
+   "p_reported": null,
+   "source": "reports/gold_prevalence/prevalence.json",
+   "note": "",
+   "p_from_ci": 0.8765066003751103,
+   "p": 0.8765066003751103,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.9078104075313643,
+   "method": "bh",
+   "q_global": 0.9555358840154892
+  },
+  {
+   "family": "S1 医师金标：分维与子组",
+   "label": "本地内 高 − 低风险段，任一严重失职",
+   "est": 0.257,
+   "ci": [
+    -0.0934,
+    0.5593
+   ],
+   "p_reported": null,
+   "source": "reports/gold_prevalence/prevalence.json",
+   "note": "",
+   "p_from_ci": 0.15055976690349482,
+   "p": 0.15055976690349482,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.2568372494236088,
+   "method": "bh",
+   "q_global": 0.2669926533088641
+  },
+  {
+   "family": "S1 医师金标：分维与子组",
+   "label": "本地内 高 − 低风险段，d1 有害内容",
+   "est": 0.0389,
+   "ci": [
+    -0.0083,
+    0.1053
+   ],
+   "p_reported": null,
+   "source": "reports/gold_prevalence/prevalence.json",
+   "note": "",
+   "p_from_ci": 0.10623730598487313,
+   "p": 0.10623730598487313,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.20539212490408806,
+   "method": "bh",
+   "q_global": 0.20477625646359604
+  },
+  {
+   "family": "S1 医师金标：分维与子组",
+   "label": "本地内 高 − 低风险段，d2 未给可用帮助",
+   "est": 0.2703,
+   "ci": [
+    -0.0759,
+    0.5359
+   ],
+   "p_reported": null,
+   "source": "reports/gold_prevalence/prevalence.json",
+   "note": "",
+   "p_from_ci": 0.12594381755015527,
+   "p": 0.12594381755015527,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.2282731693096564,
+   "method": "bh",
+   "q_global": 0.23592292583338942
+  },
+  {
+   "family": "S1 医师金标：分维与子组",
+   "label": "本地内 高 − 低风险段，d3 未识别风险",
+   "est": 0.0003,
+   "ci": [
+    -0.1447,
+    0.1431
+   ],
+   "p_reported": null,
+   "source": "reports/gold_prevalence/prevalence.json",
+   "note": "",
+   "p_from_ci": 0.9967644494074372,
+   "p": 0.9967644494074372,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.9967644494074372,
+   "method": "bh",
+   "q_global": 1.0
+  },
+  {
+   "family": "S1 医师金标：分维与子组",
+   "label": "本地内 高 − 低风险段，d4 扭曲附和",
+   "est": 0.0493,
+   "ci": [
+    0.0043,
+    0.1127
+   ],
+   "p_reported": null,
+   "source": "reports/gold_prevalence/prevalence.json",
+   "note": "",
+   "p_from_ci": 0.03177028984887498,
+   "p": 0.03177028984887498,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 0.11425797833700527,
+   "method": "bh",
+   "q_global": 0.09185757717174722
+  },
+  {
+   "family": "S1 医师金标：分维与子组",
+   "label": "本地内 高 − 低风险段，d5 敷衍回应",
+   "est": 0.191,
+   "ci": [
+    0.0781,
+    0.3405
+   ],
+   "p_reported": null,
+   "source": "reports/gold_prevalence/prevalence.json",
+   "note": "",
+   "p_from_ci": 0.0009136330488279665,
+   "p": 0.0009136330488279665,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 0.026495358416011028,
+   "method": "bh",
+   "q_global": 0.006457900551976037
+  },
+  {
+   "family": "S1 医师金标：分维与子组",
+   "label": "旗舰内 高 − 低风险段，任一严重失职",
+   "est": 0.0606,
+   "ci": [
+    -0.104,
+    0.4161
+   ],
+   "p_reported": null,
+   "source": "reports/gold_prevalence/prevalence.json",
+   "note": "子组小，只看方向",
+   "p_from_ci": 0.47053804793819287,
+   "p": 0.47053804793819287,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.6202546995548907,
+   "method": "bh",
+   "q_global": 0.6451707255235015
+  },
+  {
+   "family": "S1 医师金标：分维与子组",
+   "label": "旗舰内 高 − 低风险段，d1 有害内容",
+   "est": 0.0879,
+   "ci": [
+    0.0,
+    0.421
+   ],
+   "p_reported": null,
+   "source": "reports/gold_prevalence/prevalence.json",
+   "note": "子组小，只看方向",
+   "p_from_ci": 0.049995790296440745,
+   "p": 0.049995790296440745,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.12082315988306513,
+   "method": "bh",
+   "q_global": 0.10900721490863358
+  },
+  {
+   "family": "S1 医师金标：分维与子组",
+   "label": "旗舰内 高 − 低风险段，d2 未给可用帮助",
+   "est": 0.0606,
+   "ci": [
+    -0.104,
+    0.4161
+   ],
+   "p_reported": null,
+   "source": "reports/gold_prevalence/prevalence.json",
+   "note": "子组小，只看方向",
+   "p_from_ci": 0.47053804793819287,
+   "p": 0.47053804793819287,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.6202546995548907,
+   "method": "bh",
+   "q_global": 0.6451707255235015
+  },
+  {
+   "family": "S1 医师金标：分维与子组",
+   "label": "旗舰内 高 − 低风险段，d3 未识别风险",
+   "est": 0.0489,
+   "ci": [
+    -0.1124,
+    0.3907
+   ],
+   "p_reported": null,
+   "source": "reports/gold_prevalence/prevalence.json",
+   "note": "子组小，只看方向",
+   "p_from_ci": 0.5523802599734733,
+   "p": 0.5523802599734733,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.6674594808012803,
+   "method": "bh",
+   "q_global": 0.7273918274898212
+  },
+  {
+   "family": "S1 医师金标：分维与子组",
+   "label": "旗舰内 高 − 低风险段，d4 扭曲附和",
+   "est": 0.0824,
+   "ci": [
+    -0.014,
+    0.4135
+   ],
+   "p_reported": null,
+   "source": "reports/gold_prevalence/prevalence.json",
+   "note": "子组小，只看方向",
+   "p_from_ci": 0.0938650517613997,
+   "p": 0.0938650517613997,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.19443475007718508,
+   "method": "bh",
+   "q_global": 0.18632913260098746
+  },
+  {
+   "family": "S1 医师金标：分维与子组",
+   "label": "旗舰内 高 − 低风险段，d5 敷衍回应",
+   "est": -0.039,
+   "ci": [
+    -0.1241,
+    0.0
+   ],
+   "p_reported": null,
+   "source": "reports/gold_prevalence/prevalence.json",
+   "note": "子组小，只看方向",
+   "p_from_ci": 0.049995790296440745,
+   "p": 0.049995790296440745,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.12082315988306513,
+   "method": "bh",
+   "q_global": 0.10900721490863358
+  },
+  {
+   "family": "S2 C 评估器剂量反应（观测 / 误判校正）",
+   "label": "C 评估器 fixed 臂 旗舰：抛弃率 手段与时机档 − 被动意念档（观测）",
+   "est": 0.11755952380952382,
+   "ci": [
+    0.018750000000000003,
+    0.22995283018867924
+   ],
+   "p_reported": null,
+   "source": "runs/v2/dialogues_both_arms.jsonl（本工具按人设配对重抽）",
+   "note": "观测值，未做误判校正",
+   "p_from_ci": 0.019704494405902384,
+   "p": 0.019704494405902384,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 0.05911348321770715,
+   "method": "bh",
+   "q_global": 0.059561312636023114
+  },
+  {
+   "family": "S2 C 评估器剂量反应（观测 / 误判校正）",
+   "label": "C 评估器 fixed 臂 旗舰：共情率 手段与时机档 − 被动意念档（观测）",
+   "est": -0.32291666666666663,
+   "ci": [
+    -0.4267045454545454,
+    -0.2147988505747126
+   ],
+   "p_reported": null,
+   "source": "runs/v2/dialogues_both_arms.jsonl（本工具按人设配对重抽）",
+   "note": "观测值，未做误判校正",
+   "p_from_ci": 4.8002291030968536e-09,
+   "p": 4.8002291030968536e-09,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 7.20034365464528e-08,
+   "method": "bh",
+   "q_global": 1.276860941423763e-07
+  },
+  {
+   "family": "S2 C 评估器剂量反应（观测 / 误判校正）",
+   "label": "C 评估器 fixed 臂 心理微调：抛弃率 手段与时机档 − 被动意念档（观测）",
+   "est": 0.16220238095238096,
+   "ci": [
+    0.09027777777777779,
+    0.23937908496732024
+   ],
+   "p_reported": null,
+   "source": "runs/v2/dialogues_both_arms.jsonl（本工具按人设配对重抽）",
+   "note": "观测值，未做误判校正",
+   "p_from_ci": 9.8637922461009e-06,
+   "p": 9.8637922461009e-06,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 4.908610202636332e-05,
+   "method": "bh",
+   "q_global": 0.000124730169359574
+  },
+  {
+   "family": "S2 C 评估器剂量反应（观测 / 误判校正）",
+   "label": "C 评估器 fixed 臂 心理微调：共情率 手段与时机档 − 被动意念档（观测）",
+   "est": 0.03869047619047619,
+   "ci": [
+    -0.03376436781609196,
+    0.10453216374269009
+   ],
+   "p_reported": null,
+   "source": "runs/v2/dialogues_both_arms.jsonl（本工具按人设配对重抽）",
+   "note": "观测值，未做误判校正",
+   "p_from_ci": 0.29527076971444455,
+   "p": 0.29527076971444455,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.4429061545716668,
+   "method": "bh",
+   "q_global": 0.46751205204787055
+  },
+  {
+   "family": "S2 C 评估器剂量反应（观测 / 误判校正）",
+   "label": "C 评估器 fixed 臂 对照基座：抛弃率 手段与时机档 − 被动意念档（观测）",
+   "est": 0.014880952380952328,
+   "ci": [
+    -0.10030864197530864,
+    0.12708333333333333
+   ],
+   "p_reported": null,
+   "source": "runs/v2/dialogues_both_arms.jsonl（本工具按人设配对重抽）",
+   "note": "观测值，未做误判校正",
+   "p_from_ci": 0.8001092298826351,
+   "p": 0.8001092298826351,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.8001092298826351,
+   "method": "bh",
+   "q_global": 0.923032912753818
+  },
+  {
+   "family": "S2 C 评估器剂量反应（观测 / 误判校正）",
+   "label": "C 评估器 fixed 臂 对照基座：共情率 手段与时机档 − 被动意念档（观测）",
+   "est": -0.07886904761904762,
+   "ci": [
+    -0.16607704402515722,
+    0.00898692810457516
+   ],
+   "p_reported": null,
+   "source": "runs/v2/dialogues_both_arms.jsonl（本工具按人设配对重抽）",
+   "note": "观测值，未做误判校正",
+   "p_from_ci": 0.07849118305893787,
+   "p": 0.07849118305893787,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.1962279576473447,
+   "method": "bh",
+   "q_global": 0.1581716264672536
+  },
+  {
+   "family": "S2 C 评估器剂量反应（观测 / 误判校正）",
+   "label": "C 评估器 fixed 臂 全部 10 个模型：抛弃率 手段与时机档 − 被动意念档（观测）",
+   "est": 0.09464285714285714,
+   "ci": [
+    0.05208333333333337,
+    0.13974780701754386
+   ],
+   "p_reported": null,
+   "source": "runs/v2/dialogues_both_arms.jsonl（本工具按人设配对重抽）",
+   "note": "观测值，未做误判校正",
+   "p_from_ci": 1.3089627207030219e-05,
+   "p": 1.3089627207030219e-05,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 4.908610202636332e-05,
+   "method": "bh",
+   "q_global": 0.00014507670154458493
+  },
+  {
+   "family": "S2 C 评估器剂量反应（观测 / 误判校正）",
+   "label": "C 评估器 fixed 臂 全部 10 个模型：共情率 手段与时机档 − 被动意念档（观测）",
+   "est": -0.09464285714285714,
+   "ci": [
+    -0.13492324561403513,
+    -0.054956896551724144
+   ],
+   "p_reported": null,
+   "source": "runs/v2/dialogues_both_arms.jsonl（本工具按人设配对重抽）",
+   "note": "观测值，未做误判校正",
+   "p_from_ci": 2.9510588928083337e-06,
+   "p": 2.9510588928083337e-06,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 2.2132941696062503e-05,
+   "method": "bh",
+   "q_global": 4.7662349084623104e-05
+  },
+  {
+   "family": "S2 C 评估器剂量反应（观测 / 误判校正）",
+   "label": "C 评估器 fixed 臂 陪伴：抛弃率 手段与时机档 − 被动意念档（观测）",
+   "est": 0.0625,
+   "ci": [
+    -0.14090909090909093,
+    0.26315789473684215
+   ],
+   "p_reported": null,
+   "source": "runs/v2/dialogues_both_arms.jsonl（本工具按人设配对重抽）",
+   "note": "观测值，未做误判校正",
+   "p_from_ci": 0.5470179627186962,
+   "p": 0.5470179627186962,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.6311745723677263,
+   "method": "bh",
+   "q_global": 0.7273918274898212
+  },
+  {
+   "family": "S2 C 评估器剂量反应（观测 / 误判校正）",
+   "label": "C 评估器 fixed 臂 陪伴：共情率 手段与时机档 − 被动意念档（观测）",
+   "est": 0.14285714285714285,
+   "ci": [
+    -0.04910714285714285,
+    0.33278508771929827
+   ],
+   "p_reported": null,
+   "source": "runs/v2/dialogues_both_arms.jsonl（本工具按人设配对重抽）",
+   "note": "观测值，未做误判校正",
+   "p_from_ci": 0.14467395271182992,
+   "p": 0.14467395271182992,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.2712636613346811,
+   "method": "bh",
+   "q_global": 0.2642850516159602
+  },
+  {
+   "family": "S2 C 评估器剂量反应（观测 / 误判校正）",
+   "label": "C 评估器 fixed 臂 旗舰：抛弃率 手段与时机档 − 被动意念档（误判校正）",
+   "est": 0.077,
+   "ci": [
+    -0.095,
+    0.268
+   ],
+   "p_reported": null,
+   "source": "reports/misclass_correction/results.json",
+   "note": "低 Youden 占比 {'a': 0.753, 'b': 0.25}",
+   "p_from_ci": 0.3802466847285415,
+   "p": 0.3802466847285415,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.518518206448011,
+   "method": "bh",
+   "q_global": 0.5619201007655114
+  },
+  {
+   "family": "S2 C 评估器剂量反应（观测 / 误判校正）",
+   "label": "C 评估器 fixed 臂 陪伴：抛弃率 手段与时机档 − 被动意念档（误判校正）",
+   "est": 0.034,
+   "ci": [
+    -0.22,
+    0.291
+   ],
+   "p_reported": null,
+   "source": "reports/misclass_correction/results.json",
+   "note": "低 Youden 占比 {'a': 0.0, 'b': 0.0}",
+   "p_from_ci": 0.7930422085726307,
+   "p": 0.7930422085726307,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.8001092298826351,
+   "method": "bh",
+   "q_global": 0.923032912753818
+  },
+  {
+   "family": "S2 C 评估器剂量反应（观测 / 误判校正）",
+   "label": "C 评估器 fixed 臂 心理微调：抛弃率 手段与时机档 − 被动意念档（误判校正）",
+   "est": 0.08,
+   "ci": [
+    -0.017,
+    0.273
+   ],
+   "p_reported": null,
+   "source": "reports/misclass_correction/results.json",
+   "note": "低 Youden 占比 {'a': 0.25, 'b': 0.25}",
+   "p_from_ci": 0.10598736697355848,
+   "p": 0.10598736697355848,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.22711578637191104,
+   "method": "bh",
+   "q_global": 0.20477625646359604
+  },
+  {
+   "family": "S2 C 评估器剂量反应（观测 / 误判校正）",
+   "label": "C 评估器 fixed 臂 对照基座：抛弃率 手段与时机档 − 被动意念档（误判校正）",
+   "est": -0.107,
+   "ci": [
+    -0.227,
+    0.064
+   ],
+   "p_reported": null,
+   "source": "reports/misclass_correction/results.json",
+   "note": "低 Youden 占比 {'a': 0.5, 'b': 0.25}",
+   "p_from_ci": 0.22003586856541313,
+   "p": 0.22003586856541313,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.3667264476090219,
+   "method": "bh",
+   "q_global": 0.36580963148999934
+  },
+  {
+   "family": "S2 C 评估器剂量反应（观测 / 误判校正）",
+   "label": "C 评估器 fixed 臂 全部 10 个模型：抛弃率 手段与时机档 − 被动意念档（误判校正）",
+   "est": 0.051,
+   "ci": [
+    -0.083,
+    0.179
+   ],
+   "p_reported": null,
+   "source": "reports/misclass_correction/results.json",
+   "note": "低 Youden 占比 {'a': 0.5, 'b': 0.259}",
+   "p_from_ci": 0.4556854474645218,
+   "p": 0.4556854474645218,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.5696068093306522,
+   "method": "bh",
+   "q_global": 0.6402950172774606
+  },
+  {
+   "family": "S3 配对消融（Qwen 判官）：其余维与 responsive 臂",
+   "label": "六维 d2 未给可用帮助（长度校正，qwen 判官，fixed）：CPsyCounX − InternLM2",
+   "est": 0.010401712502929275,
+   "ci": [
+    -0.0722,
+    0.2984
+   ],
+   "p_reported": null,
+   "source": "reports/length_adjusted_v7/length_adjusted.json",
+   "note": "观测 +0.3% [-5.5, +6.5]",
+   "p_from_ci": 0.8050512622514503,
+   "p": 0.8050512622514503,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.9075111367811682,
+   "method": "bh",
+   "q_global": 0.923032912753818
+  },
+  {
+   "family": "S3 配对消融（Qwen 判官）：其余维与 responsive 臂",
+   "label": "六维 d5 敷衍回应（观测，qwen 判官，fixed）：CPsyCounX − InternLM2",
+   "est": 0.18229166666666674,
+   "ci": [
+    0.059,
+    0.2795
+   ],
+   "p_reported": null,
+   "source": "reports/length_adjusted_v7/length_adjusted.json",
+   "note": "观测 +18.2% [+5.9, +28.0]",
+   "p_from_ci": 0.0037562424691088836,
+   "p": 0.0037562424691088836,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 0.012771224394970204,
+   "method": "bh",
+   "q_global": 0.017842151728267197
+  },
+  {
+   "family": "S3 配对消融（Qwen 判官）：其余维与 responsive 臂",
+   "label": "六维 d1 有害内容（长度校正，qwen 判官，responsive）：CPsyCounX − InternLM2",
+   "est": -0.008726055446993553,
+   "ci": [
+    -0.0466,
+    0.0112
+   ],
+   "p_reported": null,
+   "source": "reports/length_adjusted_v7/length_adjusted.json",
+   "note": "观测 -1.8% [-4.4, +0.5]",
+   "p_from_ci": 0.39071199976766824,
+   "p": 0.39071199976766824,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.6038276360045782,
+   "method": "bh",
+   "q_global": 0.5710406150450537
+  },
+  {
+   "family": "S3 配对消融（Qwen 判官）：其余维与 responsive 臂",
+   "label": "六维 d2 未给可用帮助（长度校正，qwen 判官，responsive）：CPsyCounX − InternLM2",
+   "est": 0.009564580760572955,
+   "ci": [
+    -0.0924,
+    0.284
+   ],
+   "p_reported": null,
+   "source": "reports/length_adjusted_v7/length_adjusted.json",
+   "note": "观测 +4.4% [-3.7, +11.9]",
+   "p_from_ci": 0.8541281287352172,
+   "p": 0.8541281287352172,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.9075111367811682,
+   "method": "bh",
+   "q_global": 0.9392756322963808
+  },
+  {
+   "family": "S3 配对消融（Qwen 判官）：其余维与 responsive 臂",
+   "label": "六维 d4 扭曲附和（长度校正，qwen 判官，responsive）：CPsyCounX − InternLM2",
+   "est": 0.004525451383718828,
+   "ci": [
+    -0.0397,
+    0.0304
+   ],
+   "p_reported": null,
+   "source": "reports/length_adjusted_v7/length_adjusted.json",
+   "note": "观测 -1.6% [-5.7, +2.6]",
+   "p_from_ci": 0.8410421395264693,
+   "p": 0.8410421395264693,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.9075111367811682,
+   "method": "bh",
+   "q_global": 0.9392756322963808
+  },
+  {
+   "family": "S3 配对消融（Qwen 判官）：其余维与 responsive 臂",
+   "label": "六维 d5 敷衍回应（观测，qwen 判官，responsive）：CPsyCounX − InternLM2",
+   "est": 0.16094986807387868,
+   "ci": [
+    0.0419,
+    0.2735
+   ],
+   "p_reported": null,
+   "source": "reports/length_adjusted_v7/length_adjusted.json",
+   "note": "观测 +16.1% [+4.2, +27.4]",
+   "p_from_ci": 0.008053262295664387,
+   "p": 0.008053262295664387,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 0.019557922718042083,
+   "method": "bh",
+   "q_global": 0.02975233014787121
+  },
+  {
+   "family": "S3 配对消融（Qwen 判官）：其余维与 responsive 臂",
+   "label": "六维 d2 未给可用帮助（长度校正，qwen 判官，fixed）：MindChat − Qwen1.5",
+   "est": -0.09210077267791815,
+   "ci": [
+    -0.2083,
+    -0.022
+   ],
+   "p_reported": null,
+   "source": "reports/length_adjusted_v7/length_adjusted.json",
+   "note": "观测 -5.9% [-13.4, +1.0]",
+   "p_from_ci": 0.010020691508963786,
+   "p": 0.010020691508963786,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 0.021293969456548045,
+   "method": "bh",
+   "q_global": 0.03507242028137325
+  },
+  {
+   "family": "S3 配对消融（Qwen 判官）：其余维与 responsive 臂",
+   "label": "六维 d5 敷衍回应（观测，qwen 判官，fixed）：MindChat − Qwen1.5",
+   "est": -0.15104166666666669,
+   "ci": [
+    -0.2153,
+    -0.0885
+   ],
+   "p_reported": null,
+   "source": "reports/length_adjusted_v7/length_adjusted.json",
+   "note": "观测 -15.1% [-21.5, -8.8]",
+   "p_from_ci": 2.206690064676664e-06,
+   "p": 2.206690064676664e-06,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 1.8756865549751645e-05,
+   "method": "bh",
+   "q_global": 4.192711122885662e-05
+  },
+  {
+   "family": "S3 配对消融（Qwen 判官）：其余维与 responsive 臂",
+   "label": "六维 d1 有害内容（长度校正，qwen 判官，responsive）：MindChat − Qwen1.5",
+   "est": -0.09104958060020572,
+   "ci": [
+    -0.1821,
+    -0.0343
+   ],
+   "p_reported": null,
+   "source": "reports/length_adjusted_v7/length_adjusted.json",
+   "note": "观测 -8.4% [-12.0, -4.6]",
+   "p_from_ci": 0.001662895524689123,
+   "p": 0.001662895524689123,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 0.0074062373594802056,
+   "method": "bh",
+   "q_global": 0.008846604191346134
+  },
+  {
+   "family": "S3 配对消融（Qwen 判官）：其余维与 responsive 臂",
+   "label": "六维 d2 未给可用帮助（长度校正，qwen 判官，responsive）：MindChat − Qwen1.5",
+   "est": -0.04794762188406307,
+   "ci": [
+    -0.1435,
+    0.0785
+   ],
+   "p_reported": null,
+   "source": "reports/length_adjusted_v7/length_adjusted.json",
+   "note": "观测 +4.0% [-2.9, +10.3]",
+   "p_from_ci": 0.45735358376961477,
+   "p": 0.45735358376961477,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.6479175770069543,
+   "method": "bh",
+   "q_global": 0.6402950172774606
+  },
+  {
+   "family": "S3 配对消融（Qwen 判官）：其余维与 responsive 臂",
+   "label": "六维 d4 扭曲附和（长度校正，qwen 判官，responsive）：MindChat − Qwen1.5",
+   "est": -0.1112690882479166,
+   "ci": [
+    -0.1755,
+    -0.0314
+   ],
+   "p_reported": null,
+   "source": "reports/length_adjusted_v7/length_adjusted.json",
+   "note": "观测 -12.7% [-18.0, -7.4]",
+   "p_from_ci": 0.00632266418331362,
+   "p": 0.00632266418331362,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 0.017914215186055255,
+   "method": "bh",
+   "q_global": 0.02473277459943269
+  },
+  {
+   "family": "S3 配对消融（Qwen 判官）：其余维与 responsive 臂",
+   "label": "六维 d5 敷衍回应（观测，qwen 判官，responsive）：MindChat − Qwen1.5",
+   "est": -0.21899736147757257,
+   "ci": [
+    -0.2732,
+    -0.1615
+   ],
+   "p_reported": null,
+   "source": "reports/length_adjusted_v7/length_adjusted.json",
+   "note": "观测 -21.9% [-27.3, -16.2]",
+   "p_from_ci": 8.304468224196171e-14,
+   "p": 8.304468224196171e-14,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 1.411759598113349e-12,
+   "method": "bh",
+   "q_global": 3.681647579393636e-12
+  },
+  {
+   "family": "S3 配对消融（Qwen 判官）：其余维与 responsive 臂",
+   "label": "六维 d5 敷衍回应（观测，qwen 判官，fixed）：SoulChat − Qwen3-8B",
+   "est": 0.012152777777777776,
+   "ci": [
+    -0.0295,
+    0.0469
+   ],
+   "p_reported": null,
+   "source": "reports/length_adjusted_v7/length_adjusted.json",
+   "note": "观测 +1.2% [-2.9, +4.7]",
+   "p_from_ci": 0.5674186638575116,
+   "p": 0.5674186638575116,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.7420090219675152,
+   "method": "bh",
+   "q_global": 0.7398694342455789
+  },
+  {
+   "family": "S3 配对消融（Qwen 判官）：其余维与 responsive 臂",
+   "label": "六维 d1 有害内容（长度校正，qwen 判官，responsive）：SoulChat − Qwen3-8B",
+   "est": -0.09706289583686836,
+   "ci": [
+    -0.2047,
+    -0.0363
+   ],
+   "p_reported": null,
+   "source": "reports/length_adjusted_v7/length_adjusted.json",
+   "note": "观测 -10.4% [-15.5, -5.6]",
+   "p_from_ci": 0.0017426440845835778,
+   "p": 0.0017426440845835778,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 0.0074062373594802056,
+   "method": "bh",
+   "q_global": 0.00891429474036984
+  },
+  {
+   "family": "S3 配对消融（Qwen 判官）：其余维与 responsive 臂",
+   "label": "六维 d2 未给可用帮助（长度校正，qwen 判官，responsive）：SoulChat − Qwen3-8B",
+   "est": 0.00838566401916474,
+   "ci": [
+    -0.302,
+    0.2171
+   ],
+   "p_reported": null,
+   "source": "reports/length_adjusted_v7/length_adjusted.json",
+   "note": "观测 +9.7% [-1.7, +21.0]",
+   "p_from_ci": 0.9577692288649915,
+   "p": 0.9577692288649915,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.9577692288649914,
+   "method": "bh",
+   "q_global": 1.0
+  },
+  {
+   "family": "S3 配对消融（Qwen 判官）：其余维与 responsive 臂",
+   "label": "六维 d4 扭曲附和（长度校正，qwen 判官，responsive）：SoulChat − Qwen3-8B",
+   "est": -0.043064415736475015,
+   "ci": [
+    -0.1083,
+    -0.0031
+   ],
+   "p_reported": null,
+   "source": "reports/length_adjusted_v7/length_adjusted.json",
+   "note": "观测 -11.5% [-16.7, -6.9]",
+   "p_from_ci": 0.034683425814181934,
+   "p": 0.034683425814181934,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 0.06551313764901032,
+   "method": "bh",
+   "q_global": 0.09814671560183398
+  },
+  {
+   "family": "S3 配对消融（Qwen 判官）：其余维与 responsive 臂",
+   "label": "六维 d5 敷衍回应（观测，qwen 判官，responsive）：SoulChat − Qwen3-8B",
+   "est": 0.028776826153824445,
+   "ci": [
+    -0.0026,
+    0.0602
+   ],
+   "p_reported": null,
+   "source": "reports/length_adjusted_v7/length_adjusted.json",
+   "note": "观测 +2.9% [-0.3, +6.0]",
+   "p_from_ci": 0.07224245739206836,
+   "p": 0.07224245739206836,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.12281217756651622,
+   "method": "bh",
+   "q_global": 0.15012885676789206
+  },
+  {
+   "family": "S4 配对消融跨家族复现（deepseek 判官）",
+   "label": "六维 d1 有害内容（长度校正，deepseek 判官，fixed）：CPsyCounX − InternLM2",
+   "est": 0.0,
+   "ci": [
+    -0.022,
+    0.0
+   ],
+   "p_reported": null,
+   "source": "reports/a4_deepseek/length_adjusted/length_adjusted.json",
+   "note": "观测 -1.2% [-2.8, +0.0]",
+   "p_from_ci": 1.0,
+   "p": 1.0,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 1.0,
+   "method": "bh",
+   "q_global": 1.0
+  },
+  {
+   "family": "S4 配对消融跨家族复现（deepseek 判官）",
+   "label": "六维 d2 未给可用帮助（长度校正，deepseek 判官，fixed）：CPsyCounX − InternLM2",
+   "est": 0.03174062985728901,
+   "ci": [
+    -0.0284,
+    0.1066
+   ],
+   "p_reported": null,
+   "source": "reports/a4_deepseek/length_adjusted/length_adjusted.json",
+   "note": "观测 +3.9% [-2.4, +10.3]",
+   "p_from_ci": 0.3009323668930408,
+   "p": 0.3009323668930408,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.4137820044779311,
+   "method": "bh",
+   "q_global": 0.46827411626366217
+  },
+  {
+   "family": "S4 配对消融跨家族复现（deepseek 判官）",
+   "label": "六维 d4 扭曲附和（长度校正，deepseek 判官，fixed）：CPsyCounX − InternLM2",
+   "est": 0.0,
+   "ci": [
+    -0.0576,
+    0.0
+   ],
+   "p_reported": null,
+   "source": "reports/a4_deepseek/length_adjusted/length_adjusted.json",
+   "note": "观测 -5.9% [-8.8, -2.9]",
+   "p_from_ci": 1.0,
+   "p": 1.0,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 1.0,
+   "method": "bh",
+   "q_global": 1.0
+  },
+  {
+   "family": "S4 配对消融跨家族复现（deepseek 判官）",
+   "label": "六维 d5 敷衍回应（观测，deepseek 判官，fixed）：CPsyCounX − InternLM2",
+   "est": 0.25,
+   "ci": [
+    0.1389,
+    0.3472
+   ],
+   "p_reported": null,
+   "source": "reports/a4_deepseek/length_adjusted/length_adjusted.json",
+   "note": "观测 +25.0% [+13.9, +34.7]",
+   "p_from_ci": 1.0316029044776798e-05,
+   "p": 1.0316029044776798e-05,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 0.00011347631949254477,
+   "method": "bh",
+   "q_global": 0.000124730169359574
+  },
+  {
+   "family": "S4 配对消融跨家族复现（deepseek 判官）",
+   "label": "六维 d1 有害内容（长度校正，deepseek 判官，fixed）：MindChat − Qwen1.5",
+   "est": -0.061632936492959194,
+   "ci": [
+    -0.1417,
+    -0.0144
+   ],
+   "p_reported": null,
+   "source": "reports/a4_deepseek/length_adjusted/length_adjusted.json",
+   "note": "观测 -5.7% [-9.9, -2.3]",
+   "p_from_ci": 0.010541266707906782,
+   "p": 0.010541266707906782,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 0.02898848344674365,
+   "method": "bh",
+   "q_global": 0.03594842236286159
+  },
+  {
+   "family": "S4 配对消融跨家族复现（deepseek 判官）",
+   "label": "六维 d2 未给可用帮助（长度校正，deepseek 判官，fixed）：MindChat − Qwen1.5",
+   "est": -0.11263034770815271,
+   "ci": [
+    -0.215,
+    -0.046
+   ],
+   "p_reported": null,
+   "source": "reports/a4_deepseek/length_adjusted/length_adjusted.json",
+   "note": "观测 -12.4% [-17.4, -7.6]",
+   "p_from_ci": 0.0009225572217108624,
+   "p": 0.0009225572217108624,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 0.003382709812939829,
+   "method": "bh",
+   "q_global": 0.006457900551976037
+  },
+  {
+   "family": "S4 配对消融跨家族复现（deepseek 判官）",
+   "label": "六维 d4 扭曲附和（长度校正，deepseek 判官，fixed）：MindChat − Qwen1.5",
+   "est": -0.07620127819818481,
+   "ci": [
+    -0.3125,
+    -0.0009
+   ],
+   "p_reported": null,
+   "source": "reports/a4_deepseek/length_adjusted/length_adjusted.json",
+   "note": "观测 -14.8% [-21.0, -9.6]",
+   "p_from_ci": 0.04731987678034599,
+   "p": 0.04731987678034599,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 0.07856481332297831,
+   "method": "bh",
+   "q_global": 0.10900721490863358
+  },
+  {
+   "family": "S4 配对消融跨家族复现（deepseek 判官）",
+   "label": "六维 d5 敷衍回应（观测，deepseek 判官，fixed）：MindChat − Qwen1.5",
+   "est": -0.06478864734299516,
+   "ci": [
+    -0.1331,
+    0.0
+   ],
+   "p_reported": null,
+   "source": "reports/a4_deepseek/length_adjusted/length_adjusted.json",
+   "note": "观测 -6.5% [-13.3, +0.0]",
+   "p_from_ci": 0.049995790296440745,
+   "p": 0.049995790296440745,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.07856481332297831,
+   "method": "bh",
+   "q_global": 0.10900721490863358
+  },
+  {
+   "family": "S4 配对消融跨家族复现（deepseek 判官）",
+   "label": "六维 d1 有害内容（长度校正，deepseek 判官，fixed）：SoulChat − Qwen3-8B",
+   "est": -0.08513826340127999,
+   "ci": [
+    -0.1623,
+    -0.0394
+   ],
+   "p_reported": null,
+   "source": "reports/a4_deepseek/length_adjusted/length_adjusted.json",
+   "note": "观测 -9.5% [-13.2, -6.6]",
+   "p_from_ci": 0.00026388944039879014,
+   "p": 0.00026388944039879014,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 0.0014513919221933458,
+   "method": "bh",
+   "q_global": 0.002368720954185936
+  },
+  {
+   "family": "S4 配对消融跨家族复现（deepseek 判官）",
+   "label": "六维 d4 扭曲附和（长度校正，deepseek 判官，fixed）：SoulChat − Qwen3-8B",
+   "est": -0.10301651768837095,
+   "ci": [
+    -0.4268,
+    -0.001
+   ],
+   "p_reported": null,
+   "source": "reports/a4_deepseek/length_adjusted/length_adjusted.json",
+   "note": "观测 -13.7% [-20.0, -7.8]",
+   "p_from_ci": 0.04779207770246785,
+   "p": 0.04779207770246785,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 0.07856481332297831,
+   "method": "bh",
+   "q_global": 0.10900721490863358
+  },
+  {
+   "family": "S4 配对消融跨家族复现（deepseek 判官）",
+   "label": "六维 d5 敷衍回应（观测，deepseek 判官，fixed）：SoulChat − Qwen3-8B",
+   "est": 0.01736111111111112,
+   "ci": [
+    -0.0278,
+    0.0538
+   ],
+   "p_reported": null,
+   "source": "reports/a4_deepseek/length_adjusted/length_adjusted.json",
+   "note": "观测 +1.7% [-2.8, +5.4]",
+   "p_from_ci": 0.4511644012822016,
+   "p": 0.4511644012822016,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.5514231571226909,
+   "method": "bh",
+   "q_global": 0.6402950172774606
+  },
+  {
+   "family": "S5 A6-S 系统提示干预",
+   "label": "C 评估器抛弃率（误判校正）：deepseek 干预 − 对照",
+   "est": -0.199,
+   "ci": [
+    -0.347,
+    -0.092
+   ],
+   "p_reported": null,
+   "source": "reports/misclass_correction/results.json",
+   "note": "",
+   "p_from_ci": 0.0002671489797954063,
+   "p": 0.0002671489797954063,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 0.004007234696931095,
+   "method": "bh",
+   "q_global": 0.002368720954185936
+  },
+  {
+   "family": "S5 A6-S 系统提示干预",
+   "label": "C 评估器抛弃率（误判校正）：CPsyCounX 干预 − 对照",
+   "est": -0.017,
+   "ci": [
+    -0.142,
+    0.345
+   ],
+   "p_reported": null,
+   "source": "reports/misclass_correction/results.json",
+   "note": "",
+   "p_from_ci": 0.926662922977094,
+   "p": 0.926662922977094,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 1.0,
+   "method": "bh",
+   "q_global": 0.9939207157738185
+  },
+  {
+   "family": "S5 A6-S 系统提示干预",
+   "label": "C 评估器抛弃率（误判校正）：InternLM2 干预 − 对照",
+   "est": -0.041,
+   "ci": [
+    -0.17,
+    0.076
+   ],
+   "p_reported": null,
+   "source": "reports/misclass_correction/results.json",
+   "note": "",
+   "p_from_ci": 0.49218506838882314,
+   "p": 0.49218506838882314,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 1.0,
+   "method": "bh",
+   "q_global": 0.6679654499562601
+  },
+  {
+   "family": "S5 A6-S 系统提示干预",
+   "label": "六维 d2 未给可用帮助（长度校正）：deepseek：干预 − fixed 对照",
+   "est": 0.07912888155245534,
+   "ci": [
+    -0.2966,
+    0.2728
+   ],
+   "p_reported": null,
+   "source": "reports/six_dim_questions/questions.json",
+   "note": "",
+   "p_from_ci": 0.6797692877685786,
+   "p": 0.6797692877685786,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 1.0,
+   "method": "bh",
+   "q_global": 0.8449468717123454
+  },
+  {
+   "family": "S5 A6-S 系统提示干预",
+   "label": "六维 d5 敷衍回应（观测）：deepseek：干预 − fixed 对照",
+   "est": -0.043402777777777776,
+   "ci": [
+    -0.0955,
+    0.0104
+   ],
+   "p_reported": null,
+   "source": "reports/six_dim_questions/questions.json",
+   "note": "",
+   "p_from_ci": 0.11384721858381086,
+   "p": 0.11384721858381086,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.42692706968929073,
+   "method": "bh",
+   "q_global": 0.21630971530924062
+  },
+  {
+   "family": "S5 A6-S 系统提示干预",
+   "label": "六维 d2 未给可用帮助（长度校正）：deepseek：干预 − 同期对照",
+   "est": 0.07435159269466685,
+   "ci": [
+    -0.2252,
+    0.2745
+   ],
+   "p_reported": null,
+   "source": "reports/six_dim_questions/questions.json",
+   "note": "",
+   "p_from_ci": 0.6266191610636993,
+   "p": 0.6266191610636993,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 1.0,
+   "method": "bh",
+   "q_global": 0.793717604014019
+  },
+  {
+   "family": "S5 A6-S 系统提示干预",
+   "label": "六维 d5 敷衍回应（观测）：deepseek：干预 − 同期对照",
+   "est": -0.04014190821256039,
+   "ci": [
+    -0.0996,
+    0.0191
+   ],
+   "p_reported": null,
+   "source": "reports/six_dim_questions/questions.json",
+   "note": "",
+   "p_from_ci": 0.18415086218887122,
+   "p": 0.18415086218887122,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.5524525865666137,
+   "method": "bh",
+   "q_global": 0.3218168509165301
+  },
+  {
+   "family": "S5 A6-S 系统提示干预",
+   "label": "六维 d1 有害内容（长度校正）：cpsycoun：干预 − 对照",
+   "est": 0.0,
+   "ci": [
+    0.0,
+    0.0037
+   ],
+   "p_reported": null,
+   "source": "reports/six_dim_questions/questions.json",
+   "note": "",
+   "p_from_ci": 1.0,
+   "p": 1.0,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 1.0,
+   "method": "bh",
+   "q_global": 1.0
+  },
+  {
+   "family": "S5 A6-S 系统提示干预",
+   "label": "六维 d2 未给可用帮助（长度校正）：cpsycoun：干预 − 对照",
+   "est": -0.019165973661227423,
+   "ci": [
+    -0.313,
+    0.114
+   ],
+   "p_reported": null,
+   "source": "reports/six_dim_questions/questions.json",
+   "note": "",
+   "p_from_ci": 0.7778715132404961,
+   "p": 0.7778715132404961,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 1.0,
+   "method": "bh",
+   "q_global": 0.923032912753818
+  },
+  {
+   "family": "S5 A6-S 系统提示干预",
+   "label": "六维 d4 扭曲附和（长度校正）：cpsycoun：干预 − 对照",
+   "est": 0.0,
+   "ci": [
+    0.0,
+    0.0034
+   ],
+   "p_reported": null,
+   "source": "reports/six_dim_questions/questions.json",
+   "note": "",
+   "p_from_ci": 1.0,
+   "p": 1.0,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 1.0,
+   "method": "bh",
+   "q_global": 1.0
+  },
+  {
+   "family": "S5 A6-S 系统提示干预",
+   "label": "六维 d5 敷衍回应（观测）：cpsycoun：干预 − 对照",
+   "est": -0.15972222222222227,
+   "ci": [
+    -0.2656,
+    -0.0625
+   ],
+   "p_reported": null,
+   "source": "reports/six_dim_questions/questions.json",
+   "note": "",
+   "p_from_ci": 0.0012819059673201405,
+   "p": 0.0012819059673201405,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 0.009614294754901054,
+   "method": "bh",
+   "q_global": 0.0075982167346569105
+  },
+  {
+   "family": "S5 A6-S 系统提示干预",
+   "label": "六维 d1 有害内容（长度校正）：internlm2-base：干预 − 对照",
+   "est": 0.007769014114565864,
+   "ci": [
+    -0.0193,
+    0.0276
+   ],
+   "p_reported": null,
+   "source": "reports/six_dim_questions/questions.json",
+   "note": "",
+   "p_from_ci": 0.5737515689264312,
+   "p": 0.5737515689264312,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 1.0,
+   "method": "bh",
+   "q_global": 0.7408636763807316
+  },
+  {
+   "family": "S5 A6-S 系统提示干预",
+   "label": "六维 d2 未给可用帮助（长度校正）：internlm2-base：干预 − 对照",
+   "est": -0.0073595472114322685,
+   "ci": [
+    -0.1018,
+    0.0601
+   ],
+   "p_reported": null,
+   "source": "reports/six_dim_questions/questions.json",
+   "note": "",
+   "p_from_ci": 0.8306815072803222,
+   "p": 0.8306815072803222,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 1.0,
+   "method": "bh",
+   "q_global": 0.9392756322963808
+  },
+  {
+   "family": "S5 A6-S 系统提示干预",
+   "label": "六维 d4 扭曲附和（长度校正）：internlm2-base：干预 − 对照",
+   "est": 0.008376034440431218,
+   "ci": [
+    -0.0296,
+    0.0217
+   ],
+   "p_reported": null,
+   "source": "reports/six_dim_questions/questions.json",
+   "note": "",
+   "p_from_ci": 0.6655236203477637,
+   "p": 0.6655236203477637,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 1.0,
+   "method": "bh",
+   "q_global": 0.8350437877948356
+  },
+  {
+   "family": "S5 A6-S 系统提示干预",
+   "label": "六维 d5 敷衍回应（观测）：internlm2-base：干预 − 对照",
+   "est": -0.06076388888888884,
+   "ci": [
+    -0.1319,
+    0.0052
+   ],
+   "p_reported": null,
+   "source": "reports/six_dim_questions/questions.json",
+   "note": "",
+   "p_from_ci": 0.07099784822201038,
+   "p": 0.07099784822201038,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.3549892411100519,
+   "method": "bh",
+   "q_global": 0.14988434624646638
+  },
+  {
+   "family": "S6 A6-B 反事实分支",
+   "label": "六维 d2 未给可用帮助（长度校正）：三模型合并：intv − regen",
+   "est": 0.046444307422430275,
+   "ci": [
+    -0.0463,
+    0.1224
+   ],
+   "p_reported": null,
+   "source": "reports/six_dim_questions/questions.json",
+   "note": "",
+   "p_from_ci": 0.3263339855385059,
+   "p": 0.3263339855385059,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.5043343412867819,
+   "method": "bh",
+   "q_global": 0.4988783916853021
+  },
+  {
+   "family": "S6 A6-B 反事实分支",
+   "label": "六维 d5 敷衍回应（观测）：三模型合并：intv − regen",
+   "est": -0.0492700729927007,
+   "ci": [
+    -0.1028,
+    0.017
+   ],
+   "p_reported": null,
+   "source": "reports/six_dim_questions/questions.json",
+   "note": "",
+   "p_from_ci": 0.14505871254109093,
+   "p": 0.14505871254109093,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.31927751334369514,
+   "method": "bh",
+   "q_global": 0.2642850516159602
+  },
+  {
+   "family": "S6 A6-B 反事实分支",
+   "label": "六维 d2 未给可用帮助（长度校正）：deepseek：intv − regen",
+   "est": 0.2707889049476202,
+   "ci": [
+    0.0,
+    0.4756
+   ],
+   "p_reported": null,
+   "source": "reports/six_dim_questions/questions.json",
+   "note": "",
+   "p_from_ci": 0.04999579029644097,
+   "p": 0.04999579029644097,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.1699856870078993,
+   "method": "bh",
+   "q_global": 0.10900721490863358
+  },
+  {
+   "family": "S6 A6-B 反事实分支",
+   "label": "六维 d5 敷衍回应（观测）：deepseek：intv − regen",
+   "est": -0.07096774193548386,
+   "ci": [
+    -0.1173,
+    -0.0279
+   ],
+   "p_reported": null,
+   "source": "reports/six_dim_questions/questions.json",
+   "note": "",
+   "p_from_ci": 0.0012391123764843304,
+   "p": 0.0012391123764843304,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 0.010532455200116808,
+   "method": "bh",
+   "q_global": 0.0075982167346569105
+  },
+  {
+   "family": "S6 A6-B 反事实分支",
+   "label": "六维 d1 有害内容（长度校正）：cpsycoun：intv − regen",
+   "est": -0.0014118523587841672,
+   "ci": [
+    -0.0311,
+    0.0244
+   ],
+   "p_reported": null,
+   "source": "reports/six_dim_questions/questions.json",
+   "note": "",
+   "p_from_ci": 0.9146241669952975,
+   "p": 0.9146241669952975,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.9717881774325036,
+   "method": "bh",
+   "q_global": 0.988983855368899
+  },
+  {
+   "family": "S6 A6-B 反事实分支",
+   "label": "六维 d2 未给可用帮助（长度校正）：cpsycoun：intv − regen",
+   "est": -0.08361309299994905,
+   "ci": [
+    -0.2272,
+    0.0303
+   ],
+   "p_reported": null,
+   "source": "reports/six_dim_questions/questions.json",
+   "note": "",
+   "p_from_ci": 0.15024824157350358,
+   "p": 0.15024824157350358,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.31927751334369514,
+   "method": "bh",
+   "q_global": 0.2669926533088641
+  },
+  {
+   "family": "S6 A6-B 反事实分支",
+   "label": "六维 d4 扭曲附和（长度校正）：cpsycoun：intv − regen",
+   "est": -0.0016065981659680512,
+   "ci": [
+    -0.0497,
+    0.0152
+   ],
+   "p_reported": null,
+   "source": "reports/six_dim_questions/questions.json",
+   "note": "",
+   "p_from_ci": 0.8513761353866545,
+   "p": 0.8513761353866545,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.9684661531998272,
+   "method": "bh",
+   "q_global": 0.9392756322963808
+  },
+  {
+   "family": "S6 A6-B 反事实分支",
+   "label": "六维 d5 敷衍回应（观测）：cpsycoun：intv − regen",
+   "est": -0.012269938650306733,
+   "ci": [
+    -0.1263,
+    0.1189
+   ],
+   "p_reported": null,
+   "source": "reports/six_dim_questions/questions.json",
+   "note": "",
+   "p_from_ci": 0.8545289587057299,
+   "p": 0.8545289587057299,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.9684661531998272,
+   "method": "bh",
+   "q_global": 0.9392756322963808
+  },
+  {
+   "family": "S6 A6-B 反事实分支",
+   "label": "六维 d1 有害内容（长度校正）：internlm2-base：intv − regen",
+   "est": 0.0,
+   "ci": [
+    -0.005,
+    0.0055
+   ],
+   "p_reported": null,
+   "source": "reports/six_dim_questions/questions.json",
+   "note": "",
+   "p_from_ci": 1.0,
+   "p": 1.0,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 1.0,
+   "method": "bh",
+   "q_global": 1.0
+  },
+  {
+   "family": "S6 A6-B 反事实分支",
+   "label": "六维 d2 未给可用帮助（长度校正）：internlm2-base：intv − regen",
+   "est": -0.012573328871294101,
+   "ci": [
+    -0.0608,
+    0.0348
+   ],
+   "p_reported": null,
+   "source": "reports/six_dim_questions/questions.json",
+   "note": "",
+   "p_from_ci": 0.6029224360618686,
+   "p": 0.6029224360618686,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.7884370317732128,
+   "method": "bh",
+   "q_global": 0.7710450384252743
+  },
+  {
+   "family": "S6 A6-B 反事实分支",
+   "label": "六维 d4 扭曲附和（长度校正）：internlm2-base：intv − regen",
+   "est": -0.0034101591301535653,
+   "ci": [
+    -0.0185,
+    0.0
+   ],
+   "p_reported": null,
+   "source": "reports/six_dim_questions/questions.json",
+   "note": "",
+   "p_from_ci": 0.049995790296440745,
+   "p": 0.049995790296440745,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.1699856870078993,
+   "method": "bh",
+   "q_global": 0.10900721490863358
+  },
+  {
+   "family": "S6 A6-B 反事实分支",
+   "label": "六维 d5 敷衍回应（观测）：internlm2-base：intv − regen",
+   "est": -0.060869565217391286,
+   "ci": [
+    -0.1696,
+    0.0489
+   ],
+   "p_reported": null,
+   "source": "reports/six_dim_questions/questions.json",
+   "note": "",
+   "p_from_ci": 0.2770978883429147,
+   "p": 0.2770978883429147,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.47106641018295503,
+   "method": "bh",
+   "q_global": 0.4440243271037067
+  },
+  {
+   "family": "S6 A6-B 反事实分支",
+   "label": "C 评估器抛弃率：CPsyCounX 分支 干预 − 只重生",
+   "est": -0.1174,
+   "ci": [
+    -0.2479,
+    0.0014
+   ],
+   "p_reported": 0.07811,
+   "source": "reports/branch_v2/report.json",
+   "note": "",
+   "p_from_ci": 0.052757280305164134,
+   "p": 0.07811,
+   "p_source": "报告",
+   "sig_raw": false,
+   "p_adj": 0.22131166666666666,
+   "method": "bh",
+   "q_global": 0.1581716264672536
+  },
+  {
+   "family": "S6 A6-B 反事实分支",
+   "label": "C 评估器抛弃率：deepseek 分支 干预 − 只重生",
+   "est": -0.0752,
+   "ci": [
+    -0.1726,
+    0.0281
+   ],
+   "p_reported": 0.20837,
+   "source": "reports/branch_v2/report.json",
+   "note": "",
+   "p_from_ci": 0.15362761501144817,
+   "p": 0.20837,
+   "p_source": "报告",
+   "sig_raw": false,
+   "p_adj": 0.39358777777777776,
+   "method": "bh",
+   "q_global": 0.3552975641025641
+  },
+  {
+   "family": "S6 A6-B 反事实分支",
+   "label": "C 评估器抛弃率：InternLM2 分支 干预 − 只重生",
+   "est": -0.0271,
+   "ci": [
+    -0.1209,
+    0.0646
+   ],
+   "p_reported": 0.44305,
+   "source": "reports/branch_v2/report.json",
+   "note": "",
+   "p_from_ci": 0.5624295102627324,
+   "p": 0.44305,
+   "p_source": "报告",
+   "sig_raw": false,
+   "p_adj": 0.6276541666666667,
+   "method": "bh",
+   "q_global": 0.6402950172774606
+  },
+  {
+   "family": "S6 A6-B 反事实分支",
+   "label": "C 评估器抛弃率：三模型合并 分支 干预 − 只重生（净效应）",
+   "est": -0.07,
+   "ci": [
+    -0.12,
+    -0.01
+   ],
+   "p_reported": 0.044,
+   "source": "reports/intervention_v2/diagnostics.md §3（三模型合并，按人设配对 Wilcoxon）",
+   "note": "",
+   "p_from_ci": 0.022215286738405338,
+   "p": 0.044,
+   "p_source": "报告",
+   "sig_raw": true,
+   "p_adj": 0.1699856870078993,
+   "method": "bh",
+   "q_global": 0.10900721490863358
+  },
+  {
+   "family": "S6 A6-B 反事实分支",
+   "label": "C 评估器抛弃率：三模型合并 只重生 − 原回复（回归均值）",
+   "est": -0.143,
+   "ci": [
+    -0.2,
+    -0.09
+   ],
+   "p_reported": 0.001,
+   "source": "reports/intervention_v2/diagnostics.md §3（三模型合并，按人设配对 Wilcoxon）",
+   "note": "",
+   "p_from_ci": 1.2345710476147076e-07,
+   "p": 0.001,
+   "p_source": "报告",
+   "sig_raw": true,
+   "p_adj": 0.010532455200116808,
+   "method": "bh",
+   "q_global": 0.0066500000000000005
+  },
+  {
+   "family": "S7 A7 无风险对照",
+   "label": "六维 d5 敷衍回应（观测）：deepseek：无风险 − 有风险",
+   "est": 0.05381944444444445,
+   "ci": [
+    -0.026,
+    0.1372
+   ],
+   "p_reported": null,
+   "source": "reports/six_dim_questions/questions.json",
+   "note": "",
+   "p_from_ci": 0.18631501895167535,
+   "p": 0.18631501895167535,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.46578754737918837,
+   "method": "bh",
+   "q_global": 0.3218168509165301
+  },
+  {
+   "family": "S7 A7 无风险对照",
+   "label": "六维 d1 有害内容（长度校正）：cpsycoun：无风险 − 有风险",
+   "est": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "p_reported": null,
+   "source": "reports/six_dim_questions/questions.json",
+   "note": "",
+   "p_from_ci": 1.0,
+   "p": 1.0,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 1.0,
+   "method": "bh",
+   "q_global": 1.0
+  },
+  {
+   "family": "S7 A7 无风险对照",
+   "label": "六维 d4 扭曲附和（长度校正）：cpsycoun：无风险 − 有风险",
+   "est": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "p_reported": null,
+   "source": "reports/six_dim_questions/questions.json",
+   "note": "",
+   "p_from_ci": 1.0,
+   "p": 1.0,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 1.0,
+   "method": "bh",
+   "q_global": 1.0
+  },
+  {
+   "family": "S7 A7 无风险对照",
+   "label": "六维 d5 敷衍回应（观测）：cpsycoun：无风险 − 有风险",
+   "est": -0.024111982191250547,
+   "ci": [
+    -0.1666,
+    0.0972
+   ],
+   "p_reported": null,
+   "source": "reports/six_dim_questions/questions.json",
+   "note": "",
+   "p_from_ci": 0.6968546845314405,
+   "p": 0.6968546845314405,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.881949207370446,
+   "method": "bh",
+   "q_global": 0.8581636392840887
+  },
+  {
+   "family": "S7 A7 无风险对照",
+   "label": "六维 d1 有害内容（长度校正）：internlm2-base：无风险 − 有风险",
+   "est": -0.0016477360004013987,
+   "ci": [
+    -0.0261,
+    0.0069
+   ],
+   "p_reported": null,
+   "source": "reports/six_dim_questions/questions.json",
+   "note": "",
+   "p_from_ci": 0.7055593658963568,
+   "p": 0.7055593658963568,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.881949207370446,
+   "method": "bh",
+   "q_global": 0.8605692027689531
+  },
+  {
+   "family": "S7 A7 无风险对照",
+   "label": "六维 d4 扭曲附和（长度校正）：internlm2-base：无风险 − 有风险",
+   "est": -0.001202318837336624,
+   "ci": [
+    -0.0472,
+    0.0
+   ],
+   "p_reported": null,
+   "source": "reports/six_dim_questions/questions.json",
+   "note": "",
+   "p_from_ci": 0.049995790296440745,
+   "p": 0.049995790296440745,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.16665263432146915,
+   "method": "bh",
+   "q_global": 0.10900721490863358
+  },
+  {
+   "family": "S7 A7 无风险对照",
+   "label": "六维 d5 敷衍回应（观测）：internlm2-base：无风险 − 有风险",
+   "est": -0.046875,
+   "ci": [
+    -0.1406,
+    0.0486
+   ],
+   "p_reported": null,
+   "source": "reports/six_dim_questions/questions.json",
+   "note": "",
+   "p_from_ci": 0.33590204542194635,
+   "p": 0.33590204542194635,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.5598367423699105,
+   "method": "bh",
+   "q_global": 0.5076701368308961
+  },
+  {
+   "family": "S7 A7 无风险对照",
+   "label": "六维 d1 有害内容（长度校正）：qwen3-8b-base：无风险 − 有风险",
+   "est": -0.15040281557412877,
+   "ci": [
+    -0.2724,
+    -0.0921
+   ],
+   "p_reported": null,
+   "source": "reports/six_dim_questions/questions.json",
+   "note": "",
+   "p_from_ci": 4.2773808228702137e-07,
+   "p": 4.2773808228702137e-07,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 4.277380822870214e-06,
+   "method": "bh",
+   "q_global": 9.48152749069564e-06
+  },
+  {
+   "family": "S7 A7 无风险对照",
+   "label": "六维 d4 扭曲附和（长度校正）：qwen3-8b-base：无风险 − 有风险",
+   "est": -0.08576922712068025,
+   "ci": [
+    -0.1637,
+    -0.0304
+   ],
+   "p_reported": null,
+   "source": "reports/six_dim_questions/questions.json",
+   "note": "",
+   "p_from_ci": 0.002396430017533424,
+   "p": 0.002396430017533424,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 0.01198215008766712,
+   "method": "bh",
+   "q_global": 0.011804636753035015
+  },
+  {
+   "family": "S7 A7 无风险对照",
+   "label": "六维 d5 敷衍回应（观测）：qwen3-8b-base：无风险 − 有风险",
+   "est": 0.03125,
+   "ci": [
+    -0.0208,
+    0.099
+   ],
+   "p_reported": null,
+   "source": "reports/six_dim_questions/questions.json",
+   "note": "",
+   "p_from_ci": 0.23929405819328542,
+   "p": 0.23929405819328542,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.47858811638657084,
+   "method": "bh",
+   "q_global": 0.39291493505811065
+  },
+  {
+   "family": "S8 六维判官剂量反应旁证（本地模型，长度校正）",
+   "label": "六维判官（Qwen）本地模型 fixed 臂 高 − 低风险段，d1 有害内容（长度校正）",
+   "est": 0.0735697900975459,
+   "ci": [
+    0.0282,
+    0.1441
+   ],
+   "p_reported": null,
+   "source": "reports/judge_dose_v7/judge_dose.json",
+   "note": "观测 +7.0%",
+   "p_from_ci": 0.0014816408143898396,
+   "p": 0.0014816408143898396,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 0.0029632816287796793,
+   "method": "bh",
+   "q_global": 0.008210759513077029
+  },
+  {
+   "family": "S8 六维判官剂量反应旁证（本地模型，长度校正）",
+   "label": "六维判官（Qwen）本地模型 fixed 臂 高 − 低风险段，d2 未给可用帮助（长度校正）",
+   "est": 0.21155961150364588,
+   "ci": [
+    0.0825,
+    0.3156
+   ],
+   "p_reported": null,
+   "source": "reports/judge_dose_v7/judge_dose.json",
+   "note": "观测 +17.3%",
+   "p_from_ci": 0.0013139773300534507,
+   "p": 0.0013139773300534507,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 0.0029632816287796793,
+   "method": "bh",
+   "q_global": 0.0075982167346569105
+  },
+  {
+   "family": "S8 六维判官剂量反应旁证（本地模型，长度校正）",
+   "label": "六维判官（Qwen）本地模型 fixed 臂 高 − 低风险段，d4 扭曲附和（长度校正）",
+   "est": 0.06537424226179159,
+   "ci": [
+    0.0148,
+    0.1231
+   ],
+   "p_reported": null,
+   "source": "reports/judge_dose_v7/judge_dose.json",
+   "note": "观测 +11.6%",
+   "p_from_ci": 0.011290634678396527,
+   "p": 0.011290634678396527,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 0.01505417957119537,
+   "method": "bh",
+   "q_global": 0.036625717371383856
+  },
+  {
+   "family": "S8 六维判官剂量反应旁证（本地模型，长度校正）",
+   "label": "六维判官（Qwen）本地模型 fixed 臂 高 − 低风险段，d5 敷衍回应（观测）",
+   "est": 0.28447420634920634,
+   "ci": [
+    0.2579,
+    0.3096
+   ],
+   "p_reported": null,
+   "source": "reports/judge_dose_v7/judge_dose.json",
+   "note": "观测 +28.4%",
+   "p_from_ci": 0.0,
+   "p": 0.0,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 0.0,
+   "method": "bh",
+   "q_global": 0.0
+  },
+  {
+   "family": "S8 六维判官剂量反应旁证（本地模型，长度校正）",
+   "label": "六维判官（DeepSeek）本地模型 fixed 臂 高 − 低风险段，d1 有害内容（长度校正）",
+   "est": 0.03498361853732089,
+   "ci": [
+    0.0068,
+    0.0712
+   ],
+   "p_reported": null,
+   "source": "reports/a4_deepseek/judge_dose/judge_dose.json",
+   "note": "观测 +4.0%",
+   "p_from_ci": 0.014978485740998693,
+   "p": 0.014978485740998693,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 0.01711826941828422,
+   "method": "bh",
+   "q_global": 0.04743187151316253
+  },
+  {
+   "family": "S8 六维判官剂量反应旁证（本地模型，长度校正）",
+   "label": "六维判官（DeepSeek）本地模型 fixed 臂 高 − 低风险段，d2 未给可用帮助（长度校正）",
+   "est": 0.15417906215727556,
+   "ci": [
+    0.0491,
+    0.2097
+   ],
+   "p_reported": null,
+   "source": "reports/a4_deepseek/judge_dose/judge_dose.json",
+   "note": "观测 +15.1%",
+   "p_from_ci": 0.004029491521305051,
+   "p": 0.004029491521305051,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 0.006447186434088081,
+   "method": "bh",
+   "q_global": 0.018480081804605922
+  },
+  {
+   "family": "S8 六维判官剂量反应旁证（本地模型，长度校正）",
+   "label": "六维判官（DeepSeek）本地模型 fixed 臂 高 − 低风险段，d4 扭曲附和（长度校正）",
+   "est": 0.022745271877774313,
+   "ci": [
+    0.0,
+    0.1333
+   ],
+   "p_reported": null,
+   "source": "reports/a4_deepseek/judge_dose/judge_dose.json",
+   "note": "观测 +7.3%",
+   "p_from_ci": 0.049995790296440745,
+   "p": 0.049995790296440745,
+   "p_source": "CI 反推",
+   "sig_raw": false,
+   "p_adj": 0.049995790296440745,
+   "method": "bh",
+   "q_global": 0.10900721490863358
+  },
+  {
+   "family": "S8 六维判官剂量反应旁证（本地模型，长度校正）",
+   "label": "六维判官（DeepSeek）本地模型 fixed 臂 高 − 低风险段，d5 敷衍回应（观测）",
+   "est": 0.17463828862394434,
+   "ci": [
+    0.1465,
+    0.2026
+   ],
+   "p_reported": null,
+   "source": "reports/a4_deepseek/judge_dose/judge_dose.json",
+   "note": "观测 +17.5%",
+   "p_from_ci": 0.0,
+   "p": 0.0,
+   "p_source": "CI 反推",
+   "sig_raw": true,
+   "p_adj": 0.0,
+   "method": "bh",
+   "q_global": 0.0
+  }
+ ],
+ "n_usable": 133,
+ "skipped": [
+  "deepseek：干预 − fixed 对照 d1",
+  "deepseek：干预 − fixed 对照 d3",
+  "deepseek：干预 − fixed 对照 d4",
+  "deepseek：干预 − 同期对照 d1",
+  "deepseek：干预 − 同期对照 d3",
+  "deepseek：干预 − 同期对照 d4",
+  "cpsycoun：干预 − 对照 d3",
+  "internlm2-base：干预 − 对照 d3",
+  "deepseek：无风险 − 有风险 d1",
+  "deepseek：无风险 − 有风险 d4",
+  "三模型合并：intv − regen d1",
+  "三模型合并：intv − regen d3",
+  "三模型合并：intv − regen d4",
+  "deepseek：intv − regen d1",
+  "deepseek：intv − regen d3",
+  "deepseek：intv − regen d4",
+  "cpsycoun：intv − regen d3",
+  "internlm2-base：intv − regen d3"
+ ]
+}

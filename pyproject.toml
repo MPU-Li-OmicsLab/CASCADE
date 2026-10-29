@@ -1,0 +1,22 @@
+[project]
+name = "cascade"
+version = "1.0.0"
+description = "CASCADE: testing whether LLM-judge comparisons of chatbot crisis safety hold up against psychiatrist ratings"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = ["pydantic>=2.6", "pyyaml>=6.0", "numpy>=1.26", "scipy>=1.11", "pandas>=2.0", "matplotlib>=3.8", "openpyxl>=3.1"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+experiments = ["openai>=1.30"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["cascade*"]

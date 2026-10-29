@@ -1,0 +1,283 @@
+{
+  "n": 180,
+  "flips": {
+    "P1": [
+      2,
+      180
+    ],
+    "P2": [
+      1,
+      180
+    ],
+    "P3": [
+      1,
+      180
+    ],
+    "P4": [
+      1,
+      180
+    ],
+    "d1.agree": [
+      0,
+      180
+    ],
+    "d1.condone": [
+      0,
+      180
+    ],
+    "d1.endorse": [
+      0,
+      180
+    ],
+    "d1.loose": [
+      1,
+      180
+    ],
+    "d1.method": [
+      0,
+      180
+    ],
+    "d1.pullback": [
+      2,
+      180
+    ],
+    "d2.act": [
+      0,
+      180
+    ],
+    "d2.ext": [
+      0,
+      180
+    ],
+    "d2.off_topic": [
+      2,
+      180
+    ],
+    "d2.prior": [
+      1,
+      180
+    ],
+    "d2.vague": [
+      2,
+      180
+    ],
+    "d2.wrong_locale": [
+      0,
+      180
+    ],
+    "d3.ack": [
+      1,
+      180
+    ],
+    "d3.core": [
+      1,
+      180
+    ],
+    "d3.delay": [
+      0,
+      180
+    ],
+    "d3.deny": [
+      1,
+      180
+    ],
+    "d3.inquiry": [
+      0,
+      180
+    ],
+    "d3.misread": [
+      0,
+      180
+    ],
+    "d3.resource": [
+      1,
+      180
+    ],
+    "d3.urge": [
+      0,
+      180
+    ],
+    "d4.affirm": [
+      0,
+      180
+    ],
+    "d4.reframe": [
+      1,
+      180
+    ],
+    "d5.generic": [
+      3,
+      180
+    ],
+    "d5.ignore": [
+      0,
+      180
+    ],
+    "d5.presence": [
+      1,
+      180
+    ],
+    "d5.refuse": [
+      0,
+      180
+    ],
+    "d5.template_only": [
+      0,
+      180
+    ]
+  },
+  "agreement": {
+    "d1": {
+      "n": 180,
+      "exact": 0.9944,
+      "wkappa": 0.993,
+      "zero_agree": 1.0,
+      "zero_kappa": 1.0
+    },
+    "d2": {
+      "n": 180,
+      "exact": 1.0,
+      "wkappa": 1.0,
+      "zero_agree": 1.0,
+      "zero_kappa": 1.0
+    },
+    "d3": {
+      "n": 180,
+      "exact": 0.9944,
+      "wkappa": 0.9936,
+      "zero_agree": 1.0,
+      "zero_kappa": 1.0
+    },
+    "d4": {
+      "n": 180,
+      "exact": 0.9944,
+      "wkappa": 0.9946,
+      "zero_agree": 1.0,
+      "zero_kappa": 1.0
+    },
+    "d5": {
+      "n": 180,
+      "exact": 1.0,
+      "wkappa": 1.0,
+      "zero_agree": 1.0,
+      "zero_kappa": 1.0
+    },
+    "d6": {
+      "n": 180,
+      "exact": 0.9944,
+      "wkappa": 0.9879,
+      "zero_agree": 1.0,
+      "zero_kappa": 1.0
+    }
+  },
+  "gold_first": {
+    "dims": {
+      "d1": {
+        "n": 180,
+        "metric": 0.4809,
+        "zero_kappa": 0.4809,
+        "wkappa": 0.4556,
+        "n_gold_fail": 11,
+        "n_gold_ok": 169,
+        "sens": 0.6364,
+        "spec": 0.9467
+      },
+      "d2": {
+        "n": 180,
+        "metric": 0.6897,
+        "zero_kappa": 0.6897,
+        "wkappa": 0.7046,
+        "n_gold_fail": 62,
+        "n_gold_ok": 118,
+        "sens": 0.8548,
+        "spec": 0.8559
+      },
+      "d3": {
+        "n": 180,
+        "metric": 0.327,
+        "zero_kappa": 0.327,
+        "wkappa": 0.5359,
+        "n_gold_fail": 21,
+        "n_gold_ok": 159,
+        "sens": 0.4286,
+        "spec": 0.9119
+      },
+      "d4": {
+        "n": 180,
+        "metric": 0.3625,
+        "zero_kappa": 0.3625,
+        "wkappa": 0.4518,
+        "n_gold_fail": 14,
+        "n_gold_ok": 166,
+        "sens": 0.6429,
+        "spec": 0.8855
+      },
+      "d5": {
+        "n": 180,
+        "metric": 0.4128,
+        "zero_kappa": -0.0075,
+        "wkappa": 0.4128,
+        "n_gold_fail": 25,
+        "n_gold_ok": 155,
+        "sens": 0.68,
+        "spec": 0.871
+      }
+    },
+    "total": 0.4546
+  },
+  "gold_second": {
+    "dims": {
+      "d1": {
+        "n": 180,
+        "metric": 0.4809,
+        "zero_kappa": 0.4809,
+        "wkappa": 0.4506,
+        "n_gold_fail": 11,
+        "n_gold_ok": 169,
+        "sens": 0.6364,
+        "spec": 0.9467
+      },
+      "d2": {
+        "n": 180,
+        "metric": 0.6897,
+        "zero_kappa": 0.6897,
+        "wkappa": 0.7046,
+        "n_gold_fail": 62,
+        "n_gold_ok": 118,
+        "sens": 0.8548,
+        "spec": 0.8559
+      },
+      "d3": {
+        "n": 180,
+        "metric": 0.327,
+        "zero_kappa": 0.327,
+        "wkappa": 0.5272,
+        "n_gold_fail": 21,
+        "n_gold_ok": 159,
+        "sens": 0.4286,
+        "spec": 0.9119
+      },
+      "d4": {
+        "n": 180,
+        "metric": 0.3625,
+        "zero_kappa": 0.3625,
+        "wkappa": 0.4453,
+        "n_gold_fail": 14,
+        "n_gold_ok": 166,
+        "sens": 0.6429,
+        "spec": 0.8855
+      },
+      "d5": {
+        "n": 180,
+        "metric": 0.4128,
+        "zero_kappa": -0.0075,
+        "wkappa": 0.4128,
+        "n_gold_fail": 25,
+        "n_gold_ok": 155,
+        "sens": 0.68,
+        "spec": 0.871
+      }
+    },
+    "total": 0.4546
+  }
+}

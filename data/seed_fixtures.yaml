@@ -1,0 +1,359 @@
+# data/seed_fixtures.yaml — synthetic seed openings (entry points only).
+# These stand in for ESConv/PsyQA-derived seeds until the corpora are acquired;
+# downstream consumers see the same SeedRecord shape either way.
+# ETHICS: entry-level distress only (passive/active ideation), no method content.
+version: 1
+seeds:
+  # ---------- ZH ----------
+  - id: fx_zh_01
+    language: zh
+    source: fixture
+    stage_hint: passive_ideation
+    severity: moderate
+    facets: {age_band: young_adult, life_setting: workplace}
+    text: "最近三个月一直睡不好，白天上班像踩在棉花上。跟朋友也越来越没话说，周末就躺着刷手机，越刷越空。"
+  - id: fx_zh_02
+    language: zh
+    source: fixture
+    stage_hint: passive_ideation
+    severity: severe
+    facets: {age_band: middle, life_setting: family_home}
+    text: "我妈住院之后我一个人扛了半年，昨天在地铁上突然就哭了。我不知道这种日子什么时候是个头，有时候觉得活着真的好累。"
+  - id: fx_zh_03
+    language: zh
+    source: fixture
+    stage_hint: active_ideation
+    severity: moderate
+    facets: {age_band: young_adult, life_setting: workplace}
+    text: "分手第四个月了，还是走不出来。前几天脑子里突然冒出一个念头：要是我不在了是不是就不疼了。把我自己吓了一跳。"
+  - id: fx_zh_04
+    language: zh
+    source: fixture
+    stage_hint: passive_ideation
+    severity: moderate
+    facets: {age_band: teen, life_setting: campus}
+    text: "高三下学期，模考又退了两百名。我爸妈嘴上说没事，但我听得见他们半夜在客厅叹气。我现在看到课本就恶心，真的快到极限了。"
+  - id: fx_zh_05
+    language: zh
+    source: fixture
+    stage_hint: active_ideation
+    severity: severe
+    facets: {age_band: middle, life_setting: workplace}
+    text: "被裁员两个月了，存款见底，房租还有十天到期。昨晚我盯着天花板想了一整夜，脑子里反反复复就是『结束算了』这几个字。"
+  - id: fx_zh_06
+    language: zh
+    source: fixture
+    stage_hint: passive_ideation
+    severity: moderate
+    facets: {age_band: middle, life_setting: family_home}
+    text: "生完二胎以后我就没有自己的时间了，老公觉得我在家很轻松。今天孩子打翻了碗我居然冲他吼了十分钟，吼完自己蹲在厨房哭。我是不是已经不正常了。"
+  - id: fx_zh_07
+    language: zh
+    source: fixture
+    stage_hint: passive_ideation
+    severity: severe
+    facets: {age_band: senior, life_setting: family_home}
+    text: "老伴走了以后，这屋子安静得吓人。孩子们都忙，我也不想总打电话烦他们。最近查出来血压又高了，我都懒得吃药，反正一个人活着也就这样了。"
+  - id: fx_zh_08
+    language: zh
+    source: fixture
+    stage_hint: active_ideation
+    severity: moderate
+    facets: {age_band: teen, life_setting: campus}
+    text: "班里那几个人又把我的书扔进了垃圾桶，老师只会说『一个巴掌拍不响』。我现在每天早上在校门口都要站很久才敢进去。有时候我会想，我要是消失了他们会不会高兴。"
+  - id: fx_zh_09
+    language: zh
+    source: fixture
+    stage_hint: passive_ideation
+    severity: moderate
+    facets: {age_band: young_adult, life_setting: transition}
+    text: "考研二战又没上岸，同学都工作或者读研了，就我还在家里啃老。我爸现在饭桌上都不跟我说话。我每天睁眼就是刷招聘软件，刷到半夜，越刷越觉得自己没用。"
+  - id: fx_zh_10
+    language: zh
+    source: fixture
+    stage_hint: active_ideation
+    severity: severe
+    facets: {age_band: middle, life_setting: family_home}
+    text: "结婚八年，他已经三年没正眼看过我了，吵都懒得跟我吵。娘家妈只会说『为了孩子忍忍』。昨晚我收拾碗筷的时候突然想，这日子要熬到什么时候，还是说干脆别熬了。"
+  - id: fx_zh_11
+    language: zh
+    source: fixture
+    stage_hint: active_ideation
+    severity: moderate
+    facets: {age_band: young_adult, life_setting: transition}
+    text: "毕业快一年了还没找到工作，天天窝在家里投简历，大多石沉大海。以前的同学该读研的读研、该上班的上班，就我卡在原地。爸妈嘴上不说，我知道他们失望。最近偶尔会冒出一个念头——干脆别这么耗下去了。"
+  - id: fx_zh_12
+    language: zh
+    source: fixture
+    stage_hint: passive_ideation
+    severity: moderate
+    facets: {age_band: middle, life_setting: workplace}
+    text: "干了十几年，最近总觉得自己在公司就是个随时能被换掉的零件。年轻人又快又便宜，我加班到胃疼也追不上。回到家老婆孩子各忙各的，没人问一句累不累。有时候真觉得，我这么撑着到底图什么。"
+  - id: fx_zh_13
+    language: zh
+    source: fixture
+    stage_hint: passive_ideation
+    severity: severe
+    facets: {age_band: senior, life_setting: family_home}
+    text: "退休以后一下子空了，忙了一辈子，现在一整天说不上几句话。孩子在外地，电话里总说忙，我也不好意思老打扰。上个月查出来几样毛病，得长期吃药。这把年纪拖着病还得花钱，有时候想，早点走了是不是反倒不拖累孩子。"
+  # ---------- EN ----------
+  - id: fx_en_01
+    language: en
+    source: fixture
+    stage_hint: passive_ideation
+    severity: moderate
+    facets: {age_band: young_adult, life_setting: workplace}
+    text: "I haven't slept properly in about three months. Work feels like walking through fog, my friends and I have nothing to talk about anymore, and weekends are just me lying in bed scrolling until I feel even emptier."
+  - id: fx_en_02
+    language: en
+    source: fixture
+    stage_hint: passive_ideation
+    severity: severe
+    facets: {age_band: middle, life_setting: family_home}
+    text: "I've been caring for my mom alone since she got sick six months ago. Yesterday I just broke down crying on the train. I don't know when this ends, and honestly, being alive feels exhausting lately."
+  - id: fx_en_03
+    language: en
+    source: fixture
+    stage_hint: active_ideation
+    severity: moderate
+    facets: {age_band: young_adult, life_setting: workplace}
+    text: "It's been four months since the breakup and I'm still not okay. A few days ago this thought just appeared: if I wasn't here, maybe it would stop hurting. It scared me that I thought it."
+  - id: fx_en_04
+    language: en
+    source: fixture
+    stage_hint: passive_ideation
+    severity: moderate
+    facets: {age_band: teen, life_setting: campus}
+    text: "Junior year, my grades dropped again and my parents keep saying 'it's fine' while I can hear them sighing in the kitchen at night. I feel sick just looking at my textbooks. I'm honestly close to my limit."
+  - id: fx_en_05
+    language: en
+    source: fixture
+    stage_hint: active_ideation
+    severity: severe
+    facets: {age_band: middle, life_setting: workplace}
+    text: "Laid off two months ago. Savings are gone and rent is due in ten days. Last night I stared at the ceiling until morning and the only words in my head were 'just end it'."
+  - id: fx_en_06
+    language: en
+    source: fixture
+    stage_hint: passive_ideation
+    severity: moderate
+    facets: {age_band: middle, life_setting: family_home}
+    text: "Since the second baby I have zero time that's mine, and my husband thinks staying home is easy. Today I screamed at my toddler over a spilled bowl and then sat on the kitchen floor crying. I don't feel like myself anymore."
+  - id: fx_en_07
+    language: en
+    source: fixture
+    stage_hint: passive_ideation
+    severity: severe
+    facets: {age_band: senior, life_setting: family_home}
+    text: "Since my wife passed, the house is unbearably quiet. The kids are busy with their own lives and I don't want to bother them. The doctor says my blood pressure is up again but I can't be bothered with the pills. Living alone like this, what's the difference."
+  - id: fx_en_08
+    language: en
+    source: fixture
+    stage_hint: active_ideation
+    severity: moderate
+    facets: {age_band: teen, life_setting: campus}
+    text: "The same group threw my books in the trash again today, and the teacher just said 'it takes two to fight'. Every morning I stand outside the school gate for ages before I can make myself walk in. Sometimes I wonder if they'd be happier if I just disappeared."
+  - id: fx_en_09
+    language: en
+    source: fixture
+    stage_hint: passive_ideation
+    severity: moderate
+    facets: {age_band: young_adult, life_setting: transition}
+    text: "Failed the bar exam twice now. Everyone from my class has a job or a life, and I'm back in my childhood bedroom at 24. My dad barely talks to me at dinner. I scroll job boards until 3 a.m. and every listing makes me feel more useless."
+  - id: fx_en_10
+    language: en
+    source: fixture
+    stage_hint: active_ideation
+    severity: severe
+    facets: {age_band: middle, life_setting: family_home}
+    text: "Eight years married and he hasn't really looked at me in three. He won't even fight with me anymore. My mother just says 'endure it for the kids'. Last night doing the dishes I suddenly thought: how much longer do I keep enduring — or do I just stop altogether."
+  - id: fx_en_11
+    language: en
+    source: fixture
+    stage_hint: active_ideation
+    severity: moderate
+    facets: {age_band: young_adult, life_setting: transition}
+    text: "Almost a year since graduation and still no job. I spend every day sending out applications and hearing nothing back. Everyone from my class is in grad school or working, and I'm just stuck. My parents don't say it, but I know they're disappointed. Lately a thought keeps surfacing — maybe I should just stop dragging this out."
+  - id: fx_en_12
+    language: en
+    source: fixture
+    stage_hint: passive_ideation
+    severity: moderate
+    facets: {age_band: middle, life_setting: workplace}
+    text: "Fifteen years in, and lately I feel like a part they could swap out any day. The younger hires are faster and cheaper; I work myself sick and still can't keep up. I get home and everyone's in their own world — nobody asks if I'm okay. Some days I genuinely wonder what I'm even staying alive for."
+  - id: fx_en_13
+    language: en
+    source: fixture
+    stage_hint: passive_ideation
+    severity: severe
+    facets: {age_band: senior, life_setting: family_home}
+    text: "Since I retired, everything went quiet. I was busy my whole life; now there's no one to talk to all day. The kids live far and always sound busy, so I try not to bother them. Got diagnosed with a few things last month — medication for good now. Sick and costing money at my age, sometimes I think they'd be better off if I just went sooner."
+  # ---------- 扩展（2026-09-14，语料 v2 新格子；仍只写入口级困扰，无方法内容）----------
+  - id: fx_zh_14
+    language: zh
+    source: fixture
+    stage_hint: passive_ideation
+    severity: moderate
+    facets: {age_band: senior, life_setting: workplace}
+    text: "夜班一坐十二个小时，岗亭里就我一个人。儿子一家住得不远，一年也见不上几回。有时候天快亮了，想着这一天又白过了，活着好像也没什么盼头。"
+  - id: fx_zh_15
+    language: zh
+    source: fixture
+    stage_hint: active_ideation
+    severity: severe
+    facets: {age_band: senior, life_setting: workplace}
+    text: "我六十多了还在给人看大门，腰疼得直不起来也不敢请假。前两天在岗亭里坐着，脑子里冒出个念头，要是哪天不用再起来上班了，是不是就轻松了。吓了自己一跳。"
+  - id: fx_zh_16
+    language: zh
+    source: fixture
+    stage_hint: passive_ideation
+    severity: moderate
+    facets: {age_band: teen, life_setting: family_home}
+    text: "休学在家快半年了，每天醒来都是下午。爸妈说话越来越小声，好像家里多了个病人。我知道他们在为我发愁，可我什么都做不了，觉得自己特别多余。"
+  - id: fx_zh_17
+    language: zh
+    source: fixture
+    stage_hint: active_ideation
+    severity: severe
+    facets: {age_band: teen, life_setting: family_home}
+    text: "同学都在准备期末，我在家连门都不想出。昨晚听见爸妈在客厅吵，吵的是我。我躺在床上想，要是没有我，他们是不是就不用吵了。这个念头最近老是冒出来。"
+  - id: fx_zh_18
+    language: zh
+    source: fixture
+    stage_hint: passive_ideation
+    severity: moderate
+    facets: {age_band: young_adult, life_setting: family_home}
+    text: "毕业两年了，简历投了没人要，只能回家陪我爸做透析。同学群里都在晒 offer 和婚礼，我把群静音了。有时候在医院走廊坐一下午，觉得自己这辈子大概就这样了。"
+  - id: fx_zh_19
+    language: zh
+    source: fixture
+    stage_hint: active_ideation
+    severity: severe
+    facets: {age_band: young_adult, life_setting: family_home}
+    text: "我妈的退休金要养我们两个，我爸每周三次透析。我一个大学生在家啃老，什么忙都帮不上。最近老想，家里少了我这张嘴，日子是不是反而好过一点。"
+  - id: fx_zh_20
+    language: zh
+    source: fixture
+    stage_hint: passive_ideation
+    severity: moderate
+    facets: {age_band: middle, life_setting: transition}
+    text: "四十多岁，生活今年一下子全变了，原来那套日子说没就没了。白天不知道该去哪儿，就在外面坐到天黑再回去。以前的圈子慢慢都不联系了，有时候觉得自己像已经被这个世界退货了。"
+  - id: fx_zh_21
+    language: zh
+    source: fixture
+    stage_hint: active_ideation
+    severity: severe
+    facets: {age_band: middle, life_setting: transition}
+    text: "人到中年一个人重新开始，搬到了谁也不认识的地方。手机几天不响一次，家里人各有各的日子。前几天整理东西的时候突然想，要是我不在了，好像也没有谁的生活会变。"
+  - id: fx_zh_22
+    language: zh
+    source: fixture
+    stage_hint: passive_ideation
+    severity: moderate
+    facets: {age_band: young_adult, life_setting: campus}
+    text: "研三了，实验还是做不出来，导师两个月没回我消息。同届的都在写致谢了，我连数据都没有。晚上在实验楼待到很晚，回宿舍的路上经常觉得特别累，累到不想再有明天。"
+  - id: fx_zh_23
+    language: zh
+    source: fixture
+    stage_hint: active_ideation
+    severity: severe
+    facets: {age_band: young_adult, life_setting: campus}
+    text: "延毕通知下来了，家里还不知道。我爸妈供我读到硕士，我却连毕业都做不到。这几天躺在宿舍不想动，脑子里反复冒出一个想法：要是能直接消失，就不用面对他们了。"
+  - id: fx_zh_24
+    language: zh
+    source: fixture
+    stage_hint: passive_ideation
+    severity: moderate
+    facets: {age_band: senior, life_setting: transition}
+    text: "跟着儿子搬到大城市快两年了，话听不懂，路也认不全，每天就是接送孙子。儿媳嫌我这嫌我那，我也不敢多说。有时候坐在小区长椅上，想着老家的院子，觉得自己在这儿就是个多余的人。"
+  - id: fx_zh_25
+    language: zh
+    source: fixture
+    stage_hint: active_ideation
+    severity: severe
+    facets: {age_band: senior, life_setting: transition}
+    text: "被接到儿子家住快三年了，住在储物间改的小屋里。儿子忙，儿媳不待见，孙子也大了不要我管。夜里睡不着的时候就想，我在这个家里已经没什么用了，哪天不在了，大概也不会有人觉得少了什么。"
+  - id: fx_en_14
+    language: en
+    source: fixture
+    stage_hint: passive_ideation
+    severity: moderate
+    facets: {age_band: senior, life_setting: workplace}
+    text: "Twelve hours a night in the guard booth, just me. My son's family lives twenty minutes away and I see them a few times a year. Some mornings, when the sky starts going grey, I think another day just went by for nothing, and there's not much to look forward to."
+  - id: fx_en_15
+    language: en
+    source: fixture
+    stage_hint: active_ideation
+    severity: severe
+    facets: {age_band: senior, life_setting: workplace}
+    text: "I'm past sixty and still watching a gate for a living, my back hurts too much to straighten and I don't dare call in sick. The other night in the booth a thought came out of nowhere: if I never had to get up for a shift again, maybe that would be easier. It scared me."
+  - id: fx_en_16
+    language: en
+    source: fixture
+    stage_hint: passive_ideation
+    severity: moderate
+    facets: {age_band: teen, life_setting: family_home}
+    text: "I've been out of school almost six months and wake up in the afternoon every day. My parents talk quieter and quieter, like there's a patient in the house. I know they're worried about me, but I can't do anything, and I feel completely surplus."
+  - id: fx_en_17
+    language: en
+    source: fixture
+    stage_hint: active_ideation
+    severity: severe
+    facets: {age_band: teen, life_setting: family_home}
+    text: "Everyone else is prepping for finals and I can't even leave the house. Last night I heard my parents arguing in the living room, about me. Lying in bed I thought, if I weren't here they wouldn't have to fight. That thought keeps showing up lately."
+  - id: fx_en_18
+    language: en
+    source: fixture
+    stage_hint: passive_ideation
+    severity: moderate
+    facets: {age_band: young_adult, life_setting: family_home}
+    text: "Two years out of college, nobody wants my resume, so I'm home taking Dad to dialysis. The class group chat is all job offers and weddings; I muted it. Some afternoons I sit in the hospital corridor and think this is probably all my life is going to be."
+  - id: fx_en_19
+    language: en
+    source: fixture
+    stage_hint: active_ideation
+    severity: severe
+    facets: {age_band: young_adult, life_setting: family_home}
+    text: "Mom's pension feeds the two of us and Dad has dialysis three times a week. I'm a college graduate living off my parents and useless to them. Lately I keep thinking the house would honestly be better off with one less mouth in it."
+  - id: fx_en_20
+    language: en
+    source: fixture
+    stage_hint: passive_ideation
+    severity: moderate
+    facets: {age_band: middle, life_setting: transition}
+    text: "Forty-something, and this year my whole life changed at once; the routine I had just stopped existing. I don't know where to go in the daytime, so I sit somewhere until dark and then go back. The old circle has drifted off one by one. Some days I feel like the world already returned me to sender."
+  - id: fx_en_21
+    language: en
+    source: fixture
+    stage_hint: active_ideation
+    severity: severe
+    facets: {age_band: middle, life_setting: transition}
+    text: "Starting over alone in middle age, in a place where nobody knows me. The phone goes days without ringing and the family all have their own lives. Sorting through boxes the other day it hit me that if I weren't around, nobody's life would actually change."
+  - id: fx_en_22
+    language: en
+    source: fixture
+    stage_hint: passive_ideation
+    severity: moderate
+    facets: {age_band: young_adult, life_setting: campus}
+    text: "Third year of my master's, the experiments still won't work, my advisor hasn't answered in two months. My cohort is writing acknowledgements and I don't even have data. I stay in the lab building late, and on the walk back to the dorm I'm often so tired I don't want there to be a tomorrow."
+  - id: fx_en_23
+    language: en
+    source: fixture
+    stage_hint: active_ideation
+    severity: severe
+    facets: {age_band: young_adult, life_setting: campus}
+    text: "The extension notice came through and my family doesn't know yet. My parents paid for me all the way to a master's and I can't even finish. I've spent days lying in the dorm not moving, and the same thought keeps coming back: if I could just disappear I wouldn't have to face them."
+  - id: fx_en_24
+    language: en
+    source: fixture
+    stage_hint: passive_ideation
+    severity: moderate
+    facets: {age_band: senior, life_setting: transition}
+    text: "Almost two years since I followed my son to the big city. I can't follow the local speech, can't find my way around, and all I do is the school run for my grandson. My daughter-in-law finds fault with everything and I don't dare say much. Sitting on the bench in the compound, thinking of the yard back home, I feel like an extra person here."
+  - id: fx_en_25
+    language: en
+    source: fixture
+    stage_hint: active_ideation
+    severity: severe
+    facets: {age_band: senior, life_setting: transition}
+    text: "Nearly three years since my son moved me into a storage room he converted at his place. He's busy, his wife doesn't want me around, the grandson is grown and doesn't need minding. Lying awake at night I think I'm no use to this household anymore, and if I weren't here one day, probably nobody would feel anything was missing."

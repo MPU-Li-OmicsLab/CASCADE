@@ -1,0 +1,189 @@
+{
+  "meta": {
+    "generated_at": "2026-10-17 16:01",
+    "corpus": "runs/v2/dialogues_both_arms.jsonl",
+    "n_boot": 2000
+  },
+  "rows": [
+    {
+      "a": "cpsycoun",
+      "c": "internlm2-base",
+      "arm": "fixed",
+      "metric": "loop",
+      "rate_a": 0.3940972222222222,
+      "rate_c": 0.0,
+      "diff": 0.3940972222222222,
+      "ci": [
+        0.296875,
+        0.5017361111111112
+      ],
+      "n_personas": 16,
+      "personas_with_a": 16
+    },
+    {
+      "a": "cpsycoun",
+      "c": "internlm2-base",
+      "arm": "fixed",
+      "metric": "truncated",
+      "rate_a": 0.3159722222222222,
+      "rate_c": 0.0,
+      "diff": 0.3159722222222222,
+      "ci": [
+        0.23958333333333334,
+        0.4027777777777778
+      ],
+      "n_personas": 16,
+      "personas_with_a": 16
+    },
+    {
+      "a": "cpsycoun",
+      "c": "internlm2-base",
+      "arm": "responsive",
+      "metric": "loop",
+      "rate_a": 0.3641160949868074,
+      "rate_c": 0.0,
+      "diff": 0.3641160949868074,
+      "ci": [
+        0.2750642673521851,
+        0.4381720430107527
+      ],
+      "n_personas": 16,
+      "personas_with_a": 15
+    },
+    {
+      "a": "cpsycoun",
+      "c": "internlm2-base",
+      "arm": "responsive",
+      "metric": "truncated",
+      "rate_a": 0.2928759894459103,
+      "rate_c": 0.0,
+      "diff": 0.2928759894459103,
+      "ci": [
+        0.21465968586387435,
+        0.37669376693766937
+      ],
+      "n_personas": 16,
+      "personas_with_a": 15
+    },
+    {
+      "a": "mindchat",
+      "c": "qwen15-4b-base",
+      "arm": "fixed",
+      "metric": "loop",
+      "rate_a": 0.0,
+      "rate_c": 0.0,
+      "diff": 0.0,
+      "ci": [
+        0.0,
+        0.0
+      ],
+      "n_personas": 16,
+      "personas_with_a": 0
+    },
+    {
+      "a": "mindchat",
+      "c": "qwen15-4b-base",
+      "arm": "fixed",
+      "metric": "truncated",
+      "rate_a": 0.0,
+      "rate_c": 0.0,
+      "diff": 0.0,
+      "ci": [
+        0.0,
+        0.0
+      ],
+      "n_personas": 16,
+      "personas_with_a": 0
+    },
+    {
+      "a": "mindchat",
+      "c": "qwen15-4b-base",
+      "arm": "responsive",
+      "metric": "loop",
+      "rate_a": 0.0,
+      "rate_c": 0.0,
+      "diff": 0.0,
+      "ci": [
+        0.0,
+        0.0
+      ],
+      "n_personas": 16,
+      "personas_with_a": 0
+    },
+    {
+      "a": "mindchat",
+      "c": "qwen15-4b-base",
+      "arm": "responsive",
+      "metric": "truncated",
+      "rate_a": 0.0,
+      "rate_c": 0.0,
+      "diff": 0.0,
+      "ci": [
+        0.0,
+        0.0
+      ],
+      "n_personas": 16,
+      "personas_with_a": 0
+    },
+    {
+      "a": "soulchat",
+      "c": "qwen3-8b-base",
+      "arm": "fixed",
+      "metric": "loop",
+      "rate_a": 0.0,
+      "rate_c": 0.034722222222222224,
+      "diff": -0.034722222222222224,
+      "ci": [
+        -0.0642361111111111,
+        -0.008680555555555556
+      ],
+      "n_personas": 16,
+      "personas_with_a": 0
+    },
+    {
+      "a": "soulchat",
+      "c": "qwen3-8b-base",
+      "arm": "fixed",
+      "metric": "truncated",
+      "rate_a": 0.0,
+      "rate_c": 0.005208333333333333,
+      "diff": -0.005208333333333333,
+      "ci": [
+        -0.013888888888888888,
+        0.0
+      ],
+      "n_personas": 16,
+      "personas_with_a": 0
+    },
+    {
+      "a": "soulchat",
+      "c": "qwen3-8b-base",
+      "arm": "responsive",
+      "metric": "loop",
+      "rate_a": 0.002638522427440633,
+      "rate_c": 0.0106951871657754,
+      "diff": -0.008056664738334766,
+      "ci": [
+        -0.03128978864272982,
+        0.0056179775280898875
+      ],
+      "n_personas": 16,
+      "personas_with_a": 1
+    },
+    {
+      "a": "soulchat",
+      "c": "qwen3-8b-base",
+      "arm": "responsive",
+      "metric": "truncated",
+      "rate_a": 0.0,
+      "rate_c": 0.008021390374331552,
+      "diff": -0.008021390374331552,
+      "ci": [
+        -0.024390243902439025,
+        0.0
+      ],
+      "n_personas": 16,
+      "personas_with_a": 0
+    }
+  ]
+}

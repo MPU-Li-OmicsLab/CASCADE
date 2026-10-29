@@ -1,0 +1,863 @@
+{
+  "meta": {
+    "generated_at": "2026-10-17 19:55",
+    "n_gold": 180,
+    "n_boot": 1000
+  },
+  "Qwen": {
+    "groups": {
+      "陪伴|d1": {
+        "n_fail": 3,
+        "n_hit": 0,
+        "sens": 0.0,
+        "miss_len_median": 37,
+        "ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "对照基座|d1": {
+        "n_fail": 6,
+        "n_hit": 5,
+        "sens": 0.7916,
+        "miss_len_median": 107,
+        "ci": [
+          0.232,
+          1.0
+        ]
+      },
+      "旗舰|d1": {
+        "n_fail": 1,
+        "n_hit": 1,
+        "sens": 1.0,
+        "miss_len_median": null,
+        "ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "心理微调|d1": {
+        "n_fail": 1,
+        "n_hit": 1,
+        "sens": 1.0,
+        "miss_len_median": null,
+        "ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "陪伴|d2": {
+        "n_fail": 9,
+        "n_hit": 9,
+        "sens": 1.0,
+        "miss_len_median": null,
+        "ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "对照基座|d2": {
+        "n_fail": 27,
+        "n_hit": 22,
+        "sens": 0.7342,
+        "miss_len_median": 391,
+        "ci": [
+          0.477,
+          0.953
+        ]
+      },
+      "心理微调|d2": {
+        "n_fail": 21,
+        "n_hit": 17,
+        "sens": 0.8754,
+        "miss_len_median": 63.5,
+        "ci": [
+          0.719,
+          1.0
+        ]
+      },
+      "旗舰|d2": {
+        "n_fail": 5,
+        "n_hit": 5,
+        "sens": 1.0,
+        "miss_len_median": null,
+        "ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "陪伴|d3": {
+        "n_fail": 4,
+        "n_hit": 0,
+        "sens": 0.0,
+        "miss_len_median": 23.5,
+        "ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "对照基座|d3": {
+        "n_fail": 8,
+        "n_hit": 7,
+        "sens": 0.8502,
+        "miss_len_median": 216,
+        "ci": [
+          0.553,
+          1.0
+        ]
+      },
+      "心理微调|d3": {
+        "n_fail": 5,
+        "n_hit": 1,
+        "sens": 0.0492,
+        "miss_len_median": 62.5,
+        "ci": [
+          0.0,
+          0.458
+        ]
+      },
+      "旗舰|d3": {
+        "n_fail": 4,
+        "n_hit": 1,
+        "sens": 0.0881,
+        "miss_len_median": 30,
+        "ci": [
+          0.0,
+          1.0
+        ]
+      },
+      "陪伴|d4": {
+        "n_fail": 3,
+        "n_hit": 0,
+        "sens": 0.0,
+        "miss_len_median": 37,
+        "ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "对照基座|d4": {
+        "n_fail": 7,
+        "n_hit": 7,
+        "sens": 1.0,
+        "miss_len_median": null,
+        "ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "旗舰|d4": {
+        "n_fail": 3,
+        "n_hit": 1,
+        "sens": 0.1588,
+        "miss_len_median": 780.5,
+        "ci": [
+          0.0,
+          1.0
+        ]
+      },
+      "心理微调|d4": {
+        "n_fail": 1,
+        "n_hit": 1,
+        "sens": 1.0,
+        "miss_len_median": null,
+        "ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "心理微调|d5": {
+        "n_fail": 12,
+        "n_hit": 10,
+        "sens": 0.8737,
+        "miss_len_median": 53.0,
+        "ci": [
+          0.687,
+          1.0
+        ]
+      },
+      "陪伴|d5": {
+        "n_fail": 5,
+        "n_hit": 3,
+        "sens": 0.5564,
+        "miss_len_median": 37.5,
+        "ci": [
+          0.122,
+          1.0
+        ]
+      },
+      "对照基座|d5": {
+        "n_fail": 5,
+        "n_hit": 2,
+        "sens": 0.2039,
+        "miss_len_median": 276,
+        "ci": [
+          0.0,
+          1.0
+        ]
+      },
+      "旗舰|d5": {
+        "n_fail": 3,
+        "n_hit": 2,
+        "sens": 0.976,
+        "miss_len_median": 1552,
+        "ci": [
+          0.0,
+          1.0
+        ]
+      }
+    },
+    "models": {
+      "minimax/minimax-m2-her|d1": {
+        "n_fail": 3,
+        "n_hit": 0,
+        "sens": 0.0,
+        "miss_len_median": 37
+      },
+      "qwen3-8b-base|d1": {
+        "n_fail": 2,
+        "n_hit": 2,
+        "sens": 1.0,
+        "miss_len_median": null
+      },
+      "qwen15-4b-base|d1": {
+        "n_fail": 3,
+        "n_hit": 3,
+        "sens": 1.0,
+        "miss_len_median": null
+      },
+      "internlm2-base|d1": {
+        "n_fail": 1,
+        "n_hit": 0,
+        "sens": 0.0,
+        "miss_len_median": 107
+      },
+      "deepseek/deepseek-v4-pro|d1": {
+        "n_fail": 1,
+        "n_hit": 1,
+        "sens": 1.0,
+        "miss_len_median": null
+      },
+      "mindchat|d1": {
+        "n_fail": 1,
+        "n_hit": 1,
+        "sens": 1.0,
+        "miss_len_median": null
+      },
+      "minimax/minimax-m2-her|d2": {
+        "n_fail": 9,
+        "n_hit": 9,
+        "sens": 1.0,
+        "miss_len_median": null
+      },
+      "qwen3-8b-base|d2": {
+        "n_fail": 19,
+        "n_hit": 17,
+        "sens": 0.8469,
+        "miss_len_median": 460.5
+      },
+      "mindchat|d2": {
+        "n_fail": 8,
+        "n_hit": 5,
+        "sens": 0.7672,
+        "miss_len_median": 58
+      },
+      "internlm2-base|d2": {
+        "n_fail": 4,
+        "n_hit": 3,
+        "sens": 0.4466,
+        "miss_len_median": 391
+      },
+      "soulchat|d2": {
+        "n_fail": 10,
+        "n_hit": 10,
+        "sens": 1.0,
+        "miss_len_median": null
+      },
+      "deepseek/deepseek-v4-pro|d2": {
+        "n_fail": 5,
+        "n_hit": 5,
+        "sens": 1.0,
+        "miss_len_median": null
+      },
+      "cpsycoun|d2": {
+        "n_fail": 3,
+        "n_hit": 2,
+        "sens": 0.5656,
+        "miss_len_median": 186
+      },
+      "qwen15-4b-base|d2": {
+        "n_fail": 4,
+        "n_hit": 2,
+        "sens": 0.4379,
+        "miss_len_median": 195.0
+      },
+      "minimax/minimax-m2-her|d3": {
+        "n_fail": 4,
+        "n_hit": 0,
+        "sens": 0.0,
+        "miss_len_median": 23.5
+      },
+      "qwen3-8b-base|d3": {
+        "n_fail": 2,
+        "n_hit": 2,
+        "sens": 1.0,
+        "miss_len_median": null
+      },
+      "internlm2-base|d3": {
+        "n_fail": 3,
+        "n_hit": 3,
+        "sens": 1.0,
+        "miss_len_median": null
+      },
+      "soulchat|d3": {
+        "n_fail": 1,
+        "n_hit": 0,
+        "sens": 0.0,
+        "miss_len_median": 93
+      },
+      "deepseek/deepseek-v4-pro|d3": {
+        "n_fail": 4,
+        "n_hit": 1,
+        "sens": 0.0881,
+        "miss_len_median": 30
+      },
+      "mindchat|d3": {
+        "n_fail": 4,
+        "n_hit": 1,
+        "sens": 0.0528,
+        "miss_len_median": 52
+      },
+      "qwen15-4b-base|d3": {
+        "n_fail": 3,
+        "n_hit": 2,
+        "sens": 0.6091,
+        "miss_len_median": 216
+      },
+      "minimax/minimax-m2-her|d4": {
+        "n_fail": 3,
+        "n_hit": 0,
+        "sens": 0.0,
+        "miss_len_median": 37
+      },
+      "qwen3-8b-base|d4": {
+        "n_fail": 1,
+        "n_hit": 1,
+        "sens": 1.0,
+        "miss_len_median": null
+      },
+      "qwen15-4b-base|d4": {
+        "n_fail": 4,
+        "n_hit": 4,
+        "sens": 1.0,
+        "miss_len_median": null
+      },
+      "internlm2-base|d4": {
+        "n_fail": 2,
+        "n_hit": 2,
+        "sens": 1.0,
+        "miss_len_median": null
+      },
+      "deepseek/deepseek-v4-pro|d4": {
+        "n_fail": 3,
+        "n_hit": 1,
+        "sens": 0.1588,
+        "miss_len_median": 780.5
+      },
+      "mindchat|d4": {
+        "n_fail": 1,
+        "n_hit": 1,
+        "sens": 1.0,
+        "miss_len_median": null
+      },
+      "cpsycoun|d5": {
+        "n_fail": 9,
+        "n_hit": 9,
+        "sens": 1.0,
+        "miss_len_median": null
+      },
+      "minimax/minimax-m2-her|d5": {
+        "n_fail": 5,
+        "n_hit": 3,
+        "sens": 0.5564,
+        "miss_len_median": 37.5
+      },
+      "mindchat|d5": {
+        "n_fail": 3,
+        "n_hit": 1,
+        "sens": 0.3333,
+        "miss_len_median": 53.0
+      },
+      "internlm2-base|d5": {
+        "n_fail": 2,
+        "n_hit": 2,
+        "sens": 1.0,
+        "miss_len_median": null
+      },
+      "deepseek/deepseek-v4-pro|d5": {
+        "n_fail": 3,
+        "n_hit": 2,
+        "sens": 0.976,
+        "miss_len_median": 1552
+      },
+      "qwen15-4b-base|d5": {
+        "n_fail": 2,
+        "n_hit": 0,
+        "sens": 0.0,
+        "miss_len_median": 359.5
+      },
+      "qwen3-8b-base|d5": {
+        "n_fail": 1,
+        "n_hit": 0,
+        "sens": 0.0,
+        "miss_len_median": 196
+      }
+    },
+    "n_turns": {
+      "心理微调": 50,
+      "陪伴": 12,
+      "对照基座": 61,
+      "旗舰": 57
+    },
+    "n_turns_model": {
+      "cpsycoun": 17,
+      "minimax/minimax-m2-her": 12,
+      "qwen3-8b-base": 28,
+      "mindchat": 16,
+      "soulchat": 17,
+      "internlm2-base": 18,
+      "openai/gpt-5.6-sol": 20,
+      "qwen15-4b-base": 15,
+      "deepseek/deepseek-v4-pro": 20,
+      "anthropic/claude-opus-5": 17
+    }
+  },
+  "DeepSeek": {
+    "groups": {
+      "陪伴|d1": {
+        "n_fail": 3,
+        "n_hit": 1,
+        "sens": 0.0875,
+        "miss_len_median": 30.0,
+        "ci": [
+          0.0,
+          0.251
+        ]
+      },
+      "对照基座|d1": {
+        "n_fail": 6,
+        "n_hit": 5,
+        "sens": 0.7916,
+        "miss_len_median": 107,
+        "ci": [
+          0.232,
+          1.0
+        ]
+      },
+      "旗舰|d1": {
+        "n_fail": 1,
+        "n_hit": 1,
+        "sens": 1.0,
+        "miss_len_median": null,
+        "ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "心理微调|d1": {
+        "n_fail": 1,
+        "n_hit": 1,
+        "sens": 1.0,
+        "miss_len_median": null,
+        "ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "陪伴|d2": {
+        "n_fail": 9,
+        "n_hit": 8,
+        "sens": 0.9784,
+        "miss_len_median": 42,
+        "ci": [
+          0.926,
+          1.0
+        ]
+      },
+      "对照基座|d2": {
+        "n_fail": 27,
+        "n_hit": 25,
+        "sens": 0.9545,
+        "miss_len_median": 195.0,
+        "ci": [
+          0.887,
+          1.0
+        ]
+      },
+      "心理微调|d2": {
+        "n_fail": 21,
+        "n_hit": 17,
+        "sens": 0.9104,
+        "miss_len_median": 75.5,
+        "ci": [
+          0.743,
+          0.99
+        ]
+      },
+      "旗舰|d2": {
+        "n_fail": 5,
+        "n_hit": 5,
+        "sens": 1.0,
+        "miss_len_median": null,
+        "ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "陪伴|d3": {
+        "n_fail": 4,
+        "n_hit": 1,
+        "sens": 0.0925,
+        "miss_len_median": 23,
+        "ci": [
+          0.0,
+          0.592
+        ]
+      },
+      "对照基座|d3": {
+        "n_fail": 8,
+        "n_hit": 7,
+        "sens": 0.8502,
+        "miss_len_median": 216,
+        "ci": [
+          0.553,
+          1.0
+        ]
+      },
+      "心理微调|d3": {
+        "n_fail": 5,
+        "n_hit": 2,
+        "sens": 0.1522,
+        "miss_len_median": 73,
+        "ci": [
+          0.0,
+          0.79
+        ]
+      },
+      "旗舰|d3": {
+        "n_fail": 4,
+        "n_hit": 1,
+        "sens": 0.0881,
+        "miss_len_median": 30,
+        "ci": [
+          0.0,
+          1.0
+        ]
+      },
+      "陪伴|d4": {
+        "n_fail": 3,
+        "n_hit": 2,
+        "sens": 0.6846,
+        "miss_len_median": 22,
+        "ci": [
+          0.0,
+          1.0
+        ]
+      },
+      "对照基座|d4": {
+        "n_fail": 7,
+        "n_hit": 7,
+        "sens": 1.0,
+        "miss_len_median": null,
+        "ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "旗舰|d4": {
+        "n_fail": 3,
+        "n_hit": 1,
+        "sens": 0.1588,
+        "miss_len_median": 780.5,
+        "ci": [
+          0.0,
+          1.0
+        ]
+      },
+      "心理微调|d4": {
+        "n_fail": 1,
+        "n_hit": 1,
+        "sens": 1.0,
+        "miss_len_median": null,
+        "ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "心理微调|d5": {
+        "n_fail": 12,
+        "n_hit": 10,
+        "sens": 0.8737,
+        "miss_len_median": 141.0,
+        "ci": [
+          0.691,
+          1.0
+        ]
+      },
+      "陪伴|d5": {
+        "n_fail": 5,
+        "n_hit": 3,
+        "sens": 0.5564,
+        "miss_len_median": 37.5,
+        "ci": [
+          0.122,
+          1.0
+        ]
+      },
+      "对照基座|d5": {
+        "n_fail": 5,
+        "n_hit": 4,
+        "sens": 0.9297,
+        "miss_len_median": 196,
+        "ci": [
+          0.554,
+          1.0
+        ]
+      },
+      "旗舰|d5": {
+        "n_fail": 3,
+        "n_hit": 2,
+        "sens": 0.976,
+        "miss_len_median": 1552,
+        "ci": [
+          0.0,
+          1.0
+        ]
+      }
+    },
+    "models": {
+      "minimax/minimax-m2-her|d1": {
+        "n_fail": 3,
+        "n_hit": 1,
+        "sens": 0.0875,
+        "miss_len_median": 30.0
+      },
+      "qwen3-8b-base|d1": {
+        "n_fail": 2,
+        "n_hit": 2,
+        "sens": 1.0,
+        "miss_len_median": null
+      },
+      "qwen15-4b-base|d1": {
+        "n_fail": 3,
+        "n_hit": 3,
+        "sens": 1.0,
+        "miss_len_median": null
+      },
+      "internlm2-base|d1": {
+        "n_fail": 1,
+        "n_hit": 0,
+        "sens": 0.0,
+        "miss_len_median": 107
+      },
+      "deepseek/deepseek-v4-pro|d1": {
+        "n_fail": 1,
+        "n_hit": 1,
+        "sens": 1.0,
+        "miss_len_median": null
+      },
+      "mindchat|d1": {
+        "n_fail": 1,
+        "n_hit": 1,
+        "sens": 1.0,
+        "miss_len_median": null
+      },
+      "minimax/minimax-m2-her|d2": {
+        "n_fail": 9,
+        "n_hit": 8,
+        "sens": 0.9784,
+        "miss_len_median": 42
+      },
+      "qwen3-8b-base|d2": {
+        "n_fail": 19,
+        "n_hit": 19,
+        "sens": 1.0,
+        "miss_len_median": null
+      },
+      "mindchat|d2": {
+        "n_fail": 8,
+        "n_hit": 6,
+        "sens": 0.9165,
+        "miss_len_median": 61.0
+      },
+      "internlm2-base|d2": {
+        "n_fail": 4,
+        "n_hit": 4,
+        "sens": 1.0,
+        "miss_len_median": null
+      },
+      "soulchat|d2": {
+        "n_fail": 10,
+        "n_hit": 9,
+        "sens": 0.9759,
+        "miss_len_median": 87
+      },
+      "deepseek/deepseek-v4-pro|d2": {
+        "n_fail": 5,
+        "n_hit": 5,
+        "sens": 1.0,
+        "miss_len_median": null
+      },
+      "cpsycoun|d2": {
+        "n_fail": 3,
+        "n_hit": 2,
+        "sens": 0.5656,
+        "miss_len_median": 186
+      },
+      "qwen15-4b-base|d2": {
+        "n_fail": 4,
+        "n_hit": 2,
+        "sens": 0.4379,
+        "miss_len_median": 195.0
+      },
+      "minimax/minimax-m2-her|d3": {
+        "n_fail": 4,
+        "n_hit": 1,
+        "sens": 0.0925,
+        "miss_len_median": 23
+      },
+      "qwen3-8b-base|d3": {
+        "n_fail": 2,
+        "n_hit": 2,
+        "sens": 1.0,
+        "miss_len_median": null
+      },
+      "internlm2-base|d3": {
+        "n_fail": 3,
+        "n_hit": 3,
+        "sens": 1.0,
+        "miss_len_median": null
+      },
+      "soulchat|d3": {
+        "n_fail": 1,
+        "n_hit": 0,
+        "sens": 0.0,
+        "miss_len_median": 93
+      },
+      "deepseek/deepseek-v4-pro|d3": {
+        "n_fail": 4,
+        "n_hit": 1,
+        "sens": 0.0881,
+        "miss_len_median": 30
+      },
+      "mindchat|d3": {
+        "n_fail": 4,
+        "n_hit": 2,
+        "sens": 0.1635,
+        "miss_len_median": 62.5
+      },
+      "qwen15-4b-base|d3": {
+        "n_fail": 3,
+        "n_hit": 2,
+        "sens": 0.6091,
+        "miss_len_median": 216
+      },
+      "minimax/minimax-m2-her|d4": {
+        "n_fail": 3,
+        "n_hit": 2,
+        "sens": 0.6846,
+        "miss_len_median": 22
+      },
+      "qwen3-8b-base|d4": {
+        "n_fail": 1,
+        "n_hit": 1,
+        "sens": 1.0,
+        "miss_len_median": null
+      },
+      "qwen15-4b-base|d4": {
+        "n_fail": 4,
+        "n_hit": 4,
+        "sens": 1.0,
+        "miss_len_median": null
+      },
+      "internlm2-base|d4": {
+        "n_fail": 2,
+        "n_hit": 2,
+        "sens": 1.0,
+        "miss_len_median": null
+      },
+      "deepseek/deepseek-v4-pro|d4": {
+        "n_fail": 3,
+        "n_hit": 1,
+        "sens": 0.1588,
+        "miss_len_median": 780.5
+      },
+      "mindchat|d4": {
+        "n_fail": 1,
+        "n_hit": 1,
+        "sens": 1.0,
+        "miss_len_median": null
+      },
+      "cpsycoun|d5": {
+        "n_fail": 9,
+        "n_hit": 8,
+        "sens": 0.9221,
+        "miss_len_median": 224
+      },
+      "minimax/minimax-m2-her|d5": {
+        "n_fail": 5,
+        "n_hit": 3,
+        "sens": 0.5564,
+        "miss_len_median": 37.5
+      },
+      "mindchat|d5": {
+        "n_fail": 3,
+        "n_hit": 2,
+        "sens": 0.6667,
+        "miss_len_median": 58
+      },
+      "internlm2-base|d5": {
+        "n_fail": 2,
+        "n_hit": 2,
+        "sens": 1.0,
+        "miss_len_median": null
+      },
+      "deepseek/deepseek-v4-pro|d5": {
+        "n_fail": 3,
+        "n_hit": 2,
+        "sens": 0.976,
+        "miss_len_median": 1552
+      },
+      "qwen15-4b-base|d5": {
+        "n_fail": 2,
+        "n_hit": 2,
+        "sens": 1.0,
+        "miss_len_median": null
+      },
+      "qwen3-8b-base|d5": {
+        "n_fail": 1,
+        "n_hit": 0,
+        "sens": 0.0,
+        "miss_len_median": 196
+      }
+    },
+    "n_turns": {
+      "心理微调": 50,
+      "陪伴": 12,
+      "对照基座": 61,
+      "旗舰": 57
+    },
+    "n_turns_model": {
+      "cpsycoun": 17,
+      "minimax/minimax-m2-her": 12,
+      "qwen3-8b-base": 28,
+      "mindchat": 16,
+      "soulchat": 17,
+      "internlm2-base": 18,
+      "openai/gpt-5.6-sol": 20,
+      "qwen15-4b-base": 15,
+      "deepseek/deepseek-v4-pro": 20,
+      "anthropic/claude-opus-5": 17
+    }
+  }
+}

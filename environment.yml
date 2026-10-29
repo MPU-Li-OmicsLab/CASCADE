@@ -1,0 +1,17 @@
+name: cascade
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - pydantic==2.13.4
+      - PyYAML==6.0.3
+      - numpy==2.2.6
+      - scipy==1.15.3
+      - pandas==2.3.3
+      - matplotlib==3.10.9
+      - openpyxl==3.1.5
+      - openai==2.44.0
+      - httpx==0.28.1
+      - pytest==9.1.1
